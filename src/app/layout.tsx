@@ -32,6 +32,8 @@ export default function RootLayout({
           </main>
           <Footer />
         </div>
+        {/* The following line is added to ensure a scroll bar is ALWAYS shown */}
+        <div className='h-1 bg-darkblue-700'></div>
       </body>
     </html>
   )
