@@ -36,19 +36,19 @@ export default function About() {
   return (
     <div id="top" className="container mx-auto flex flex-wrap justify-between">
       <div className="w-full lg:w-1/2 my-2 px-2">
-        <div className="mb-4 p-5 overflow-hidden rounded-lg lg:hidden shadow-md bg-white">
+        <div className="mb-4 p-5 overflow-hidden rounded-lg lg:hidden">
           <h1 className="font-bold text-3xl border-b mb-4">
             Sections
           </h1>
-          <ul>
-            {toc.map((section) => <li key={section.ref} className="m-2">
+          <ul className='flex flex-wrap'>
+            {toc.map((section) => <li key={section.ref} className="w-full sm:w-auto m-2">
               <a href={'#' + section.ref} className="block py-2 md:py-3 px-4 bg-gray-100 hover:bg-gray-200 rounded-lg border-b">
                 {section.title}
               </a>
             </li>)}
           </ul>
         </div>
-        <div id="aboutme" className="p-5 overflow-hidden rounded-lg shadow-md bg-white text-justify">
+        <div id="aboutme" className="p-5 overflow-hidden rounded-lg text-justify">
           <div className="float-right lg:hidden text-sm text-gray-500">
             <a href="#top">
               jump back to top
@@ -167,7 +167,7 @@ export default function About() {
       </div>
       <div className="flex flex-col w-full lg:w-1/2 px-2">
         {sections.map((section) => <div key={section.ref} id={section.ref}>
-          <div className="pr-5 py-5 pl-3 overflow-hidden rounded-lg shadow-md bg-white my-2">
+          <div className="pr-5 py-5 pl-3 overflow-hidden rounded-lg my-2">
             <div className="float-right lg:hidden text-sm text-gray-500">
               <a href="#top">
                 jump back to top
@@ -180,7 +180,7 @@ export default function About() {
               <div
                 key={index}
                 className={(item.until === null ? 'border-darkblue-400 ' : '')
-                  + 'bg-white mb-3 flex justify-between items-begin rounded-lg border border-l-8 pl-2 pr-2 py-1'}
+                  + 'bg-white mb-3 flex justify-between items-begin rounded-lg border-l-8 pl-2 pr-2 py-1'}
               >
                 <div>
                   <div className={item.until === null ? 'text-darkblue-800' : 'text-gray-700'}>

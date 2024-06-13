@@ -8,8 +8,8 @@ export function Post(props: PropsWithChildren<{
   link?: { to: string, text?: string },
 }>) {
   const { title, date, image, link, children } = props;
-  return (<div className="w-full p-2">
-    <div className="h-full clearfix px-6 py-4 overflow-hidden rounded-lg shadow-md bg-white">
+  return (<div className="w-full">
+    <div className="h-full px-6 py-4 overflow-hidden rounded-lg">
       {(title || date) && <div className="flex justify-between mb-4 items-center border-b">
         {title && <h2 className="font-bold text-xl">
           { title }
@@ -26,7 +26,7 @@ export function Post(props: PropsWithChildren<{
       </div>
       {link && <p>
         <Link
-          href={link.to} className="float-right px-6 py-3 bg-darkblue-300 hover:bg-darkblue-200 text-white">
+          href={link.to} className="float-right px-3 py-1 rounded bg-darkblue-300 hover:bg-darkblue-200 text-white">
           { link.text || 'Read more...' }
         </Link>
       </p>}
