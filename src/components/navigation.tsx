@@ -27,7 +27,7 @@ export const Navigation = () => {
   useEffect(() => {
     closeMenu();
   }, [pathName]);
-  return <nav className="text-white uppercase">
+  return <nav className="sticky top-0 text-white uppercase">
     <div className="block md:hidden">
       <div onClick={toggleMenu} className="bg-darkblue-400">
         <ul className="container mx-auto flex justify-between items-center py-5 px-6">

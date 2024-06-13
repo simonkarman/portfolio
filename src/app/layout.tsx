@@ -22,6 +22,8 @@ export default function RootLayout({
         <link rel="icon" type='image/png' href="/favicon-32x32.png" />
         <link rel="icon" type='image/png' href="/favicon-96x96.png" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo%7COswald" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.css" />
       </head>
       <body className='antialiased bg-white'>
         <div className="min-h-screen flex flex-col">

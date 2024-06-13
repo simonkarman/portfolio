@@ -35,7 +35,7 @@ const toc: TOCSection[] = [ { title: 'About Me', ref: 'aboutme' }, ...sections ]
 export default function About() {
   return (
     <div id="top" className="container mx-auto flex flex-wrap justify-between">
-      <div className="w-full lg:w-1/2 my-2 px-2">
+      <div className="w-full lg:w-1/2 my-2">
         <div className="mb-4 p-5 overflow-hidden rounded-lg lg:hidden">
           <h1 className="font-bold text-3xl border-b mb-4">
             Sections
@@ -165,7 +165,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-full lg:w-1/2 px-2">
+      <div className="flex flex-col w-full lg:w-1/2">
         {sections.map((section) => <div key={section.ref} id={section.ref}>
           <div className="pr-5 py-5 pl-3 overflow-hidden rounded-lg my-2">
             <div className="float-right lg:hidden text-sm text-gray-500">
@@ -179,29 +179,26 @@ export default function About() {
             {section.items.map((item, index) =>
               <div
                 key={index}
-                className={(item.until === null ? 'border-darkblue-400 ' : '')
-                  + 'bg-white mb-3 flex justify-between items-begin rounded-lg border-l-8 pl-2 pr-2 py-1'}
+                className={(item.until === null ? 'border-darkblue-400 ' : 'border-b-gray-100 ')
+                  + 'border-b border-t mb-3 flex gap-4 items-center justify-between rounded-l-md border-l-8 pl-3 py-1'}
               >
-                <div>
-                  <div className={item.until === null ? 'text-darkblue-800' : 'text-gray-700'}>
+                <div className='flex-grow'>
+                  <div className={item.until === null ? 'text-darkblue-800' : 'text-gray-800'}>
                     {item.link === undefined && <div>
-                      { item.info }
+                      {item.info}
                     </div>}
                     {item.link !== undefined && <div className="underline">
                       <a href={item.link} target="_blank" rel="noreferrer">
-                        { item.info }
+                        {item.info}
                       </a>
                     </div>}
                   </div>
-                  <div className="text-gray-700 text-sm">
-                    {item.at}
-                    {item.until !== undefined && <span>
-                      {' '}to { item.until || 'now' }
-                    </span>}
+                  <div className={(item.until === null ? 'text-darkblue-600' : 'text-gray-400') + ' text-xs'}>
+                    {item.until === null ? `since ${item.at}` : `${item.at} to ${item.until}`}
                   </div>
                 </div>
                 <div className="flex-grow-0 flex-shrink-0">
-                  <img src={`/about-icons/${item.img}.png`} className="h-8 ml-2 my-2" />
+                  <img src={`/about-icons/${item.img}.png`} className="h-8 ml-2 my-2"/>
                 </div>
               </div>,
             )}
