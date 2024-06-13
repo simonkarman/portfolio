@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="p-4">
+    <div className="container mx-auto py-2">
       <h1>Nothing here!</h1>
       <p>Yet...</p>
     </div>
