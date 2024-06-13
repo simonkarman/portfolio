@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <main className="p-4">
-      <h1>Simon Karman</h1>
-      <p>Hello!</p>
-    </main>
+    <div className="p-4">
+      <h1>Nothing here!</h1>
+      <p>Yet...</p>
+    </div>
   );
 }
