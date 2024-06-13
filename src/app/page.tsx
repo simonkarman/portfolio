@@ -13,7 +13,7 @@ export default function Home() {
           I love to architect and develop systems such as cloud infrastructures, (board) games, and web applications.
         </p>
         <p>
-          Building software effectively requires a modern way of working, in which development culture is the key.
+          I believe that effectively building software requires a modern way of working, in which development culture is the key.
           A big part of such a culture is sharing knowledge.
           On this website you can find a portfolio of some of the projects I worked on, more information about me, and get in contact with me.
         </p>

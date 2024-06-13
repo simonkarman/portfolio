@@ -18,10 +18,12 @@ export function Post(props: PropsWithChildren<{
           { date }
         </div>}
       </div>}
-      {image && <img src={image.src} alt={image.alt} className="w-24 md:w-1/6 float-left ml-2 mr-5 mt-1 mb-2 rounded-lg" />}
-      <p className="text-gray-800 text-base text-justify mb-4">
-        {children}
-      </p>
+      <div className='md:flex'>
+        {image && <img src={image.src} alt={image.alt} className="w-24 h-24 md:w-40 md:h-40 float-left ml-2 mr-5 mt-1 mb-2 rounded-lg" />}
+        <p className="flex-grow text-gray-800 text-base text-justify mb-4">
+          {children}
+        </p>
+      </div>
       {link && <p>
         <Link
           href={link.to} className="float-right px-6 py-3 bg-darkblue-300 hover:bg-darkblue-200 text-white">
