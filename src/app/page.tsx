@@ -15,9 +15,9 @@ export default function Home() {
           height={160}
           className="w-40 h-40 mx-auto sm:ml-2 sm:mr-5 mt-1 mb-2 rounded-xl"
         />
-        <div className="flex flex-col px-2 overflow-hidden rounded-lg space-y-5">
+        <div className="flex flex-col items-center sm:items-start px-2 overflow-hidden rounded-lg space-y-5">
           <p className='text-justify'>
-            My name is <b>Simon Karman</b>. I am a Cloud Consultant at Xebia Cloud and a hobbyist Game Developer.
+            My name is <b>Simon Karman</b>. I am a Cloud Consultant at Xebia and a hobbyist Game Developer.
             I love to architect and develop systems such as cloud infrastructures, (board) games, and web applications.
           </p>
           <p className='hidden xl:block text-justify'>
@@ -27,8 +27,8 @@ export default function Home() {
           </p>
           <Link
             href={'/projects'}
-            className="px-3 py-1 rounded bg-darkblue-300 hover:bg-darkblue-200 text-white text-lg">
-            Check out my projects
+            className="inline-block px-3 py-1 rounded bg-darkblue-300 hover:bg-darkblue-200 text-white">
+            Check out my portfolio!
           </Link>
         </div>
       </div>
