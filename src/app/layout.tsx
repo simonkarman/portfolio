@@ -21,7 +21,8 @@ export default function RootLayout({
         <link rel="icon" type='image/png' href="/favicon-16x16.png" />
         <link rel="icon" type='image/png' href="/favicon-32x32.png" />
         <link rel="icon" type='image/png' href="/favicon-96x96.png" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo%7COswald" />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo%7COswald&display=swap" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.css" />
       </head>
