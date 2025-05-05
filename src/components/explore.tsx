@@ -1,4 +1,5 @@
 import { getAllTags } from '@/utils/projects';
+import Link from 'next/link';
 
 export const Explore = () => {
   const tagClassesForCount = (count: number): string => {
@@ -14,7 +15,7 @@ export const Explore = () => {
   };
 
   return <div className="flex flex-wrap items-center justify-center gap-2 px-4">
-    {getAllTags().map(([tag, count]) => <a
+    {getAllTags().map(([tag, count]) => <Link
       key={tag}
       href={`/projects?q=tag:${tag}`}
     >
@@ -24,6 +25,6 @@ export const Explore = () => {
       >
         {tag}
       </div>
-    </a>)}
+    </Link>)}
   </div>;
 };

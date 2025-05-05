@@ -97,7 +97,7 @@ export default function About() {
       </div>
       <div className="mx-auto mt-2 mb-6 w-3/4 xl:w-1/2 flex flex-wrap bg-gray-100 border rounded-xl p-2">
         {profiles.map(profile => <div
-          key="profile.img"
+          key={profile.img}
           className="w-1/2 sm:w-1/3 p-2 hover:p-1"
         >
           <a href={profile.url} target="_blank" rel="noreferrer">

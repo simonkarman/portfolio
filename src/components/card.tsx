@@ -23,7 +23,7 @@ export const Card = (props: PropsWithChildren<CardProps>) => {
   return (
     <div className="w-full lg:w-1/2 p-0 lg:p-2">
       <Link href={link?.to ?? '#'}>
-        <div className={`h-full overflow-hidden border hover:border-black rounded-lg ${bg}`}>
+        <div className={`h-full overflow-hidden border hover:border-darkblue-400 rounded-lg ${bg}`}>
           <div className="relative w-full pb-1/4 sm:pb-1/5 bg-darkblue-400">
             <Image
               src={image.src}

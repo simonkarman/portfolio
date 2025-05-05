@@ -10,7 +10,10 @@ type Project = {
   tags: string[],
   image: string,
   content: string,
-  repository: string,
+  repository?: string,
+  download?: string,
+  documentation?: string,
+  demo?: string,
 }
 
 // TODO: get projects from file system
