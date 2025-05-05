@@ -4,6 +4,11 @@ import { Navigation } from '@/components/navigation';
 import type { Metadata } from 'next';
 import './globals.css';
 
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
+config.autoAddCss = false;
+
 export const metadata: Metadata = {
   title: 'Simon Karman',
   description: 'Portfolio of Simon Karman',
@@ -23,8 +28,6 @@ export default function RootLayout({
         <link rel="icon" type='image/png' href="/favicon-96x96.png" />
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo%7COswald&display=swap" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.css" />
       </head>
       <body className='antialiased bg-white'>
         <div className="min-h-screen flex flex-col">
