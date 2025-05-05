@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 function shuffle<T>(array: T[]): T[] {
   for (let i = array.length - 1; i > 0; i--) {
@@ -77,7 +78,13 @@ export default function Home() {
         About Me
       </h1>
       <div className='flex flex-col sm:flex-row'>
-        <img src="/simonkarman.png" alt="Simon Karman" className="w-40 h-40 mx-auto sm:ml-2 sm:mr-5 mt-1 mb-2 rounded-xl"/>
+        <Image
+          src="/simonkarman.png"
+          alt="Simon Karman"
+          width={160}
+          height={160}
+          className="w-40 h-40 mx-auto sm:ml-2 sm:mr-5 mt-1 mb-2 rounded-xl"
+        />
         <div className="flex flex-col p-2 overflow-hidden rounded-lg space-y-3">
           <p className='text-justify'>
             My name is <b>Simon Karman</b>. I am a Cloud Consultant at Xebia Cloud and a hobbyist Game Developer.

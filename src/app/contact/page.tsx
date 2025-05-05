@@ -1,6 +1,7 @@
 'use client';
 import { sendContactMail } from '@/app/mailer';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 const profiles = [
   { img: 'github', url: 'https://www.github.com/simonkarman/' },
@@ -100,7 +101,13 @@ export default function About() {
           className="w-1/2 sm:w-1/3 p-2 hover:p-1"
         >
           <a href={profile.url} target="_blank" rel="noreferrer">
-            <img src={`/contact-icons/${profile.img}.png`} className="w-full h-full rounded-lg bg-white shadow object-cover p-2"/>
+            <Image
+              src={`/contact-icons/${profile.img}.png`}
+              width={240}
+              height={240}
+              alt={profile.url}
+              className="w-full h-full rounded-lg bg-white shadow object-cover p-2"
+            />
           </a>
         </div>)}
       </div>
@@ -111,7 +118,7 @@ export default function About() {
           Contact Form
         </h1>
         <div className="rounded-xl bg-gray-300 text-gray-800 font-bold p-2 text-center text-xs border-b">
-          Build with <img width="16" className="inline" src="/contact-icons/lambda.png"/> by me.
+          Build with <Image alt="lambda" width={24} height={24} className="inline" src="/contact-icons/lambda.png"/> by me.
         </div>
       </div>
       {!emailHasBeenSend && <form>

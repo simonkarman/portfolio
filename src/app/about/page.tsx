@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { certificationsItems, educationItems, experienceItems, Item, languagesItems, toolsItems } from '@/app/about/about';
 
 type Section = { title: string, ref: string, items: Item[] };
@@ -62,7 +63,7 @@ export default function About() {
               I am <b>Simon Karman</b> MSc. I am a cloud consultant and hobbyist game developer and a former student at the Utrecht University. I
               currently work at Xebia Cloud.
             </p>
-            <img src="/simonkarman.png" className="mx-auto my-6 h-64 w-64 shadow-md rounded-lg" />
+            <Image width={256} height={256} alt={'Simon Karman'} src="/simonkarman.png" className="mx-auto my-6 h-64 w-64 shadow-md rounded-lg" />
             <p>
               I love to take the lead in the architecture and development of new products and features. While doing so, I believe that developers
               should all apply a modern way of working. Examples are: automated testing, boy scout principle, pull requests, api first, event driven,
@@ -198,7 +199,12 @@ export default function About() {
                   </div>
                 </div>
                 <div className="flex-grow-0 flex-shrink-0">
-                  <img src={`/about-icons/${item.img}.png`} className="h-8 ml-2 my-2"/>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={`/about-icons/${item.img}.png`}
+                    alt={item.img}
+                    className="h-8 max-w-24 ml-2 my-2"
+                  />
                 </div>
               </div>,
             )}
