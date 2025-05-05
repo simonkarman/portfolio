@@ -6,8 +6,8 @@ import { Explore } from '@/components/explore';
 
 export default function Home() {
   return (<>
-    <div className="mx-auto container flex flex-wrap justify-between">
-      {getAllProjects().slice(0, 5).map(project => {
+    <div className="mx-auto container flex flex-wrap justify-between mt-2">
+      {getAllProjects().slice(0, 3).map(project => {
         return (
           <Card
             key={project.name}
@@ -31,16 +31,16 @@ export default function Home() {
       </Card>
     </div>
     <div className="mx-auto container px-5 space-y-4">
-      <h2 className="border-b font-bold text-2xl mt-8 mb-1 text-center">
+      <h2 className="border-b font-bold text-3xl mt-8 mb-1 text-center">
         Explore
       </h2>
       <Explore />
     </div>
     <div className="container mx-auto w-full my-2 p-5">
-      <h1 className="font-bold text-2xl text-center border-b mb-4">
+      <h1 className="font-bold text-3xl text-center border-b mb-4">
         About Me
       </h1>
-      <div className='flex flex-col sm:flex-row'>
+      <div className='flex flex-col sm:flex-row items-center'>
         <Image
           src="/simonkarman.png"
           alt="Simon Karman"
@@ -48,7 +48,7 @@ export default function Home() {
           height={160}
           className="w-40 h-40 mx-auto sm:ml-2 sm:mr-5 mt-1 mb-2 rounded-xl"
         />
-        <div className="flex flex-col p-2 overflow-hidden rounded-lg space-y-3">
+        <div className="flex flex-col p-2 overflow-hidden rounded-lg space-y-5">
           <p className='text-justify'>
             My name is <b>Simon Karman</b>. I am a Cloud Consultant at Xebia Cloud and a hobbyist Game Developer.
             I love to architect and develop systems such as cloud infrastructures, (board) games, and web applications.
