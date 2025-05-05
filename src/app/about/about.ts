@@ -1,6 +1,8 @@
 export type Item = { at: string, until: string | null, info: string, img: string, link?: string };
 
 export const experienceItems: Item[] = [
+  { at: 'dec 2024', until: null, info: 'AWS Infrastructure Engineer and Java/NodeJS Backend Developer at Tikkie', img: 'tikkie' },
+  { at: 'jul 2024', until: 'nov 2024', info: 'AWS Cloud Consultant at Holland Casino', img: 'holland-casino' },
   { at: 'may 2024', until: 'jun 2024', info: 'GCP Cloud Consultant at Kramp Group', img: 'kramp' },
   { at: 'apr 2023', until: 'jan 2024', info: 'AWS Cloud Consultant at ABN Amro Clearing', img: 'aacb' },
   { at: 'jun 2022', until: 'mar 2023', info: 'AWS Cloud Consultant at TuneIn', img: 'tunein' },

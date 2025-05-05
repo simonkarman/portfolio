@@ -6,7 +6,7 @@ const profiles = [
   { img: 'github', url: 'https://www.github.com/simonkarman/' },
   { img: 'bitbucket', url: 'https://www.bitbucket.org/simonkarman/' },
   { img: 'linkedin', url: 'https://www.linkedin.com/in/simonkarman' },
-  { img: 'xebia', url: 'https://www.xebia.com/' },
+  { img: 'xebia', url: 'https://xebia.com/author/simon-karman/' },
   { img: 'youtube', url: 'https://www.youtube.com/user/SimonKarman' },
   { img: 'twitter', url: 'https://www.twitter.com/simon_karman' },
 ];
@@ -177,4 +177,3 @@ export default function About() {
     </div>
   </div>);
 }
-
