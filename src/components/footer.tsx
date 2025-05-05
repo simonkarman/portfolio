@@ -48,6 +48,9 @@ export const Footer = () => {
           <Link href="/" className="px-3 border-r">
             Home
           </Link>
+          <Link href="/projects" className="hidden lg:inline px-3 border-r">
+            Portfolio
+          </Link>
           <Link href="/about" className="px-3 border-r">
             About&nbsp;Me
           </Link>

@@ -59,7 +59,7 @@ function Projects() {
   const [searchFilter, setSearchFilter] = useState(searchParams.get('q') || '');
   const [simpleView, setSimpleView] = useState(false);
   const [numberOfYearsShowing, setNumberOfYearsShowing] = useState(2);
-  const { ref, inView } = useInView({ threshold: 0 });
+  const { ref, inView } = useInView({ threshold: 0.1 });
 
   const projectsPerYear = _(getAllProjects())
     .sortBy(project => -project.date)
@@ -108,30 +108,32 @@ function Projects() {
         .slice(0, (!simpleView && searchFilter.length === 0) ? numberOfYearsShowing : filteredProjectsPerYear.length)
         .map(projectsOfYear => (
           <div key={projectsOfYear.year} className="w-full p-5">
-            <h2 className="border-b font-bold text-2xl lg:text-xl my-3 px-2 text-center">
+            <h2 className="border-b font-bold text-2xl lg:text-xl my-3 px-2 pb-1 text-center">
               {projectsOfYear.projects.length} {projectsOfYear.projects.length === 1 ? 'project' : 'projects'} in {projectsOfYear.year}
             </h2>
 
             {simpleView ? (
               <ul className="px-2">
                 {projectsOfYear.projects.map(project => (
-                  <li key={project.name} className="my-6">
+                  <li key={project.name} className="my-6 text-center">
                     <Link
                       href={`/projects/${project.name}`}
-                      className="text-red-600 underline hover:text-red-800"
+                      className="text-red-600 underline hover:text-red-800 mr-2"
                     >
                       <span>{project.title}</span>
                     </Link>
                     <br/>
-                    <span className="text-gray-800">{project.date.toFormat('yyyy-MM-dd')}</span>
+                    <span>{project.description}</span>
+                    <br/>
+                    <span className="text-gray-400 pr-2 text-sm border-r">{project.date.toFormat('yyyy-MM-dd')}</span>
                     {project.tags && project.tags.map(tag => (
-                      <span key={tag} className="mx-2 text-sm text-gray-500">{tag}</span>
+                      <span key={tag} className="mx-1.5 text-sm text-gray-500">#{tag}</span>
                     ))}
                   </li>
                 ))}
               </ul>
             ) : (
-              <div className="flex flex-wrap">
+              <div className="flex flex-wrap gap-4 lg:gap-0">
                 {projectsOfYear.projects.map(project => (
                   <Card
                     key={project.name}

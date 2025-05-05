@@ -21,7 +21,7 @@ export const Card = (props: PropsWithChildren<CardProps>) => {
   }, [props.tags]);
 
   return (
-    <div className="w-full lg:w-1/2 p-2">
+    <div className="w-full lg:w-1/2 p-0 lg:p-2">
       <Link href={link?.to ?? '#'}>
         <div className={`h-full overflow-hidden border hover:border-black rounded-lg ${bg}`}>
           <div className="relative w-full pb-1/4 sm:pb-1/5 bg-darkblue-400">
@@ -30,7 +30,7 @@ export const Card = (props: PropsWithChildren<CardProps>) => {
               alt={image.alt}
               layout="fill"
               objectFit="cover"
-              className="absolute w-full h-full mb-4 object-cover opacity-75"
+              className="mb-4 opacity-75"
             />
           </div>
           <div className="px-6 py-4">
@@ -47,15 +47,16 @@ export const Card = (props: PropsWithChildren<CardProps>) => {
                 {children}
               </div>
               <p className="mb-2">
-                {link && link.text && <Link href={link.to} className="text-red-600 underline hover:text-red-800">
+                {link?.text && <span className="text-red-600 underline hover:text-red-800">
                   {link.text}
-                </Link>}
+                </span>}
               </p>
             </div>
           </div>
           <div className="flex flex-wrap justify-end mx-6 mb-4">
             {tags.map((tag) => (
-              <span key={tag} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+              <span key={tag} className="inline-block rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2
+                   border border-dashed border-gray-200 text-darkblue-500 bg-gradient-to-br from-white via-gray-50 to-gray-100">
                 {tag}
               </span>
             ))}
