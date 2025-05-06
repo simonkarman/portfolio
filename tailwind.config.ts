@@ -56,6 +56,8 @@ const config: Config = {
     padding: [ 'responsive', 'hover' ],
     text: [ 'responsive' ],
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };
 export default config;

@@ -31,7 +31,7 @@ export const getAllProjects = (): Project[] => [
     ],
     'image': 'https://images.ctfassets.net/r26fkm24j6bh/6HyMzsG8xJqCasVDez9nxB/31b49bb3b9f9d2bfef853f16bba75c27/game-dark.png',
     // eslint-disable-next-line max-len
-    'content': '[Advent of Code](https://adventofcode.com/2023/leaderboard/private/view/718869) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.\n\nFor the 2023 edition of Advent of Code I solved all the puzzles using [Rust](https://www.rust-lang.org/).\n',
+    'content': '[Advent of Code](https://adventofcode.com/2023/leaderboard/private/view/718869) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.\n\nFor the 2023 edition of Advent of Code, `this is some code` I solved all the puzzles using [Rust](https://www.rust-lang.org/).\n```typescript\nimport { createServer } from \'@krmx/server\';\n\nconst server = createServer({ /* ...props here */ })\n```\n> This is a block quote\n> with multiple lines\n\n## More\nSome more text goes here!',
     'repository': 'https://github.com/simonkarman/advent-of-code-2023',
   },
   {
