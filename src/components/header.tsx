@@ -9,7 +9,7 @@ export const Header = () => {
       <div className="px-6 text-darkblue-400">
         <Logo />
       </div>
-      <div className="flex-col">
+      <div className="flex-col mt-3 md:mt-0">
         <h1 className="font-oswald font-extrabold uppercase text-4xl pb-2">
         Simon Karman
         </h1>

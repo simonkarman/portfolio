@@ -32,8 +32,12 @@ export const certificationsItems: Item[] = [
 ];
 
 export const languagesItems: Item[] = [
-  { at: '2021', until: null, info: 'TypeScript, React, Next, Netlify, Krmx', img: 'react' },
+  { at: '2024', until: null, info: 'Java, Gradle, Spring and AWS SDK', img: 'idea' },
+  { at: '2024', until: '2024', info: 'Python', img: 'python' },
+  { at: '2023', until: '2023', info: 'Rust', img: 'rust' },
+  { at: '2022', until: '2024', info: 'Terraform', img: 'terraform' },
   { at: '2022', until: '2023', info: 'Pulumi, Github Actions and Go', img: 'pulumi' },
+  { at: '2021', until: null, info: 'TypeScript, React, Next, Netlify, Vercel, Krmx', img: 'react' },
   { at: '2021', until: '2022', info: 'Google Kubernetes Engine, Cloud Build, and Terraform', img: 'gke' },
   { at: '2021', until: '2021', info: 'React, Next, Styled Components, TypeScript, and Redux', img: 'react' },
   { at: '2020', until: null, info: 'TypeScript, AWS CDK, npm, and CloudFormation', img: 'aws-cdk' },
@@ -41,11 +45,11 @@ export const languagesItems: Item[] = [
   { at: '2018', until: '2020', info: 'Serverless, JavaScript, Webpack, Jest, and CloudFormation', img: 'serverless' },
   { at: '2018', until: '2019', info: 'Java, Kotlin, Spring, Kafka, and Axon in Intellij IDEA', img: 'idea' },
   { at: '2014', until: '2019', info: 'HTML5, jQuery and Javascript in Visual Studio Code', img: 'html5' },
-  { at: '2011', until: '2018', info: 'C# in the Unity Game Engine', img: 'unity' },
-  { at: '2011', until: '2017', info: 'PHP / MySQL in NotePad++', img: 'php' },
   { at: '2014', until: '2015', info: 'C++ in Visual Studio (GLUT, Bullet and OpenCV)', img: 'visualstudio' },
   { at: '2013', until: '2013', info: 'Java, JSP, Hibernate and Spring in NetBeans', img: 'spring' },
   { at: '2013', until: '2013', info: 'C++ in the Irrlicht Game Engine', img: 'cpp' },
+  { at: '2011', until: '2018', info: 'C# in the Unity Game Engine', img: 'unity' },
+  { at: '2011', until: '2017', info: 'PHP / MySQL in NotePad++', img: 'php' },
   { at: '2010', until: '2012', info: 'C# in Visual Studio using XNA', img: 'xna' },
   { at: '2010', until: '2011', info: 'Action Script 3.0 in FlashDevelop using Flixel', img: 'flixel' },
   { at: '2010', until: '2010', info: 'Java in NetBeans', img: 'netbeans' },
@@ -54,9 +58,10 @@ export const languagesItems: Item[] = [
 ];
 
 export const toolsItems: Item[] = [
+  { at: '2022', until: null, info: 'GitHub Actions', img: 'github-actions' },
   { at: '2021', until: null, info: 'Google Cloud Platform (GCP Cloud)', img: 'gcp' },
   { at: '2019', until: null, info: 'Amazon Web Services (AWS Cloud)', img: 'aws' },
-  { at: '2019', until: null, info: 'Jira - Project Management', img: 'jira' },
+  { at: '2019', until: '2023', info: 'Jira - Project Management', img: 'jira' },
   { at: '2018', until: '2021', info: 'Postman - API Development', img: 'postman' },
   { at: '2018', until: null, info: 'Linux / MacOS - ZSH, Bash, Ubuntu', img: 'linux' },
   { at: '2018', until: '2021', info: 'Jenkins, Fortify, and SonarQube', img: 'jenkins' },

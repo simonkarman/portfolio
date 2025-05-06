@@ -160,9 +160,8 @@ export default function About() {
               cloud consultant I use my expertise to ensure our clients make effective use of cloud solutions ranging from serverless applications, to
               apis, to CI/CD pipelines, and to infrastructure as code solutions. I focus on Amazon Web Services (AWS) and the Google Cloud Platform
               (GCP). I started this journey helping Felyx, by building and migrating to a new landing zone for the Kubernetes workloads on GCP using
-              Terraform and GKE. After this I help DPG Media, TuneIn, and ABN AMRO Clearing Bank.
+              Terraform and GKE. After this I helped DPG Media, TuneIn, ABN AMRO Clearing Bank, Kramp, Holland Casino and Tikkie.
             </p>
-
           </div>
         </div>
       </div>
@@ -195,7 +194,7 @@ export default function About() {
                     </div>}
                   </div>
                   <div className={(item.until === null ? 'text-darkblue-600' : 'text-gray-400') + ' text-xs'}>
-                    {item.until === null ? `since ${item.at}` : `${item.at} to ${item.until}`}
+                    {item.until === null ? `since ${item.at}` : item.at === item.until ? `in ${item.at}` : `${item.at} to ${item.until}`}
                   </div>
                 </div>
                 <div className="flex-grow-0 flex-shrink-0">
@@ -203,7 +202,7 @@ export default function About() {
                   <img
                     src={`/about-icons/${item.img}.png`}
                     alt={item.img}
-                    className="h-8 max-w-24 ml-2 my-2"
+                    className="h-8 ml-2 my-2"
                   />
                 </div>
               </div>,

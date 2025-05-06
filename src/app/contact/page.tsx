@@ -91,8 +91,8 @@ export default function About() {
           Contact Me
         </h1>
         <p>
-          I am <b>Simon Karman</b> MSc. I am a cloud consultant and hobbyist game developer from the Netherlands. On this page you can find profiles
-          of me on various websites and find ways to get in contact with me.
+          I am a cloud consultant and hobbyist game developer from the Netherlands.
+          On this page you can find profiles of me on various websites and find ways to get in contact with me.
         </p>
       </div>
       <div className="mx-auto mt-2 mb-6 w-3/4 xl:w-1/2 flex flex-wrap bg-gray-100 border rounded-xl p-2">
