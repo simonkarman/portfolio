@@ -1,13 +1,12 @@
 import React, { PropsWithChildren, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { DateTime } from 'luxon';
 
 type CardProps = {
   title: string,
   image: { src: string, alt: string },
   link?: { to: string, text?: string },
-  date?: DateTime,
+  date?: string,
   tags?: string[],
   overrideBackgroundClassName?: string,
 }
@@ -39,7 +38,7 @@ export const Card = (props: PropsWithChildren<CardProps>) => {
                 {title}
               </h2>
               {date && <div className="text-right text-sm mb-2 text-gray-500">
-                {date.toFormat('yyyy-MM-dd')}
+                {date}
               </div>}
             </div>
             <div className="text-gray-800 text-left md:text-justify lg:text-left xl:text-justify">

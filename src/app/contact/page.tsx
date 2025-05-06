@@ -1,5 +1,6 @@
 'use client';
-import { sendContactMail } from '@/app/mailer';
+
+import { sendContactMail } from '@/utils/mailer';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 

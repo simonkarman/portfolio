@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * The mailer module is responsible for sending emails to the user. It uses the mailer API defined in the simonkarman-serverless BitBucket project to
  *  send emails. The mailer implementation can be found at: `https://bitbucket.org/simonkarman/simonkarman-serverless/src/master/`.

@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Card } from '@/components/card';
-import { getAllProjects } from '@/utils/projects';
+import { getAllProjects } from '@/utils/projects/get-all-projects';
 import { Explore } from '@/components/explore';
 
-export default function Home() {
+export default async function Home() {
+  const projects = await getAllProjects();
   return (<>
     <div className="container mx-auto p-5 mt-4 space-y-4">
       <div className='flex flex-col sm:flex-row items-start gap-2'>
@@ -42,7 +43,7 @@ export default function Home() {
         Latest Projects
       </h1>
       <div className="flex flex-wrap justify-between gap-4 lg:gap-0">
-        {getAllProjects().slice(0, 3).map(project => {
+        {projects.slice(0, 3).map(project => {
           return (
             <Card
               key={project.name}
