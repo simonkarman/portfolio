@@ -1,5 +1,5 @@
 {
-  "name": "markdown-converter",
+  "name": "contentful-to-markdown",
   "version": "1.0.0",
   "private": true,
   "scripts": {
