@@ -6,17 +6,19 @@ import rehypeHighlight from 'rehype-highlight';
 import remarkGfm from 'remark-gfm';
 import CodeBlockWithCopy from '@/components/code-block-with-copy';
 import { ReactElement } from 'react';
+import matter from 'gray-matter';
+import path from 'node:path';
 import { Provider } from './provider';
 import { Project, ProjectSchema } from './project';
 
 import 'highlight.js/styles/github.min.css';
-import matter from 'gray-matter';
 
 export class MarkdownProvider implements Provider {
   private directory = 'projects/markdown';
 
   async getProjects(): Promise<Project[]> {
-    return fs.readdirSync(this.directory)
+    console.info('markdown provider - get projects cwd:', process.cwd());
+    return fs.readdirSync(path.join(process.cwd(), this.directory))
       .filter(file => file.endsWith('.md'))
       .map(file => {
         const content = fs.readFileSync(`${this.directory}/${file}`, 'utf-8');
@@ -38,7 +40,8 @@ export class MarkdownProvider implements Provider {
   }
 
   render(project: Project): ReactElement {
-    const file = fs.readFileSync(`${this.directory}/${project.slug}.md`, 'utf-8');
+    console.info('markdown provider - render cwd:', process.cwd());
+    const file = fs.readFileSync(path.join(process.cwd(), `${this.directory}/${project.slug}.md`), 'utf-8');
     const { content } = matter(file);
     return <div className='mx-auto prose prose-lg prose-pre:p-0 prose-pre:border prose-pre:border-gray-100'>
       <ReactMarkdown
