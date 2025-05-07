@@ -17,8 +17,8 @@ export class MarkdownProvider implements Provider {
   private directory = 'projects/markdown';
 
   async getProjects(): Promise<Project[]> {
-    console.info('markdown provider - get projects cwd:', process.cwd());
-    return fs.readdirSync(path.join(process.cwd(), this.directory))
+    const projectMarkdownDirectoryPath = path.join(process.cwd(), this.directory);
+    return fs.readdirSync(projectMarkdownDirectoryPath)
       .filter(file => file.endsWith('.md'))
       .map(file => {
         const content = fs.readFileSync(`${this.directory}/${file}`, 'utf-8');
@@ -40,8 +40,8 @@ export class MarkdownProvider implements Provider {
   }
 
   render(project: Project): ReactElement {
-    console.info('markdown provider - render cwd:', process.cwd());
-    const file = fs.readFileSync(path.join(process.cwd(), `${this.directory}/${project.slug}.md`), 'utf-8');
+    const projectMarkdownFilePath = path.join(process.cwd(), `${this.directory}/${project.slug}.md`);
+    const file = fs.readFileSync(projectMarkdownFilePath, 'utf-8');
     const { content } = matter(file);
     return <div className='mx-auto prose prose-lg prose-pre:p-0 prose-pre:border prose-pre:border-gray-100'>
       <ReactMarkdown
