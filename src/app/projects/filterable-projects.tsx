@@ -10,9 +10,14 @@ import { Card } from '@/components/card';
 import { SearchBar } from '@/app/projects/search-bar';
 import { DateTime } from 'luxon';
 
-export function FilterableProjects(props: { projects: Promise<Project[]> }) {
+export function FilterableProjectsWithSearchFromParams(props: { projects: Promise<Project[]> }) {
   const searchParams = useSearchParams();
-  const [searchFilter, setSearchFilter] = useState(searchParams.get('q') || '');
+  const initialQuery = searchParams.get('q') || '';
+  return <FilterableProjects projects={props.projects} initialQuery={initialQuery} />;
+}
+
+export function FilterableProjects(props: { initialQuery: string, projects: Promise<Project[]> }) {
+  const [searchFilter, setSearchFilter] = useState(props.initialQuery);
   const [simpleView, setSimpleView] = useState(false);
   const [numberOfYearsShowing, setNumberOfYearsShowing] = useState(2);
   const { ref, inView } = useInView({ threshold: 0.1 });
@@ -51,7 +56,7 @@ export function FilterableProjects(props: { projects: Promise<Project[]> }) {
         projects: projectsOfYear.projects
           .filter((project) => {
             return (project.tags !== undefined && project.tags.some(tag => matches(searchFilter, 'tag', tag))) ||
-              matches(searchFilter, 'name', project.name) ||
+              matches(searchFilter, 'name', project.slug) ||
               matches(searchFilter, 'name', project.title);
           }),
       }))
@@ -77,9 +82,9 @@ export function FilterableProjects(props: { projects: Promise<Project[]> }) {
             {simpleView ? (
               <ul className="px-2">
                 {projectsOfYear.projects.map(project => (
-                  <li key={project.name} className="my-6 text-center">
+                  <li key={project.slug} className="my-6 text-center">
                     <Link
-                      href={`/projects/${project.name}`}
+                      href={`/projects/${project.slug}`}
                       className="text-red-600 underline hover:text-red-800 mr-2"
                     >
                       <span>{project.title}</span>
@@ -98,15 +103,15 @@ export function FilterableProjects(props: { projects: Promise<Project[]> }) {
               <div className="flex flex-wrap gap-4 lg:gap-0">
                 {projectsOfYear.projects.map(project => (
                   <Card
-                    key={project.name}
+                    key={project.slug}
                     title={project.title}
                     date={project.date}
                     image={{
                       src: project.image,
                       alt: 'Project Image',
                     }}
-                    link={{ to: `/projects/${project.name}` }}
-                    tags={[project.name, ...(project.tags || [])]}
+                    link={{ to: `/projects/${project.slug}` }}
+                    tags={[project.slug, ...(project.tags || [])]}
                   >
                     <p>{project.description}</p>
                   </Card>

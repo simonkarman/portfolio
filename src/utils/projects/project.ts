@@ -1,14 +1,16 @@
-'use server';
-
+import { z } from 'zod';
 import { ProviderName } from './providers';
+
+export const ProjectSchema = z.object({
+  slug: z.string().regex(/^[a-zA-Z0-9-]+$/),
+  title: z.string(),
+  date: z.string().date(),
+  contributors: z.string(),
+  description: z.string(),
+  tags: z.array(z.string().regex(/^[a-zA-Z0-9-]+$/)),
+  image: z.string(),
+});
 
 export type Project = {
   providerName: ProviderName,
-  name: string,
-  title: string,
-  date: string,
-  contributors: string,
-  description: string,
-  tags: string[],
-  image: string,
-}
+} & z.infer<typeof ProjectSchema>;

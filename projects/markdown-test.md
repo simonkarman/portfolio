@@ -1,5 +1,11 @@
-# Emphasis
-
+---
+title: Markdown
+date: '2025-05-06'
+contributors: Simon Karman
+description: Testing markdown syntax on my portfolio website.
+tags: ['markdown']
+image: https://mdg.imgix.net/assets/images/vscode.png
+---
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or __underscores__.
@@ -18,7 +24,6 @@ _This is italic text_
 
 ~~Strikethrough~~
 
-------
 
 # Lists
 1. First ordered list item
@@ -92,7 +97,7 @@ Alt-H2
 
 You can tell GitHub to ignore (or escape) Markdown formatting by using \ before the Markdown character.
 
-```
+```text
 Let's rename \*our-new-project\* to \*our-old-project\*.
 ```
 

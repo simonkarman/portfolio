@@ -46,12 +46,12 @@ export default async function Home() {
         {projects.slice(0, 3).map(project => {
           return (
             <Card
-              key={project.name}
+              key={project.slug}
               title={project.title}
               date={project.date}
               image={{ src: project.image, alt: 'Project Image' }}
-              link={{ to: `/projects/${project.name}` }}
-              tags={[project.name, ...project.tags].slice(0, 4)}
+              link={{ to: `/projects/${project.slug}` }}
+              tags={[project.slug, ...project.tags].slice(0, 4)}
             >
               <p>{project.description}</p>
             </Card>

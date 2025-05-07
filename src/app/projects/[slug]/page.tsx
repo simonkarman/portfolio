@@ -6,9 +6,9 @@ import Image from 'next/image';
 import { getProject } from '@/utils/projects/get-project';
 import { getProviders } from '@/utils/projects/providers';
 
-export default async function Project(props: { params: Promise<{ name: string }> }) {
+export default async function Project(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params;
-  const project = await getProject(params.name);
+  const project = await getProject(params.slug);
   if (project === null) {
     return <Custom404 />;
   }
@@ -39,7 +39,11 @@ export default async function Project(props: { params: Promise<{ name: string }>
         className='z-[1] blur-sm opacity-50'
       />
     </div>
-    {rendered}
+    <div className='bg-white px-5 py-10'>
+      <div className='container mx-auto'>
+        {rendered}
+      </div>
+    </div>
   </div>;
 }
 
