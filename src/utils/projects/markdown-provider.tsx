@@ -13,11 +13,13 @@ import 'highlight.js/styles/github.min.css';
 import matter from 'gray-matter';
 
 export class MarkdownProvider implements Provider {
+  private directory = 'projects/markdown';
+
   async getProjects(): Promise<Project[]> {
-    return fs.readdirSync('projects')
+    return fs.readdirSync(this.directory)
       .filter(file => file.endsWith('.md'))
       .map(file => {
-        const content = fs.readFileSync(`projects/${file}`, 'utf-8');
+        const content = fs.readFileSync(`${this.directory}/${file}`, 'utf-8');
         const data = matter(content).data;
         const slug = file.slice(0, file.length - 3);
         return ProjectSchema.safeParse({ ...data, slug });
@@ -36,7 +38,7 @@ export class MarkdownProvider implements Provider {
   }
 
   render(project: Project): ReactElement {
-    const file = fs.readFileSync(`projects/${project.slug}.md`, 'utf-8');
+    const file = fs.readFileSync(`${this.directory}/${project.slug}.md`, 'utf-8');
     const { content } = matter(file);
     return <div className='mx-auto prose prose-lg prose-pre:p-0 prose-pre:border prose-pre:border-gray-100'>
       <ReactMarkdown
