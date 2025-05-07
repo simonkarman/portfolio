@@ -2,15 +2,12 @@
 title: Serverless Stack Visualizer
 date: '2020-01-29'
 contributors: Simon Karman
-description: >-
-  A tool to visualize serverless resources in Cloud Formation stack across
-  multiple AWS accounts
+description: A tool to visualize serverless resources in Cloud Formation stack across multiple AWS accounts
 tags:
   - serverless
   - aws
   - cloudformation
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/3KDafadG40WXxJurpCiOmJ/3d6bdb2dd8289cdd5faf11760e0db64d/serverless-stack-visualiser__1_.png
+image: https://images.ctfassets.net/r26fkm24j6bh/3KDafadG40WXxJurpCiOmJ/3d6bdb2dd8289cdd5faf11760e0db64d/serverless-stack-visualiser__1_.png
 ---
 
 # Serverless Stack Visualizer

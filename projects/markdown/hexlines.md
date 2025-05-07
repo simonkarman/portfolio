@@ -8,8 +8,7 @@ tags:
   - typescript
   - websockets
   - game
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/4Qrc4HkZT3eozwg4vvEUdB/75f09c7a2ab868c70a0814e2e7866bd2/ancient-hexlines.jpeg
+image: https://images.ctfassets.net/r26fkm24j6bh/4Qrc4HkZT3eozwg4vvEUdB/75f09c7a2ab868c70a0814e2e7866bd2/ancient-hexlines.jpeg
 repository: https://github.com/simonkarman/ancient/
 ---
 

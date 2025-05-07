@@ -2,17 +2,14 @@
 title: Logs Based Metrics in GCP
 date: '2023-01-11'
 contributors: Simon Karman
-description: >-
-  How to get notified via Slack when a Cloud Run service is outputting logs that
-  contain the word ‘binxio’?
+description: How to get notified via Slack when a Cloud Run service is outputting logs that contain the word ‘binxio’?
 tags:
   - gcp
   - terraform
   - metrics
   - slack
   - blog
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/7pt7CA7NoOB3izxROvfou5/5c58ef247d88bf6ae7efef82dbcfeb41/how-to-get-alerted-on-application-logs-in-gcp-notification-1.png
+image: https://images.ctfassets.net/r26fkm24j6bh/7pt7CA7NoOB3izxROvfou5/5c58ef247d88bf6ae7efef82dbcfeb41/how-to-get-alerted-on-application-logs-in-gcp-notification-1.png
 ---
 
 Applications generate all sorts of logs. Sometimes these logs tell something about how the application is functioning. For example: when error logs pop up, your application might be facing issues. We are going to take a look at how you can get alerted on application logs on the Google Cloud.

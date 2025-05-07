@@ -8,8 +8,7 @@ tags:
   - ing-bank
   - java
   - axon
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/4eJslOFLyQlOboWLaVUYjA/430f57f9766673875eb9c3d2e4cc36c6/quintor-ing-dagobert.jpg
+image: https://images.ctfassets.net/r26fkm24j6bh/4eJslOFLyQlOboWLaVUYjA/430f57f9766673875eb9c3d2e4cc36c6/quintor-ing-dagobert.jpg
 ---
 
 After starting at Quintor my first assignment was at ING Bank. At ING I joined a team that consisted of mainly Quintor colleagues. During the project we worked on the Dagobert-application for half a year. We started in December of 2018 and helped until June of 2019. The goal of this project was to setup a correct, safe and configurable payout process to ING Service Points (ISP).

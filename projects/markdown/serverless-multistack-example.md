@@ -2,16 +2,12 @@
 title: Serverless Multistack Example
 date: '2020-09-29'
 contributors: Simon Karman and Benthe Hagemeijer
-description: >-
-  An example project for splitting an AWS project, build using the Serverless
-  Framework, into multiple CloudFormation stacks to avoid the 200 resources
-  limit that AWS imposes on CloudFormation stacks.
+description: An example project for splitting an AWS project, build using the Serverless Framework, into multiple CloudFormation stacks to avoid the 200 resources limit that AWS imposes on CloudFormation stacks.
 tags:
   - aws
   - cloudformation
   - serverless
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/7lYVILwNc3hTsiNQax7l4R/5ea2ee39b433c2b31ad2e56740b00070/serverless.png
+image: https://images.ctfassets.net/r26fkm24j6bh/7lYVILwNc3hTsiNQax7l4R/5ea2ee39b433c2b31ad2e56740b00070/serverless.png
 repository: https://github.com/simonkarman/serverless-multistack-example
 ---
 

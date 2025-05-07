@@ -2,47 +2,13 @@
 title: Maze Generator
 date: '2014-02-02'
 contributors: Simon Karman
-description: >-
-  A step-wise Maze Generator that can generate unique mazes using a
-  breadth-first or greedy algorithm.
+description: A step-wise Maze Generator that can generate unique mazes using a breadth-first or greedy algorithm.
 tags:
   - pcg
   - unity
   - c#
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/IVNSXzVdamUUOYEkm6cSE/463eaa1838e601758a9cadcb9951754b/maze.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 1mLORpowwMY4wqc2mQ8Mg2
-    type: Asset
-    createdAt: '2017-10-11T11:30:48.593Z'
-    updatedAt: '2017-10-11T11:30:48.593Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 12
-    revision: 1
-    locale: en-US
-  fields:
-    title: Maze Generator Download
-    description: Download for Maze Generator
-    file:
-      url: >-
-        //assets.ctfassets.net/r26fkm24j6bh/1mLORpowwMY4wqc2mQ8Mg2/ec6e2c609cb3f33b424a5e877b26e3d8/MazeGenerator.zip
-      details:
-        size: 7504408
-      fileName: MazeGenerator.zip
-      contentType: application/zip
+image: https://images.ctfassets.net/r26fkm24j6bh/IVNSXzVdamUUOYEkm6cSE/463eaa1838e601758a9cadcb9951754b/maze.png
+download: https://assets.ctfassets.net/r26fkm24j6bh/1mLORpowwMY4wqc2mQ8Mg2/ec6e2c609cb3f33b424a5e877b26e3d8/MazeGenerator.zip
 ---
 
 This project is a step-wise Maze Generator that can generate unique mazes using a breadth-first or greedy algorithm.

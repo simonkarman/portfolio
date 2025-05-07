@@ -2,48 +2,13 @@
 title: Road Generator
 date: '2014-01-06'
 contributors: Simon Karman
-description: >-
-  A mesh generator that will generate a mesh along a curve. The generator will
-  create a smoothed and parameterized mesh that will go through the points you
-  provide.
+description: A mesh generator that will generate a mesh along a curve. The generator will create a smoothed and parameterized mesh that will go through the points you provide.
 tags:
   - pcg
   - c#
   - unity
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/322aANGtvWu2WKKsw6yK4m/c0406c2f8239d70ad83d011d123e172b/smart_tangents.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 4Sh7FOpZ0s8EEUIKYsGQoY
-    type: Asset
-    createdAt: '2017-10-11T00:15:49.803Z'
-    updatedAt: '2017-10-11T00:15:49.803Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 13
-    revision: 1
-    locale: en-US
-  fields:
-    title: Road Generator Download
-    description: Download for Road Generator
-    file:
-      url: >-
-        //assets.ctfassets.net/r26fkm24j6bh/4Sh7FOpZ0s8EEUIKYsGQoY/a1ca173eafbf505559fe08f7dca5e2ff/roadgenerator.zip
-      details:
-        size: 5345
-      fileName: roadgenerator.zip
-      contentType: application/zip
+image: https://images.ctfassets.net/r26fkm24j6bh/322aANGtvWu2WKKsw6yK4m/c0406c2f8239d70ad83d011d123e172b/smart_tangents.png
+download: https://assets.ctfassets.net/r26fkm24j6bh/4Sh7FOpZ0s8EEUIKYsGQoY/a1ca173eafbf505559fe08f7dca5e2ff/roadgenerator.zip
 ---
 
 A Road Generator that will generate a road mesh. It is created for use in the Unity Game Engine.

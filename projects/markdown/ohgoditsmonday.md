@@ -2,47 +2,14 @@
 title: Oh God, It's Monday
 date: '2016-01-31'
 contributors: Sneaky Ninjas
-description: >-
-  The game I created together with my team at the Global Game Jam 2016 in
-  Amsterdam at the HvA location.
+description: The game I created together with my team at the Global Game Jam 2016 in Amsterdam at the HvA location.
 tags:
   - game
   - c#
   - unity
   - globalgamejam
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/2KTntxbqF5OsjCWheWDmRc/259da459b9a64b076d52ebf53a4cb477/splashscreen.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 5WgznPjJHYVu9uQYNSQvGb
-    type: Asset
-    createdAt: '2020-01-26T12:58:39.788Z'
-    updatedAt: '2020-01-26T12:58:39.788Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 10
-    revision: 1
-    locale: en-US
-  fields:
-    title: Oh God Its Monday Download
-    file:
-      url: >-
-        //downloads.ctfassets.net/r26fkm24j6bh/5WgznPjJHYVu9uQYNSQvGb/113fb22fb4442ae1ae5c528c5c665e4a/OhGodItsMonday_simonkarman.zip
-      details:
-        size: 80108872
-      fileName: OhGodItsMonday_simonkarman.zip
-      contentType: application/zip
+image: https://images.ctfassets.net/r26fkm24j6bh/2KTntxbqF5OsjCWheWDmRc/259da459b9a64b076d52ebf53a4cb477/splashscreen.png
+download: https://downloads.ctfassets.net/r26fkm24j6bh/5WgznPjJHYVu9uQYNSQvGb/113fb22fb4442ae1ae5c528c5c665e4a/OhGodItsMonday_simonkarman.zip
 ---
 
 I participated in the Global Game Jam for the 5th time! Together with a random group of people I created an awesome game that won the audience award after 48 hours of hard work.

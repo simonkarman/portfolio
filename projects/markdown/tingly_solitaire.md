@@ -8,8 +8,7 @@ tags:
   - tingly
   - html5
   - javascript
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/58nmyGCW5aQOaI8oqy6KGW/37755e8e6f300fab5acb7b8cdde2761b/html5_game_tinglysolitaire.png
+image: https://images.ctfassets.net/r26fkm24j6bh/58nmyGCW5aQOaI8oqy6KGW/37755e8e6f300fab5acb7b8cdde2761b/html5_game_tinglysolitaire.png
 ---
 
 During my internship at Tingly Games I created this game as a side project. The game was created within 2 weeks and put online on the Tingly Games website right after.

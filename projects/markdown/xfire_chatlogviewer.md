@@ -2,46 +2,12 @@
 title: Xfire Chatlog Viewer
 date: '2013-03-22'
 contributors: Simon Karman
-description: >-
-  A chatlog viewer for Xfire with easy access to all your contacts and your
-  conversations.
+description: A chatlog viewer for Xfire with easy access to all your contacts and your conversations.
 tags:
   - c#
   - windowsforms
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/4GBDmJ7ETm202asG4gQEuU/6d846f606e56c4a55f25678c77f88985/xfirechatlogviewer.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 2fsLnw64e0aKMuOQ8yQyaa
-    type: Asset
-    createdAt: '2017-10-10T23:45:02.926Z'
-    updatedAt: '2017-10-10T23:45:02.926Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 21
-    revision: 1
-    locale: en-US
-  fields:
-    title: Xfire Chatlog Viewer Download
-    description: Download for Xfire Chatlog Viewer
-    file:
-      url: >-
-        //assets.ctfassets.net/r26fkm24j6bh/2fsLnw64e0aKMuOQ8yQyaa/6bdf1ccdca3b98baa75231c033d6f90b/xfire_chatlogviewer.zip
-      details:
-        size: 39220
-      fileName: xfire_chatlogviewer.zip
-      contentType: application/zip
+image: https://images.ctfassets.net/r26fkm24j6bh/4GBDmJ7ETm202asG4gQEuU/6d846f606e56c4a55f25678c77f88985/xfirechatlogviewer.png
+download: https://assets.ctfassets.net/r26fkm24j6bh/2fsLnw64e0aKMuOQ8yQyaa/6bdf1ccdca3b98baa75231c033d6f90b/xfire_chatlogviewer.zip
 ---
 
 I created an XfireChatlogViewer using Windows.Forms in .NET 4. 

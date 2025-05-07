@@ -9,8 +9,7 @@ tags:
   - typescript
   - websockets
   - docker
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/h6Bbhhqg9nO7J8QBhVokI/5651114c83a75a9a5dc189a0d07f0c72/home.png
+image: https://images.ctfassets.net/r26fkm24j6bh/h6Bbhhqg9nO7J8QBhVokI/5651114c83a75a9a5dc189a0d07f0c72/home.png
 repository: https://github.com/simonkarman/home
 ---
 

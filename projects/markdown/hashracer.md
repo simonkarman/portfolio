@@ -2,49 +2,14 @@
 title: Hashracer
 date: '2013-12-04'
 contributors: Simon Karman
-description: >-
-  A race game made in one day that uses the hash of user-input as seed for the
-  random generated tracks. Players can compete against each other by sharing the
-  seed.
+description: A race game made in one day that uses the hash of user-input as seed for the random generated tracks. Players can compete against each other by sharing the seed.
 tags:
   - game
   - unity
   - pcg
   - c#
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/vy7qo3RcpUYCYmCU6u2e6/eede6a18792568c498dc39a2751dfea6/HashRacer.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 36x7H9XxFeMUgm2K8Giyu0
-    type: Asset
-    createdAt: '2017-10-11T00:08:20.817Z'
-    updatedAt: '2017-10-11T00:08:20.817Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 21
-    revision: 1
-    locale: en-US
-  fields:
-    title: Hashracer Download
-    description: Download for Hashracer
-    file:
-      url: >-
-        //downloads.ctfassets.net/r26fkm24j6bh/36x7H9XxFeMUgm2K8Giyu0/f52aeeee66be047ffb4a5532741adacf/HashRacer.zip
-      details:
-        size: 27128173
-      fileName: HashRacer.zip
-      contentType: application/zip
+image: https://images.ctfassets.net/r26fkm24j6bh/vy7qo3RcpUYCYmCU6u2e6/eede6a18792568c498dc39a2751dfea6/HashRacer.png
+download: https://downloads.ctfassets.net/r26fkm24j6bh/36x7H9XxFeMUgm2K8Giyu0/f52aeeee66be047ffb4a5532741adacf/HashRacer.zip
 ---
 
 HashRacer is a simple race game. You drive a car to the goal and try to do this in the least possible amount of time. 

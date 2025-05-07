@@ -2,16 +2,13 @@
 title: Generating Self Signed Certificates
 date: '2020-01-22'
 contributors: Simon Karman
-description: >-
-  A step by step explanation on how to generate your own self signed certificate
-  for personal development purposes
+description: A step by step explanation on how to generate your own self signed certificate for personal development purposes
 tags:
   - certificates
   - https
   - javascript
   - security
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/5m4pz1VzO9RCY6RDSGxpoB/c26b1db1861261115d65ef48e7e62c3e/https.png
+image: https://images.ctfassets.net/r26fkm24j6bh/5m4pz1VzO9RCY6RDSGxpoB/c26b1db1861261115d65ef48e7e62c3e/https.png
 ---
 
 # Generating Self Signed SSL Certificates

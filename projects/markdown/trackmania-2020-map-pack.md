@@ -2,47 +2,13 @@
 title: Trackmania KARMAN
 date: '2022-01-02'
 contributors: Simon Karman
-description: >-
-  KARMAN is a map pack that contains 17 trackmania maps, that I created for the
-  game Trackmania 2020
+description: KARMAN is a map pack that contains 17 trackmania maps, that I created for the game Trackmania 2020
 tags:
   - trackmania
   - mapmaking
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/5a3h73BSus4uzKZPSxMJsd/6fb01afdd255baca92ca6bd752b5e1ac/trackmania-2020.jpeg
+image: https://images.ctfassets.net/r26fkm24j6bh/5a3h73BSus4uzKZPSxMJsd/6fb01afdd255baca92ca6bd752b5e1ac/trackmania-2020.jpeg
 repository: https://trackmania.exchange/mapsearch2/index?mode=1&authorid=46114
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 4PYQSJR605xuge3Qj3XEeF
-    type: Asset
-    createdAt: '2022-04-18T11:54:26.830Z'
-    updatedAt: '2022-04-18T11:54:26.830Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 8
-    revision: 1
-    locale: en-US
-  fields:
-    title: Trackmania KARMAN
-    description: The KARMAN map pack for Trackmania
-    file:
-      url: >-
-        //downloads.ctfassets.net/r26fkm24j6bh/4PYQSJR605xuge3Qj3XEeF/cb7d9a55c005164792f36fe4b5fb5da4/KARMAN.zip
-      details:
-        size: 16139317
-      fileName: KARMAN.zip
-      contentType: application/zip
+download: https://downloads.ctfassets.net/r26fkm24j6bh/4PYQSJR605xuge3Qj3XEeF/cb7d9a55c005164792f36fe4b5fb5da4/KARMAN.zip
 ---
 
 '__KARMAN__' is a map pack that contains 17 trackmania maps, that I created for the game [Trackmania 2020](https://www.trackmania.com/). You can play the game for free.

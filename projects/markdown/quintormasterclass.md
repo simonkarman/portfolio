@@ -6,8 +6,7 @@ description: Kick-off of my professional software development career at Quintor.
 tags:
   - quintor
   - java
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/5VgN3f2fpVtFbn8vKywyVu/6b313037e25742029ff7b1e453b0f590/quintormasterclass.jpg
+image: https://images.ctfassets.net/r26fkm24j6bh/5VgN3f2fpVtFbn8vKywyVu/6b313037e25742029ff7b1e453b0f590/quintormasterclass.jpg
 ---
 
 In september of 2018 after finishing my master at the Utrecht University I started my professional software development career at [Quintor](https://quintor.nl/over-ons/). Quintor is a dutch software development company located in Groningen, Amersfoort, and Den Haag.

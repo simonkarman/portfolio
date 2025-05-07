@@ -7,8 +7,7 @@ tags:
   - riddle
   - typescript
   - graphviz
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/bWi45Kuo2oFt73vSGfQun/a13914f411efe7592a8c99f80bac7829/problem.png
+image: https://images.ctfassets.net/r26fkm24j6bh/bWi45Kuo2oFt73vSGfQun/a13914f411efe7592a8c99f80bac7829/problem.png
 repository: https://github.com/simonkarman/three-jug-riddle
 ---
 

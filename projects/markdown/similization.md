@@ -7,8 +7,7 @@ tags:
   - pcg
   - javascript
   - jsimon
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/35VXYy4gmAS2O6gMk2U6OC/3e5b83e22c35c907a440cbc9b11780d8/similization.png
+image: https://images.ctfassets.net/r26fkm24j6bh/35VXYy4gmAS2O6gMk2U6OC/3e5b83e22c35c907a440cbc9b11780d8/similization.png
 repository: http://www.similization.nl
 ---
 

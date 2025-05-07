@@ -8,39 +8,8 @@ tags:
   - c#
   - utrechtuniversity
   - sokoban
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/13OS0IqwHpGPU8OKWkunZP/814fe787a966076f098c78735c1304bc/sokoban_banner.png
-documentation:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 4cK9QOfIHKt3SBe2q3dXG0
-    type: Asset
-    createdAt: '2020-01-26T13:31:58.316Z'
-    updatedAt: '2020-01-26T13:31:58.316Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 10
-    revision: 1
-    locale: en-US
-  fields:
-    title: Maste Tthesis Simon Karman
-    file:
-      url: >-
-        //assets.ctfassets.net/r26fkm24j6bh/4cK9QOfIHKt3SBe2q3dXG0/3d6bf0dce069641deb4d88d2ce62e2df/masterthesis_simonkarman.pdf
-      details:
-        size: 6442517
-      fileName: masterthesis_simonkarman.pdf
-      contentType: application/pdf
+image: https://images.ctfassets.net/r26fkm24j6bh/13OS0IqwHpGPU8OKWkunZP/814fe787a966076f098c78735c1304bc/sokoban_banner.png
+documentation: https://assets.ctfassets.net/r26fkm24j6bh/4cK9QOfIHKt3SBe2q3dXG0/3d6bf0dce069641deb4d88d2ce62e2df/masterthesis_simonkarman.pdf
 ---
 
 As part of my Master Game and Media Technology on the Utrecht University I wrote a master thesis. The title was: Generating Sokoban Levels that are Interesting to Play using Simulation.

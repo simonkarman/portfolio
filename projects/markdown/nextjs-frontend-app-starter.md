@@ -2,16 +2,13 @@
 title: Next.js Frontend App Starter
 date: '2021-09-24'
 contributors: Simon Karman
-description: >-
-  Starter for a modern frontend using Next.js with TypeScript, Contentful, and
-  more.
+description: Starter for a modern frontend using Next.js with TypeScript, Contentful, and more.
 tags:
   - nextjs
   - react
   - typescript
   - contentful
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/3et1rits0V5wSzIrNnZkk/590bf72b92c73d33170326eeff60f0f1/nextjs.png
+image: https://images.ctfassets.net/r26fkm24j6bh/3et1rits0V5wSzIrNnZkk/590bf72b92c73d33170326eeff60f0f1/nextjs.png
 repository: https://github.com/simonkarman/nextjs-frontend-app-starter
 ---
 

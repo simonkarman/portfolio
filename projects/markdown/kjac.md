@@ -2,15 +2,12 @@
 title: kjac.nl
 date: '2015-07-11'
 contributors: Simon Karman
-description: >-
-  The responsive website on kjac.nl that I created for the advisor and teamcoach
-  Jac. Karman.
+description: The responsive website on kjac.nl that I created for the advisor and teamcoach Jac. Karman.
 tags:
   - javasscript
   - php
   - security
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/pH3CAeQrhwttUvT4jQNKe/954d96ce4980c9f8784353c89581a250/kjac_banner.png
+image: https://images.ctfassets.net/r26fkm24j6bh/pH3CAeQrhwttUvT4jQNKe/954d96ce4980c9f8784353c89581a250/kjac_banner.png
 ---
 
 The advisor and teamcoach Jac. Karman asked me to create a state of the art website for him. The website can be found here: [www.kjac.nl](http://www.kjac.nl)

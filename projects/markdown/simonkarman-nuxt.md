@@ -2,16 +2,13 @@
 title: Rebuild of simonkarman.nl
 date: '2020-03-24'
 contributors: Simon Karman
-description: >-
-  A rebuild of my portfolio website using VueJS, Nuxt, TailwindCSS, and
-  Contentful.
+description: A rebuild of my portfolio website using VueJS, Nuxt, TailwindCSS, and Contentful.
 tags:
   - vue
   - nuxtjs
   - javascript
   - contentful
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/4THLEnsM3LzBepRWlWXEKV/87b3551822e6e289ea2fba40da232e6a/home.png
+image: https://images.ctfassets.net/r26fkm24j6bh/4THLEnsM3LzBepRWlWXEKV/87b3551822e6e289ea2fba40da232e6a/home.png
 ---
 
 Up until today, my website was build using a custom framework I had build in php. For a long time I have wanted to rewrite it and now its finally here, a rebuild of my portfolio website using VueJS, Nuxt, TailwindCSS, and Contentful.

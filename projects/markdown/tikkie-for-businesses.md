@@ -2,17 +2,14 @@
 title: Tikkie for Businesses
 date: '2020-05-20'
 contributors: Simon Karman
-description: >-
-  An application that uses version 2 of the Tikkie API to create payment
-  requests for appointments of businesses.
+description: An application that uses version 2 of the Tikkie API to create payment requests for appointments of businesses.
 tags:
   - tikkie
   - vue
   - express
   - tailwindcss
   - mongodb
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/1TvVo3VHFzB4eMBKAq7IPf/48f298db819ecebbcd40f79bb1c24acc/tikkie-api.png
+image: https://images.ctfassets.net/r26fkm24j6bh/1TvVo3VHFzB4eMBKAq7IPf/48f298db819ecebbcd40f79bb1c24acc/tikkie-api.png
 repository: https://github.com/simonkarman/tikkie-api-v2-implementation-day
 ---
 

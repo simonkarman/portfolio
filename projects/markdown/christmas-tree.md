@@ -9,8 +9,7 @@ tags:
   - typescript
   - react
   - websockets
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/6HyMzsG8xJqCasVDez9nxB/31b49bb3b9f9d2bfef853f16bba75c27/game-dark.png
+image: https://images.ctfassets.net/r26fkm24j6bh/6HyMzsG8xJqCasVDez9nxB/31b49bb3b9f9d2bfef853f16bba75c27/game-dark.png
 repository: https://github.com/simonkarman/christmas-tree
 ---
 

@@ -2,46 +2,13 @@
 title: Procudemon
 date: '2016-09-01'
 contributors: Simon Karman
-description: >-
-  A procedurally generated 3D world that moves along with the position of the
-  player.
+description: A procedurally generated 3D world that moves along with the position of the player.
 tags:
   - pcg
   - c#
   - unity
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/30bGvPSaEK9djdbIpc5w2W/8a9c98d71ec14abb8596e2108d06a954/procudemon.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 3PT8hBosxVBYKZBu664wWJ
-    type: Asset
-    createdAt: '2020-01-26T13:11:40.373Z'
-    updatedAt: '2020-01-26T13:11:40.373Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 7
-    revision: 1
-    locale: en-US
-  fields:
-    title: Procedumon Download
-    file:
-      url: >-
-        //downloads.ctfassets.net/r26fkm24j6bh/3PT8hBosxVBYKZBu664wWJ/6001282f6300ff657d380e9f6b4fb69e/Procedumon.zip
-      details:
-        size: 28981993
-      fileName: Procedumon.zip
-      contentType: application/zip
+image: https://images.ctfassets.net/r26fkm24j6bh/30bGvPSaEK9djdbIpc5w2W/8a9c98d71ec14abb8596e2108d06a954/procudemon.png
+download: https://downloads.ctfassets.net/r26fkm24j6bh/3PT8hBosxVBYKZBu664wWJ/6001282f6300ff657d380e9f6b4fb69e/Procedumon.zip
 ---
 
 Procedumon is a technical demo in Unity of a 3D environment that is procedurally generated around the player as the player moves around. The environment that is generated is a forest with rivers and height differences.

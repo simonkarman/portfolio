@@ -35,19 +35,17 @@ function convertEntryToMarkdown(entry) {
   delete frontMatterData[contentField];
   delete frontMatterData.name;
 
-  // Ensure date is wrapped in quotes
-  // if (frontMatterData[config.dateField]) {
-  //   frontMatterData[config.dateField] = `${frontMatterData[config.dateField]}`;
-  // }
-
-  // Ensure that url is taken from the image field
-  if (frontMatterData[config.imageField]) {
-    const url = frontMatterData[config.imageField].fields.file.url;
-    frontMatterData[config.imageField] = `https:${url}`;
+  // For each field that is an object that has a fields property, use its url instead
+  const fields = Object.keys(frontMatterData);
+  for (const field of fields) {
+    if (frontMatterData[field] && frontMatterData[field].fields) {
+      const url = frontMatterData[field].fields.file.url;
+      frontMatterData[field] = `https:${url}`;
+    }
   }
 
   // Convert front matter to YAML
-  const frontMatter = yaml.dump(frontMatterData);
+  const frontMatter = yaml.dump(frontMatterData, { lineWidth: -1 });
 
   // Combine front matter and content
   return `---

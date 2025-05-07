@@ -6,40 +6,8 @@ description: An Unity utility to show an Age of Empires II alike fog of war in y
 tags:
   - unity
   - c#
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/Gbt3Ga5zMq68KWciWwgam/6eb4116f9766064f3f7f58374f9900d3/unity_fogofwar.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 1JwJgZB5x60ummwemkSEkc
-    type: Asset
-    createdAt: '2017-10-11T00:03:54.997Z'
-    updatedAt: '2017-10-11T00:03:54.997Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 14
-    revision: 1
-    locale: en-US
-  fields:
-    title: Unity FogOfWar Download
-    description: Download for Unity FogOfWar
-    file:
-      url: >-
-        //assets.ctfassets.net/r26fkm24j6bh/1JwJgZB5x60ummwemkSEkc/321edc43325c2953e93fad95a09b0323/unity_fogofwar.zip
-      details:
-        size: 2027276
-      fileName: unity_fogofwar.zip
-      contentType: application/zip
+image: https://images.ctfassets.net/r26fkm24j6bh/Gbt3Ga5zMq68KWciWwgam/6eb4116f9766064f3f7f58374f9900d3/unity_fogofwar.png
+download: https://assets.ctfassets.net/r26fkm24j6bh/1JwJgZB5x60ummwemkSEkc/321edc43325c2953e93fad95a09b0323/unity_fogofwar.zip
 ---
 
 I created a Fog of War Utility to easily create and manage an 'Age of Empires II'-like FogOfWar in your game.

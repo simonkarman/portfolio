@@ -8,40 +8,8 @@ tags:
   - game
   - unity
   - c#
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/4ISlSHyjR6k0cag8OqkQ2I/a59c00a43d860372ae20158aaf7b241d/radic.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 3mBpYJq93GkIk26oqE6Mcu
-    type: Asset
-    createdAt: '2017-10-11T11:59:57.545Z'
-    updatedAt: '2017-10-11T11:59:57.545Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 14
-    revision: 1
-    locale: en-US
-  fields:
-    title: Radic Download
-    description: Download for Radic
-    file:
-      url: >-
-        //downloads.ctfassets.net/r26fkm24j6bh/3mBpYJq93GkIk26oqE6Mcu/59cb85a7d73ea2773ebecd52f60b2a20/radic.zip
-      details:
-        size: 22558853
-      fileName: radic.zip
-      contentType: application/zip
+image: https://images.ctfassets.net/r26fkm24j6bh/4ISlSHyjR6k0cag8OqkQ2I/a59c00a43d860372ae20158aaf7b241d/radic.png
+download: https://downloads.ctfassets.net/r26fkm24j6bh/3mBpYJq93GkIk26oqE6Mcu/59cb85a7d73ea2773ebecd52f60b2a20/radic.zip
 ---
 
 Radic is the improved sequel of the game HashRacer which I created in 2013. Both Radic and HashRacer where created in one single day.

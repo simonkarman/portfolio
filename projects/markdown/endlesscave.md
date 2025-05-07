@@ -2,47 +2,13 @@
 title: Endless Cave Generation
 date: '2013-07-01'
 contributors: Simon Karman
-description: >-
-  An endless cave generation algorithm I created in Unity. It only uses 3
-  different segments to generate unique and random caves.
+description: An endless cave generation algorithm I created in Unity. It only uses 3 different segments to generate unique and random caves.
 tags:
   - pcg
   - unity
   - c#
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/1DHibXkiKUAqEogK4Eia62/ff224b84053c9ed9e8b128879db34e7f/segments.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 1dXkpv5ylKCeWOaSCU2mqs
-    type: Asset
-    createdAt: '2017-10-10T23:56:18.101Z'
-    updatedAt: '2017-10-10T23:56:18.101Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 36
-    revision: 1
-    locale: en-US
-  fields:
-    title: Endless Cave Generation Download
-    description: Download for Endless Cave Generation
-    file:
-      url: >-
-        //downloads.ctfassets.net/r26fkm24j6bh/1dXkpv5ylKCeWOaSCU2mqs/6dd6aadc2981a8a21d50d87677ffab0b/EndlessRunner_CaveGeneration_SimonKarman.zip
-      details:
-        size: 17716797
-      fileName: EndlessRunner_CaveGeneration_SimonKarman.zip
-      contentType: application/zip
+image: https://images.ctfassets.net/r26fkm24j6bh/1DHibXkiKUAqEogK4Eia62/ff224b84053c9ed9e8b128879db34e7f/segments.png
+download: https://downloads.ctfassets.net/r26fkm24j6bh/1dXkpv5ylKCeWOaSCU2mqs/6dd6aadc2981a8a21d50d87677ffab0b/EndlessRunner_CaveGeneration_SimonKarman.zip
 ---
 
 I created an endless-running type of cave generation in Unity C#. (Download at the bottom of the page!)

@@ -7,8 +7,7 @@ tags:
   - krmx
   - typescript
   - websockets
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/7un7jZTuk0lU6z8XETyhZ8/d2bdb355e51faed5cb8295d7ff244f45/krmx-events.png
+image: https://images.ctfassets.net/r26fkm24j6bh/7un7jZTuk0lU6z8XETyhZ8/d2bdb355e51faed5cb8295d7ff244f45/krmx-events.png
 repository: https://github.com/simonkarman/krmx
 ---
 

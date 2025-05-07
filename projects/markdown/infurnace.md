@@ -2,78 +2,15 @@
 title: Infurnace
 date: '2015-07-03'
 contributors: Simon Karman, Geert Lugtenberg, Kevin Kessels and Bas Geerts
-description: >-
-  Infurnace is an agent-based fire disaster simulator created for the Games and
-  Agents course on the Utrecht University
+description: Infurnace is an agent-based fire disaster simulator created for the Games and Agents course on the Utrecht University
 tags:
   - c#
   - simulator
   - unity
   - utrechtuniversity
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/3357TgaC6Cbv9Yo26WnLIk/15c254f2b685aa88076f908c098b1e7f/ProjectInfurnace.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: qmr2QivPUuXSs285C25Wj
-    type: Asset
-    createdAt: '2020-01-26T12:28:37.969Z'
-    updatedAt: '2020-01-26T12:28:37.969Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 9
-    revision: 1
-    locale: en-US
-  fields:
-    title: Project Infurnace Download
-    file:
-      url: >-
-        //downloads.ctfassets.net/r26fkm24j6bh/qmr2QivPUuXSs285C25Wj/d27016be34004ff58d16d0fe5976986b/ProjectInfurnace.zip
-      details:
-        size: 41891429
-      fileName: ProjectInfurnace.zip
-      contentType: application/zip
-documentation:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 70EAOfV5gnrBs0gDjpn4nk
-    type: Asset
-    createdAt: '2020-01-26T12:28:53.983Z'
-    updatedAt: '2020-01-26T12:28:53.983Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 3
-    revision: 1
-    locale: en-US
-  fields:
-    title: Agent-Based Fire Disaster Simulator Report
-    file:
-      url: >-
-        //assets.ctfassets.net/r26fkm24j6bh/70EAOfV5gnrBs0gDjpn4nk/7dc365f83de6c9fd4cc2e1f49415e788/Agent-Based_Fire_Disaster_Simulator_Report.pdf
-      details:
-        size: 8294694
-      fileName: Agent-Based Fire Disaster Simulator Report.pdf
-      contentType: application/pdf
+image: https://images.ctfassets.net/r26fkm24j6bh/3357TgaC6Cbv9Yo26WnLIk/15c254f2b685aa88076f908c098b1e7f/ProjectInfurnace.png
+download: https://downloads.ctfassets.net/r26fkm24j6bh/qmr2QivPUuXSs285C25Wj/d27016be34004ff58d16d0fe5976986b/ProjectInfurnace.zip
+documentation: https://assets.ctfassets.net/r26fkm24j6bh/70EAOfV5gnrBs0gDjpn4nk/7dc365f83de6c9fd4cc2e1f49415e788/Agent-Based_Fire_Disaster_Simulator_Report.pdf
 ---
 
 # Introduction

@@ -1,49 +1,14 @@
 ---
 title: Teamzania Enterprise Yourself
 date: '2015-12-20'
-contributors: >-
-  Simon Karman, Jochem van der Lof, Suus Looijen, Thomas Groot Zwaaftink and
-  Jasper Hutte
-description: >-
-  The prototype game I created at the Utrecht University in collaboration with
-  the HKU for Plan International for the unemployed youth in Tanzania.
+contributors: Simon Karman, Jochem van der Lof, Suus Looijen, Thomas Groot Zwaaftink and Jasper Hutte
+description: The prototype game I created at the Utrecht University in collaboration with the HKU for Plan International for the unemployed youth in Tanzania.
 tags:
   - game
   - tanzania
   - utrechtuniversity
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/21eUbi4q0rEPVyMGDgVKNQ/7ca0ea1c061453e5621c550b4b0ee91e/teamzania1.jpg
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 3x8mFB5dXWcDsLtssPV20n
-    type: Asset
-    createdAt: '2020-01-26T12:50:33.541Z'
-    updatedAt: '2020-01-26T12:50:33.541Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 7
-    revision: 1
-    locale: en-US
-  fields:
-    title: Teamzania Presskit
-    file:
-      url: >-
-        //downloads.ctfassets.net/r26fkm24j6bh/3x8mFB5dXWcDsLtssPV20n/2337c816757f7dff01dfe1b33387c8a5/teamzania_presskit.zip
-      details:
-        size: 53481349
-      fileName: teamzania_presskit.zip
-      contentType: application/zip
+image: https://images.ctfassets.net/r26fkm24j6bh/21eUbi4q0rEPVyMGDgVKNQ/7ca0ea1c061453e5621c550b4b0ee91e/teamzania1.jpg
+download: https://downloads.ctfassets.net/r26fkm24j6bh/3x8mFB5dXWcDsLtssPV20n/2337c816757f7dff01dfe1b33387c8a5/teamzania_presskit.zip
 ---
 
 At the Utrecht University I collaborated with the HKU (Hogeschool van de Kunsten Utrecht) in Hilversum to create a prototype game for the unemployed youth in Tanzania.

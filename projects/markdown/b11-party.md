@@ -2,49 +2,15 @@
 title: B11 Party
 date: '2020-11-01'
 contributors: Simon Karman
-description: >-
-  A multiplayer game based on Mario Party with minigames themed around the 11th
-  board of study association Sticky
+description: A multiplayer game based on Mario Party with minigames themed around the 11th board of study association Sticky
 tags:
   - networking
   - game
   - unity
   - c#
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/zkP9m1C3GbImm6eTODZDU/19c06701a9b28b07396a4d0d25ed8429/join-ui.png
+image: https://images.ctfassets.net/r26fkm24j6bh/zkP9m1C3GbImm6eTODZDU/19c06701a9b28b07396a4d0d25ed8429/join-ui.png
 repository: https://github.com/simonkarman/b11-party
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: kvwrkAoBUh0RF7EpvY4KQ
-    type: Asset
-    createdAt: '2021-03-05T18:59:14.326Z'
-    updatedAt: '2021-03-05T18:59:14.326Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 5
-    revision: 1
-    locale: en-US
-  fields:
-    title: B11 Party Windows v1.1.0
-    description: B11 Party Windows v1.1.0
-    file:
-      url: >-
-        //downloads.ctfassets.net/r26fkm24j6bh/kvwrkAoBUh0RF7EpvY4KQ/9a428d476c5e9a2e0a4356155d2cdf4e/b11-party-windows-1.1.0.zip
-      details:
-        size: 31404229
-      fileName: b11-party-windows-1.1.0.zip
-      contentType: application/zip
+download: https://downloads.ctfassets.net/r26fkm24j6bh/kvwrkAoBUh0RF7EpvY4KQ/9a428d476c5e9a2e0a4356155d2cdf4e/b11-party-windows-1.1.0.zip
 ---
 
 # B11 Party

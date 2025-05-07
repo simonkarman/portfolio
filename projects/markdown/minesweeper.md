@@ -7,8 +7,7 @@ tags:
   - game
   - html5
   - javascript
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/5cVszxPOgEmkgu00QaKw6e/7b9f792364b35a605d472728eaca388e/minesweeper.png
+image: https://images.ctfassets.net/r26fkm24j6bh/5cVszxPOgEmkgu00QaKw6e/7b9f792364b35a605d472728eaca388e/minesweeper.png
 ---
 
 I created this HTML5 version of the minesweeper game in one day as a hobby project.

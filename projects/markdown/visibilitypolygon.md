@@ -2,79 +2,14 @@
 title: Visibility Polygon in Javascript
 date: '2015-06-27'
 contributors: Simon Karman
-description: >-
-  A visibility polygon implementation in JavaScript that runs in Ο(n log n) time
-  by using a sweep line algorithm.
+description: A visibility polygon implementation in JavaScript that runs in Ο(n log n) time by using a sweep line algorithm.
 tags:
   - javascript
   - jsimon
   - geometric-algorithms
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/1eULiJw6AXa5YukkbOdyTg/69e50dc5050ea65340300292db8811e3/VisibilityPolygon.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 2RaxIff9Ao9ppNO8y8Hz9X
-    type: Asset
-    createdAt: '2020-01-26T12:18:47.270Z'
-    updatedAt: '2020-01-26T12:18:47.270Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 29
-    revision: 1
-    locale: en-US
-  fields:
-    title: Visibility Polygon in Javascript Download
-    description: Dowload for Visibility Polygon in Javascript project
-    file:
-      url: >-
-        //assets.ctfassets.net/r26fkm24j6bh/2RaxIff9Ao9ppNO8y8Hz9X/1b436f8e799c820b563ef6320e91db07/VisibilityPolygon.zip
-      details:
-        size: 39975
-      fileName: VisibilityPolygon.zip
-      contentType: application/zip
-demo:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 6hlrOzzmij0fN4FvVzjisX
-    type: Asset
-    createdAt: '2020-03-24T19:41:40.417Z'
-    updatedAt: '2020-03-24T19:41:40.417Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 26
-    revision: 1
-    locale: en-US
-  fields:
-    title: Visibility Polygon Demo
-    description: Demo of the Visibility Polygon
-    file:
-      url: >-
-        //assets.ctfassets.net/r26fkm24j6bh/6hlrOzzmij0fN4FvVzjisX/7d1fc51c1d6607ea5b258dc33970cef6/visibilitypolygon.min.js
-      details:
-        size: 117029
-      fileName: visibilitypolygon.min.js
-      contentType: text/javascript
+image: https://images.ctfassets.net/r26fkm24j6bh/1eULiJw6AXa5YukkbOdyTg/69e50dc5050ea65340300292db8811e3/VisibilityPolygon.png
+download: https://assets.ctfassets.net/r26fkm24j6bh/2RaxIff9Ao9ppNO8y8Hz9X/1b436f8e799c820b563ef6320e91db07/VisibilityPolygon.zip
+demo: https://assets.ctfassets.net/r26fkm24j6bh/6hlrOzzmij0fN4FvVzjisX/7d1fc51c1d6607ea5b258dc33970cef6/visibilitypolygon.min.js
 ---
 
 One of the questions on the final exam of the Geometric Algorithms course on the Utrecht University caught my eye. The question was to come up with a sweep line algorithm to find all the segments S that are visible from a point P in Ο(n log n) time by using a sweep line algorithm.

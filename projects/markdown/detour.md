@@ -6,8 +6,7 @@ description: An app that can be used to take detours when cycling.
 tags:
   - game
   - cycling
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/4pBDntm2H4XsPnv28BT1Y1/728473f81773e79c92a77197c9869d07/app.png
+image: https://images.ctfassets.net/r26fkm24j6bh/4pBDntm2H4XsPnv28BT1Y1/728473f81773e79c92a77197c9869d07/app.png
 repository: https://karman.dev/detour/
 ---
 

@@ -2,79 +2,14 @@
 title: GameMaker Workshops for Kids
 date: '2012-08-13'
 contributors: Simon Karman, Benjamin van Arkel and Koen Vrij
-description: >-
-  GameMaker Workshop we hosted in Amsterdam for kids between 5-8 to learn the
-  basics about Game Development
+description: GameMaker Workshop we hosted in Amsterdam for kids between 5-8 to learn the basics about Game Development
 tags:
   - gamemaker
   - oba
   - hva
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/6fvRdtezHUCggs8a8cyykk/9137fb53293c32cf11a3323397167c17/gm_workshops.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 1S4l8ee4QoukgCYc6I6YO2
-    type: Asset
-    createdAt: '2017-10-10T23:24:15.046Z'
-    updatedAt: '2017-10-10T23:24:15.046Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 13
-    revision: 1
-    locale: en-US
-  fields:
-    title: GameMaker Workshop for Kids Download
-    description: Download for GameMaker Workshop for Kids
-    file:
-      url: >-
-        //assets.ctfassets.net/r26fkm24j6bh/1S4l8ee4QoukgCYc6I6YO2/1325e934b046430e637be514622f6a08/gm_workshops.zip
-      details:
-        size: 1700230
-      fileName: gm_workshops.zip
-      contentType: application/zip
-documentation:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 5k3so1LyiQi2oWSMQOmccC
-    type: Asset
-    createdAt: '2017-10-10T23:24:31.382Z'
-    updatedAt: '2017-10-10T23:24:31.382Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 16
-    revision: 1
-    locale: en-US
-  fields:
-    title: GameMaker Workshop for Kids Documentation
-    description: Documentation GameMaker Workshop for Kids
-    file:
-      url: >-
-        //assets.ctfassets.net/r26fkm24j6bh/5k3so1LyiQi2oWSMQOmccC/72202bd3c24383401b6defe48747bfe2/gm_workshops_handout.pdf
-      details:
-        size: 787528
-      fileName: gm_workshops_handout.pdf
-      contentType: application/pdf
+image: https://images.ctfassets.net/r26fkm24j6bh/6fvRdtezHUCggs8a8cyykk/9137fb53293c32cf11a3323397167c17/gm_workshops.png
+download: https://assets.ctfassets.net/r26fkm24j6bh/1S4l8ee4QoukgCYc6I6YO2/1325e934b046430e637be514622f6a08/gm_workshops.zip
+documentation: https://assets.ctfassets.net/r26fkm24j6bh/5k3so1LyiQi2oWSMQOmccC/72202bd3c24383401b6defe48747bfe2/gm_workshops_handout.pdf
 ---
 
 # Preperation

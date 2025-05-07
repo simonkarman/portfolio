@@ -2,16 +2,13 @@
 title: Elemental Arena (next)
 date: '2022-03-11'
 contributors: Simon Karman
-description: >-
-  A proof of concept on using React and SVG to create a board game in your
-  browser.
+description: A proof of concept on using React and SVG to create a board game in your browser.
 tags:
   - game
   - react
   - next
   - svg
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/7fQvzHkj5regKfbcIbrkHX/04b90b06af67b625d7ecd177b9f5fd09/elemental-arena-next-dark.png
+image: https://images.ctfassets.net/r26fkm24j6bh/7fQvzHkj5regKfbcIbrkHX/04b90b06af67b625d7ecd177b9f5fd09/elemental-arena-next-dark.png
 repository: https://github.com/simonkarman/elemental-arena-next/
 ---
 

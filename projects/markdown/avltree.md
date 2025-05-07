@@ -2,47 +2,13 @@
 title: AVL Tree in Javascript
 date: '2015-06-16'
 contributors: Simon Karman
-description: >-
-  An AVLTree implementation in JavaScript which is a self-balancing binary
-  search tree.
+description: An AVLTree implementation in JavaScript which is a self-balancing binary search tree.
 tags:
   - javascript
   - jsimon
   - utrechtuniversity
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/B5tuE5CbUo6lQ6CKKGJXf/7ec0012461acd8ae20c36d74a66540df/AVLTree.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: XCSUXGqrqWrH2Uhgobq4X
-    type: Asset
-    createdAt: '2020-01-26T11:19:28.049Z'
-    updatedAt: '2020-01-26T11:19:28.049Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 23
-    revision: 1
-    locale: en-US
-  fields:
-    title: AVLTree Download
-    description: Download of the AVL Tree project
-    file:
-      url: >-
-        //assets.ctfassets.net/r26fkm24j6bh/XCSUXGqrqWrH2Uhgobq4X/e24c3568a9ee9d93060538e1d1f8b9d6/AVLTree.zip
-      details:
-        size: 42414
-      fileName: AVLTree.zip
-      contentType: application/zip
+image: https://images.ctfassets.net/r26fkm24j6bh/B5tuE5CbUo6lQ6CKKGJXf/7ec0012461acd8ae20c36d74a66540df/AVLTree.png
+download: https://assets.ctfassets.net/r26fkm24j6bh/XCSUXGqrqWrH2Uhgobq4X/e24c3568a9ee9d93060538e1d1f8b9d6/AVLTree.zip
 ---
 
 # Introduction

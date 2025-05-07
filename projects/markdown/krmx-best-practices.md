@@ -7,8 +7,7 @@ tags:
   - krmx
   - typescript
   - websockets
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/2udVVZEdIza6jTBd2EPVkj/69b23cf17ee8e5fd24d0225e39648313/krmx-best-practices.png
+image: https://images.ctfassets.net/r26fkm24j6bh/2udVVZEdIza6jTBd2EPVkj/69b23cf17ee8e5fd24d0225e39648313/krmx-best-practices.png
 repository: https://github.com/simonkarman/krmx-best-practices/
 ---
 

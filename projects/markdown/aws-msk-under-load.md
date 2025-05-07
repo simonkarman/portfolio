@@ -2,17 +2,13 @@
 title: Measuring that an MSK cluster is under load
 date: '2023-03-16'
 contributors: Simon Karman and Matt Watson
-description: >-
-  Amazon MSK is the AWS managed offering for Apache Kafka. To identify issues
-  and to be able act quickly on those, the health of these clusters is important
-  to monitor.
+description: Amazon MSK is the AWS managed offering for Apache Kafka. To identify issues and to be able act quickly on those, the health of these clusters is important to monitor.
 tags:
   - aws
   - msk
   - metrics
   - blog
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/5efFgWbpNFfOkE4LL9ooPH/4356ad1f429cc5aeae0124af927fc426/og-banner.png
+image: https://images.ctfassets.net/r26fkm24j6bh/5efFgWbpNFfOkE4LL9ooPH/4356ad1f429cc5aeae0124af927fc426/og-banner.png
 ---
 
 In this blog Simon Karman and Matt Watson will dive into monitoring an Amazon MSK cluster. Amazon MSK is the AWS managed offering for Apache Kafka. To identify issues and to be able act quickly on those, the health of these clusters is important to monitor.

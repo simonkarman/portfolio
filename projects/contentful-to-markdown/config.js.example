@@ -7,8 +7,6 @@ export const config = {
   outputDir: './output',
   contentTypes: [], // Leave empty to download all content types
   contentField: 'content', // The field name that contains the main markdown content
-  dateField: 'date', // The field that should be treated as a date
-  imageField: 'image', // The field that should be treated as an image
   // Set to true if you only want to download a single entry
   singleEntry: false,
   // entryId: 'YOUR_ENTRY_ID', // Only used if singleEntry is true

@@ -6,8 +6,7 @@ description: Scavenger Hunt web app build with Vue and Netlify
 tags:
   - vue
   - netlify
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/2LZrTKU1yrIypU0qAYclgh/d29afa97c2ee10a055040d2e70f545b8/gno-dag-vue-netlify.png
+image: https://images.ctfassets.net/r26fkm24j6bh/2LZrTKU1yrIypU0qAYclgh/d29afa97c2ee10a055040d2e70f545b8/gno-dag-vue-netlify.png
 repository: https://bitbucket.org/simonkarman/scavenger-hunt
 ---
 

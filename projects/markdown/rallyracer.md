@@ -2,17 +2,13 @@
 title: Rally Racer
 date: '2016-02-17'
 contributors: Ard Bonewald, Gerrit Willemse and Simon Karman
-description: >-
-  The HTML5 car racing game I created while working at Tingly Games. The game
-  uses the physics engine Box2D which was used in JavaScript by the port from
-  C++ using ASM.js.
+description: The HTML5 car racing game I created while working at Tingly Games. The game uses the physics engine Box2D which was used in JavaScript by the port from C++ using ASM.js.
 tags:
   - game
   - javascript
   - asmjs
   - tingly
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/4BCLTXZNPFe5cYqXUNxyub/4511384a28a93e7e5771ac8a8ae65af2/rallyracer.png
+image: https://images.ctfassets.net/r26fkm24j6bh/4BCLTXZNPFe5cYqXUNxyub/4511384a28a93e7e5771ac8a8ae65af2/rallyracer.png
 ---
 
 During my time at Tingly Games I created a HTML5 car racing game. The game uses an physics engine to simulate the car physics. I used the C++ engine Box2D which was ported to JavaScript using ASM.js.

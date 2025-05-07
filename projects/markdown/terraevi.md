@@ -8,8 +8,7 @@ tags:
   - javascript
   - vue
   - tailwindcss
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/5RXknrv7noHeWEoWMkRdh8/87c59ede975ee75f28132cabc2c0d9c5/terraevi.png
+image: https://images.ctfassets.net/r26fkm24j6bh/5RXknrv7noHeWEoWMkRdh8/87c59ede975ee75f28132cabc2c0d9c5/terraevi.png
 repository: https://karman.dev/terraevi/
 ---
 

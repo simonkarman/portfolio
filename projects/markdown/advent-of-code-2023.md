@@ -6,8 +6,7 @@ description: Solutions to Advent of Code 2023 written in Rust.
 tags:
   - advent-of-code
   - rust
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/3cUWiOcZXFaXmgqQPa9pOy/59a172cd3a2e5aaa125ce90e17077991/advent-of-code-2023.png
+image: https://images.ctfassets.net/r26fkm24j6bh/3cUWiOcZXFaXmgqQPa9pOy/59a172cd3a2e5aaa125ce90e17077991/advent-of-code-2023.png
 repository: https://github.com/simonkarman/advent-of-code-2023
 ---
 

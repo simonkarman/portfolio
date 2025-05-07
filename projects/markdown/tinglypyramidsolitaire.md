@@ -7,8 +7,7 @@ tags:
   - game
   - javascript
   - tingly
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/67ehh7YMrMS2ZCVZUHZQGL/47a0bcb1beb4a08e2b56e181568464ac/pyramidsolitaire_banner1.png
+image: https://images.ctfassets.net/r26fkm24j6bh/67ehh7YMrMS2ZCVZUHZQGL/47a0bcb1beb4a08e2b56e181568464ac/pyramidsolitaire_banner1.png
 ---
 
 Tingly's Pyramid Solitaire is a card game that I worked on at Tinlgy Games. All the games at Tingly Games are created in about two weeks. The art of this game is created by Nicole Smit, the project was directed by Ard Bonewald, and I build the game in JavaScript.

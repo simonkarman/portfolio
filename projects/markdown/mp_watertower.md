@@ -2,45 +2,12 @@
 title: Watertower
 date: '2017-08-22'
 contributors: Simon Karman
-description: >-
-  It started with a sketch one night, and with some motivation I managed to
-  create a competitive Call of Duty 4 - Modern Warfare Map.
+description: It started with a sketch one night, and with some motivation I managed to create a competitive Call of Duty 4 - Modern Warfare Map.
 tags:
   - cod4
   - mapmaking
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/1KSMPxrlfvQjYPjIbin28M/18413e989fd6f7cfb406e58ce99435c4/loadscreen_mp_watertower.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 55ZQbAnDfJrdQnI6bW0RZZ
-    type: Asset
-    createdAt: '2020-01-26T13:25:26.339Z'
-    updatedAt: '2020-01-26T13:25:26.339Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 3
-    revision: 1
-    locale: en-US
-  fields:
-    title: mp watertower package
-    file:
-      url: >-
-        //downloads.ctfassets.net/r26fkm24j6bh/55ZQbAnDfJrdQnI6bW0RZZ/98f5e256a492b8bef6803b47044c76bc/mp_watertower_package.zip
-      details:
-        size: 39434370
-      fileName: mp_watertower_package.zip
-      contentType: application/zip
+image: https://images.ctfassets.net/r26fkm24j6bh/1KSMPxrlfvQjYPjIbin28M/18413e989fd6f7cfb406e58ce99435c4/loadscreen_mp_watertower.png
+download: https://downloads.ctfassets.net/r26fkm24j6bh/55ZQbAnDfJrdQnI6bW0RZZ/98f5e256a492b8bef6803b47044c76bc/mp_watertower_package.zip
 ---
 
 Somewhere mid april 2017 I was listening to a song on the radio. This song reminded me of the time when I would create custom maps for Call of Duty 4 - Modern Warfare.

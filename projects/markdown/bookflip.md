@@ -2,46 +2,13 @@
 title: The Magic Adventures of Luna
 date: '2016-06-23'
 contributors: Suus Looijen, Mangle Moose and Simon Karman
-description: >-
-  The Magical Adventures of Luna a short fairytale that is told via an
-  interactive book.
+description: The Magical Adventures of Luna a short fairytale that is told via an interactive book.
 tags:
   - game
   - c#
   - unity
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/2t15OlKCbwW1b5MV5PsBEc/7bdb966661148af060e11ea079b29de9/bookflip.png
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: 6WBynAn7JOPii8C3zOZcMN
-    type: Asset
-    createdAt: '2020-01-26T13:07:42.176Z'
-    updatedAt: '2020-01-26T13:07:42.176Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 3
-    revision: 1
-    locale: en-US
-  fields:
-    title: bookflip version 0.61
-    file:
-      url: >-
-        //downloads.ctfassets.net/r26fkm24j6bh/6WBynAn7JOPii8C3zOZcMN/56ff2c59e8f5080ceb6432ea9effc5cf/bookflip_version_0.61.zip
-      details:
-        size: 59109559
-      fileName: bookflip_version_0.61.zip
-      contentType: application/zip
+image: https://images.ctfassets.net/r26fkm24j6bh/2t15OlKCbwW1b5MV5PsBEc/7bdb966661148af060e11ea079b29de9/bookflip.png
+download: https://downloads.ctfassets.net/r26fkm24j6bh/6WBynAn7JOPii8C3zOZcMN/56ff2c59e8f5080ceb6432ea9effc5cf/bookflip_version_0.61.zip
 ---
 
 This is the graduation project of Suus Looijen. She needed someone to code the book for her. That's what I did. The art is made by Suus, the sound and music is done by Mangle Moose and I coded it all together.

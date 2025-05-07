@@ -6,41 +6,9 @@ description: A Trackmania map pack to celebrate my twenty ninth birthday.
 tags:
   - trackmania
   - mapmaking
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/ibJGauUlX8jju1gKQdxhU/077493aa341990ada63c398aa9864e54/TWNTY.png
+image: https://images.ctfassets.net/r26fkm24j6bh/ibJGauUlX8jju1gKQdxhU/077493aa341990ada63c398aa9864e54/TWNTY.png
 repository: https://trackmania.exchange/mapsearch2/index?mode=1&authorid=46114
-download:
-  metadata:
-    tags: []
-    concepts: []
-  sys:
-    space:
-      sys:
-        type: Link
-        linkType: Space
-        id: r26fkm24j6bh
-    id: wNg0aleuYQZ8UR2YJ6wvE
-    type: Asset
-    createdAt: '2022-04-18T12:06:36.840Z'
-    updatedAt: '2022-04-18T12:06:36.840Z'
-    environment:
-      sys:
-        id: master
-        type: Link
-        linkType: Environment
-    publishedVersion: 5
-    revision: 1
-    locale: en-US
-  fields:
-    title: Trackmania TWNTY
-    description: The TWNTY map pack for Trackmania
-    file:
-      url: >-
-        //assets.ctfassets.net/r26fkm24j6bh/wNg0aleuYQZ8UR2YJ6wvE/d0e165a7a33fd33f2a7a699c797f2f6d/TWNTY.zip
-      details:
-        size: 8951406
-      fileName: TWNTY.zip
-      contentType: application/zip
+download: https://assets.ctfassets.net/r26fkm24j6bh/wNg0aleuYQZ8UR2YJ6wvE/d0e165a7a33fd33f2a7a699c797f2f6d/TWNTY.zip
 ---
 
 '__TWENTY__' is a map pack that contains 9 trackmania maps, that I created for my 29th birthday. You can play the game [Trackmania 2020](https://www.trackmania.com/) for free.

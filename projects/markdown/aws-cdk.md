@@ -7,8 +7,7 @@ tags:
   - typescript
   - iac
   - aws
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/6LUP03UxPpzGdKotFgn9eS/4b83f61f105e64aa6e09da96144d187a/cdk.png
+image: https://images.ctfassets.net/r26fkm24j6bh/6LUP03UxPpzGdKotFgn9eS/4b83f61f105e64aa6e09da96144d187a/cdk.png
 repository: https://github.com/simonkarman/cdk-vs-serverless-framework
 ---
 

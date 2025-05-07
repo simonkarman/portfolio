@@ -7,8 +7,7 @@ tags:
   - react
   - typescript
   - netlify
-image: >-
-  https://images.ctfassets.net/r26fkm24j6bh/2if1NmYTXic43eZ079MFMN/790da12e5601438cc26e6c41aaf02def/lisapruijn.nl.png
+image: https://images.ctfassets.net/r26fkm24j6bh/2if1NmYTXic43eZ079MFMN/790da12e5601438cc26e6c41aaf02def/lisapruijn.nl.png
 repository: https://github.com/lisapruijn
 ---
 
