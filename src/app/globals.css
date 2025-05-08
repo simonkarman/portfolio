@@ -31,3 +31,14 @@ p {
     opacity: 1;
   }
 }
+
+/* Target only inline code (not inside pre) */
+.prose :not(pre) > code {
+  @apply bg-darkblue-100 bg-opacity-10 rounded px-1.5 py-0.5 text-sm font-mono;
+}
+
+/* Override any default styling for backticks if needed */
+.prose :not(pre) > code::before,
+.prose :not(pre) > code::after {
+  content: "" !important;
+}

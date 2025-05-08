@@ -2,48 +2,53 @@
 title: AVL Tree in Javascript
 date: '2015-06-16'
 contributors: Simon Karman
-description: An AVLTree implementation in JavaScript which is a self-balancing binary search tree.
+description: Implementation of an AVLTree (a self-balancing binary search tree) in JavaScript.
 tags:
   - javascript
   - jsimon
-  - utrechtuniversity
+  - utrecht-university
 image: https://images.ctfassets.net/r26fkm24j6bh/B5tuE5CbUo6lQ6CKKGJXf/7ec0012461acd8ae20c36d74a66540df/AVLTree.png
 download: https://assets.ctfassets.net/r26fkm24j6bh/XCSUXGqrqWrH2Uhgobq4X/e24c3568a9ee9d93060538e1d1f8b9d6/AVLTree.zip
 ---
 
-# Introduction
-The [AVLTree](https://en.wikipedia.org/wiki/AVL_tree) is a self-balancing binary search tree. In an AVL tree, the heights of the two child subtrees of any node differ by at most one; if at any time they differ by more than one, rebalancing is done to restore this property. Lookup, insertion, and deletion all take O(log n) time in both the average and worst cases, where n is the number of nodes in the tree prior to the operation. Insertions and deletions may require the tree to be rebalanced by one or more tree rotations.
+An [AVLTree](https://en.wikipedia.org/wiki/AVL_tree) is a self-balancing binary search tree. In an AVL tree, the heights of the two child subtrees of any node differ by at most one; if at any time they differ by more than one, a re-balance is performed to restore this property.
 
-I implemented this structure in JavaScript to add it to my JavaScript Game-Engine and Script Library.
+Lookup, insertion, and deletion all take `O(log n)` time in both the average and worst cases, where n is the number of nodes in the tree prior to the operation. Insertions and deletions may require the tree to be rebalanced by one or more tree rotations.
 
-My implementation of the AVLTree has the following public functions: clear, min, max, traverse, add, search, remove and removeNode. The description and usage of all these functions are given in the comments of the JavaScript file.
+I implemented this structure in JavaScript. This allowed be to add it to my JavaScript Game-Engine and Script Library, JSimon.
 
-The AVLTree can not just work with numbers, you can pass it any data-type as long as your write appropriate comparison and equality functions.
+My implementation of the AVLTree has the following public functions: `clear`, `min`, `max`, `traverse`, `add`, `search`, `remove` and `removeNode`. The description and usage of all these functions are given in the comments of the JavaScript file.
+
+The AVLTree is generic, this means that it not only functions with numbers, but you can pass it any data-type. As long as your write appropriate comparison and equality functions.
 
 ![AVL Tree with text](//images.ctfassets.net/r26fkm24j6bh/6Fni71IrQs3yXX4i1sljlB/968e2a9e264f92a13984807368f40d34/AVLTree1.png)
 
 The download contains the AVLTree.js, the AVLTree.min.js and a demo included in the Demo folder.
 
-# Live Demo
+## Live Demo
 A test environment for the self-balancing binary search tree.
-Press `<A>` to add a new node,
-Press `<LEFT>, <RIGHT> and <UP>` to navigate the tree,
-Press `<R>` to remove the currently selected node,
-Press `<C>` to clear the tree and press `<T>` to change the type of the tree from numbers to strings.
+- Press `<A>` to add a new node,
+- Press `<LEFT>`, `<RIGHT>` and `<UP>` to navigate the tree,
+- Press `<R>` to remove the currently selected node,
+- Press `<C>` to clear the tree and press `<T>` to change the type of the tree from numbers to strings.
 
 __TODO: Add live demo here!__
 
-# AVL Tree Javascript Implementation
+## Implementation
 My implementation of the AVL Tree in Javascript can be found in the code snippet below.
+
+<details>
+  <summary>Click to show code</summary>
+
 ```javascript
 // The file contatins the AVLTree class written by Simon Karman
 //
-// The AVLTree is a self-balancing binary search tree. In an AVL tree, 
+// An AVLTree is a self-balancing binary search tree. In an AVL tree, 
 //  the heights of the two child subtrees of any node differ by at most 
-//  one; if at any time they differ by more than one, rebalancing is 
-//  done to restore this property. Lookup, insertion, and deletion all 
-//  take O(log n) time in both the average and worst cases, where n is 
-//  the number of nodes in the tree prior to the operation. Insertions 
+//  one; if at any time they differ by more than one, a re-balance is 
+//  performed to restore this property. Lookup, insertion, and deletion 
+//  all take O(log n) time in both the average and worst cases, where n 
+//  is the number of nodes in the tree prior to the operation. Insertions 
 //  and deletions may require the tree to be rebalanced by one or more 
 //  tree rotations.
 //  (https://en.wikipedia.org/wiki/AVL_tree)
@@ -53,7 +58,7 @@ My implementation of the AVL Tree in Javascript can be found in the code snippet
 //  (Simon Karman) credit.
 //
 // Last Modified - 16 juni 2015
-// (http://www.simonkarman.nl)
+// (https://www.simonkarman.nl)
  
 (function(global){
  
@@ -491,3 +496,5 @@ My implementation of the AVL Tree in Javascript can be found in the code snippet
     global.AVLTree = AVLTree;
 })(this);
 ```
+
+</details>

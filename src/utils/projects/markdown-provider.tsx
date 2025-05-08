@@ -41,7 +41,10 @@ export class MarkdownProvider implements Provider {
     const projectMarkdownFilePath = path.join(process.cwd(), `${this.directory}/${project.slug}.md`);
     const file = fs.readFileSync(projectMarkdownFilePath, 'utf-8');
     const { content } = matter(file);
-    return <div className='mx-auto prose prose-lg prose-pre:p-0 prose-pre:border prose-pre:border-gray-100'>
+    return <div className='mx-auto prose prose-lg
+                           prose-pre:p-2 prose-pre:border prose-pre:border-gray-100 prose-pre:bg-gray-50
+                           prose-img:mx-auto prose-img:max-h-[60vh] prose-img:max-w-[90%] prose-img:rounded-lg prose-img:border
+                           '>
       <ReactMarkdown
         rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeHighlight]}
         remarkPlugins={[remarkGfm]}

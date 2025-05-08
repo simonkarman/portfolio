@@ -35,7 +35,7 @@ The server and viewer are both written in JavaScript. The server build using Exp
 
 The servers main functionality lies around pull cloud formation stacks from the aws account. In the code snippet below you can see the definition of the `/aws/pull` endpoint. Based on the baseStackName you provide in the body (for example `company-#-application-stack`) it will try to find all stacks on the AWS account you're currently logged into (for example `company-tst-application-stack` and `company-acc-application-stack`).
 
-```
+```javascript
 app.post('/aws/pull', (req, res) => {
   const baseStackName = req.body.baseStackName;
   pull(baseStackName)

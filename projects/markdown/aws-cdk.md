@@ -11,9 +11,6 @@ image: https://images.ctfassets.net/r26fkm24j6bh/6LUP03UxPpzGdKotFgn9eS/4b83f61f
 repository: https://github.com/simonkarman/cdk-vs-serverless-framework
 ---
 
-# Using AWS CDK to manage your infrastructure in AWS
-
-## Abstract
 Creating and maintaining application infrastructure in a cloud environment can be time consuming and a difficult process. A tool that allows us to deploy and update these resources from a parameterized template is a very powerful utility. Utilizing such a tool is commonly referred to Infrastructure as Code (IaC). A variety of awesome IaC tools exist for the Amazon Web Services (AWS) cloud. Most of these are focussed on writing configuration files, and are less focussed on writing actual source code in a programming language. In this article I would like to explain why I think writing your infrastructure as source code (IaSC) is a good idea and show that the AWS Cloud Development Kit (AWS CDK) is a great example of this.
 
 ## Simon Karman

@@ -7,7 +7,7 @@ tags:
   - csharp
   - simulator
   - unity
-  - utrechtuniversity
+  - utrecht-university
 image: https://images.ctfassets.net/r26fkm24j6bh/3357TgaC6Cbv9Yo26WnLIk/15c254f2b685aa88076f908c098b1e7f/ProjectInfurnace.png
 download: https://downloads.ctfassets.net/r26fkm24j6bh/qmr2QivPUuXSs285C25Wj/d27016be34004ff58d16d0fe5976986b/ProjectInfurnace.zip
 documentation: https://assets.ctfassets.net/r26fkm24j6bh/70EAOfV5gnrBs0gDjpn4nk/7dc365f83de6c9fd4cc2e1f49415e788/Agent-Based_Fire_Disaster_Simulator_Report.pdf

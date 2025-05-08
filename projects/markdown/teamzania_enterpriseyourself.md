@@ -1,12 +1,13 @@
 ---
 title: Teamzania Enterprise Yourself
 date: '2015-12-20'
-contributors: Simon Karman, Jochem van der Lof, Suus Looijen, Thomas Groot Zwaaftink and Jasper Hutte
+#contributors: Simon Karman, Jochem van der Lof, Suus Looijen, Thomas Groot Zwaaftink and Jasper Hutte
+contributors: Simon, Jochem, Suus, Thomas and Jasper
 description: The prototype game I created at the Utrecht University in collaboration with the HKU for Plan International for the unemployed youth in Tanzania.
 tags:
   - game
   - tanzania
-  - utrechtuniversity
+  - utrecht-university
 image: https://images.ctfassets.net/r26fkm24j6bh/21eUbi4q0rEPVyMGDgVKNQ/7ca0ea1c061453e5621c550b4b0ee91e/teamzania1.jpg
 download: https://downloads.ctfassets.net/r26fkm24j6bh/3x8mFB5dXWcDsLtssPV20n/2337c816757f7dff01dfe1b33387c8a5/teamzania_presskit.zip
 ---

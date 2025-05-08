@@ -34,17 +34,17 @@ You can download **Node** here: [https://nodejs.org/en/](https://nodejs.org/en/)
 
 After downloading and installing these programs you should be able to open VS Code. In the top bar you can click on `Terminal` -> `New Terminal` to open a new terminal (Ctrl + Shift + `). In this terminal you should be able to use both git and Node. You can verify this by running the following two commands.
 
-```
-$ git --version
-$ node --version
+```bash
+git --version
+node --version
 ```
 
 If they are installed correctly you should see the version information of both tools.
 
-Now its team to install the framework that we'll be using to develop the webpage, React. React is a library for building user interfaces. More information on React can be found here: [https://reactjs.org/](https://reactjs.org/). To install React run the following command from the terminal.
+Now its time to install the framework that we'll be using to develop the webpage, React. React is a library for building user interfaces. More information on React can be found here: [https://reactjs.org/](https://reactjs.org/). To install React run the following command from the terminal.
 
-```
-$ npx create-react-app my-website --template typescript
+```bash
+npx create-react-app my-website --template typescript
 ```
 
 In the above command you can replace `my-website` with the name of your website. For example: `lisapruijn.nl`. This will create a new directory in which it will setup a git repository, node project, and install the required typescript and react dependencies you need. You can read more about the TypeScript language here: [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
@@ -53,8 +53,8 @@ First open the directory you just created with the npx command in VS Code. You c
 
 You should now be able to start your local development server on your local machine by running the following command.
 
-```
-$ npm start
+```bash
+npm start
 # then visit http://localhost:3000 to view your website
 ```
 
@@ -62,10 +62,10 @@ If you now change the `src/index.tsx` by replacing the placeholder text with som
 
 If you're happy with your changes you can either use the Source Control manager in VS Code (under Ctrl + Shift + G) or use Git from the commandline. To use git from the commandline run the following commands to add, commit, and push your code.
 
-```
-$ git add --all
-$ git commit -m "My first changes"
-$ git push
+```bash
+git add --all
+git commit -m "My first changes"
+git push
 ```
 
 When pushing the code to git you'll notice that an error will pop up. This is because we havent setup a repository to push or code to yet. This is what we'll do in the next section.
@@ -79,22 +79,22 @@ Once you have created your account and logged into the website you can create a 
 
 Once you have created your repository you should see a command that looks like the command below. Please replace the `your name` and `your repository name` (including `<>`) with the actual values and run the command in your terminal. This adds the just created repository as one of the remotes of your local repository.
 
-```
-$ git remote add origin https://github.com/<your name>/<your repository name>.git
+```bash
+git remote add origin https://github.com/<your name>/<your repository name>.git
 ```
 
 After doing this, you should be able to push your changes to you repository. You can do this by running the following command.
 
-```
-$ git push -u origin main
+```bash
+git push -u origin main
 ```
 
 If you now visit your GitHub account in the browser you should be able to find your code and changes there. Now every time you make changes locally and have verified they look good on your local machine (with `npm start`). You can use the following three commands to push your changes to your git repository.
 
-```
-$ git add --all
-$ git commit -m "An explanation of the changes that were made"
-$ git push
+```bash
+git add --all
+git commit -m "An explanation of the changes that were made"
+git push
 ```
 
 ## Hosting
@@ -117,7 +117,7 @@ Once you have bought and registered your domain you can go to `Dashboard` -> `Do
 
 To configure the DNS in such a way to point to our Netlify app you'll have to add the following two DNS records:
 
-```
+```txt
 @ A 104.198.14.52 0 3600
 www A 104.198.14.52 0 3600
 ```
@@ -129,7 +129,7 @@ More information on how to setup your DNS records for Netlify can be found here:
 After you have setup your DNS records in NeoStrada you can go back to Netlify to add you domain name as the primary domain of your projects. Once you have done that you can scroll to the bottom of the page to enable TLS (Transport Layer Security) for your websites, which ensure your visitors will visit your website securly using an HTTPS connection. It can take a bit of time before the generation of the certificate succeeds, please try again after 1 and 24 hours.
 
 ## Final Remarks
-Now every time that you make changes on your local machine, commit those changes, and then push that to your repository your website should update within a few minutes.
+Now every time that you make changes on your local machine, commit those changes, and then push that to your repository. Your website should update within a few minutes.
 
 The next steps! For those new to HTML you can read this excellent article on how to get started [websiteplanet.com/blog/html-guide-beginners](https://www.websiteplanet.com/blog/html-guide-beginners/)
 

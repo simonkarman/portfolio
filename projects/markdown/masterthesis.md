@@ -6,7 +6,7 @@ description: Generating Sokoban Levels that are Interesting to Play using Simula
 tags:
   - pcg
   - csharp
-  - utrechtuniversity
+  - utrecht-university
   - sokoban
 image: https://images.ctfassets.net/r26fkm24j6bh/13OS0IqwHpGPU8OKWkunZP/814fe787a966076f098c78735c1304bc/sokoban_banner.png
 documentation: https://assets.ctfassets.net/r26fkm24j6bh/4cK9QOfIHKt3SBe2q3dXG0/3d6bf0dce069641deb4d88d2ce62e2df/masterthesis_simonkarman.pdf

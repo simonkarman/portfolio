@@ -9,6 +9,12 @@ export const ProjectSchema = z.object({
   description: z.string(),
   tags: z.array(z.string().regex(/^[a-zA-Z0-9-]+$/)),
   image: z.string(),
+
+  // Some optional project fields
+  documentation: z.string().optional(),
+  download: z.string().optional(),
+  repository: z.string().optional(),
+  demo: z.string().optional(),
 });
 
 export type Project = {

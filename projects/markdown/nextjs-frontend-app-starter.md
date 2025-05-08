@@ -44,7 +44,7 @@ The React framework I decided to work with is [Next.js](https://nextjs.org/), wh
 TypeScript. While a few years ago TypeScript support for libraries was sometimes lacking, nowadays TypeScript has been fully adopted. TypeScript provides benefits that are a necessity in a modern way of working. It ensures type safety, code completion, integrated documentation, and improved refactoring.
 
 Below is an example of a Page component in Next.js written in TypeScript:
-```ts
+```tsx
 const HomePage: NextPage = () => (
   <>
     <h1>Welcome!</h1>
@@ -147,7 +147,7 @@ A combination of both works best in most cases: Pre-generate the pages, but dyna
 For styling I used [Styled Components](https://styled-components.com/). What's great about styled components is that it really fits well into the component based approach of React, which makes it easy to create your own custom style library. Styled components comes out of the box with a great color scheme and a grid layout system.
 
 An example of a styled component can be seen below:
-```ts
+```tsx
 // Define a Box with shadow, which is a div
 const Box = styled.div`
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
@@ -169,12 +169,9 @@ const Page = () => (
 
 Next.js has to understand that styled-components are being used. You can do this by adding the `styled-components` plugin the the `.babelrc` file.
 
-```json5
-# in '.babelrc'
+```json
 {
-  ...
   "plugins": [
-    ...
     [
       "styled-components",
       {
@@ -182,8 +179,7 @@ Next.js has to understand that styled-components are being used. You can do this
         "displayName": true,
         "preprocess": false
       }
-    ],
-    ...
+    ]
   ]
 }
 ```
@@ -207,7 +203,7 @@ When working on React project I generally use Visual Studio Code. Within VS Code
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 
 You can also enable fixing linting errors everytime you save a file in VSCode by adding the following to your VSCode settings file (`.vscode/settings.json`):
-```
+```json
 {
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
