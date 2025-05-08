@@ -7,7 +7,7 @@ tags:
   - pcg
   - game
   - unity
-  - c#
+  - csharp
 image: https://images.ctfassets.net/r26fkm24j6bh/4ISlSHyjR6k0cag8OqkQ2I/a59c00a43d860372ae20158aaf7b241d/radic.png
 download: https://downloads.ctfassets.net/r26fkm24j6bh/3mBpYJq93GkIk26oqE6Mcu/59cb85a7d73ea2773ebecd52f60b2a20/radic.zip
 ---

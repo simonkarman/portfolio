@@ -5,7 +5,7 @@ contributors: Simon Karman
 description: Generating Sokoban Levels that are Interesting to Play using Simulation.
 tags:
   - pcg
-  - c#
+  - csharp
   - utrechtuniversity
   - sokoban
 image: https://images.ctfassets.net/r26fkm24j6bh/13OS0IqwHpGPU8OKWkunZP/814fe787a966076f098c78735c1304bc/sokoban_banner.png

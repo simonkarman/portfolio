@@ -6,7 +6,7 @@ description: A C# library that provides networking logic for multiplayer games.
 tags:
   - networking
   - unity
-  - c#
+  - csharp
 image: https://images.ctfassets.net/r26fkm24j6bh/WG2ExfucfnyicCRIMSdk3/81278b98d72ff0dae59be3cfd2e53804/multiplayer.jpg
 repository: https://github.com/simonkarman/karmannet
 ---

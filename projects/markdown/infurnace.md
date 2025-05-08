@@ -4,7 +4,7 @@ date: '2015-07-03'
 contributors: Simon Karman, Geert Lugtenberg, Kevin Kessels and Bas Geerts
 description: Infurnace is an agent-based fire disaster simulator created for the Games and Agents course on the Utrecht University
 tags:
-  - c#
+  - csharp
   - simulator
   - unity
   - utrechtuniversity

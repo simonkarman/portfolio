@@ -5,7 +5,7 @@ contributors: Team maeT
 description: My entry for the Global Game Jam 2018.
 tags:
   - globalgamejam
-  - c#
+  - csharp
   - unity
 image: https://images.ctfassets.net/r26fkm24j6bh/5FzoKZIIWn06XZi4YUd2ZM/6bfef1c6287447ccee7d5be4e59c112e/orbital.png
 repository: https://globalgamejam.org/2018/games/orbital

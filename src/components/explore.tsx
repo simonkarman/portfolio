@@ -22,8 +22,8 @@ export async function Explore() {
       href={`/projects?q=tag:${tag}`}
     >
       <div
-        className={`${getTagClassesBy(count)} py-2 border border-dashed border-gray-200 hover:border-gray-400 text-darkblue-500 rounded-3xl
-                   bg-gradient-to-br from-white via-gray-50 to-gray-100 hover:via-gray-50 hover:to-gray-300`}
+        className={`${getTagClassesBy(count)} py-2 border rounded border-gray-200 hover:border-gray-400 text-darkblue-500
+                   bg-gray-50 hover:bg-gray-100`}
       >
         {tag}
       </div>

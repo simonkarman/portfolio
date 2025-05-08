@@ -5,7 +5,7 @@ contributors: Simon Karman
 description: Technical demonstration of a seemingly infinite Voronoi diagram.
 tags:
   - pcg
-  - c#
+  - csharp
   - unity
 image: https://images.ctfassets.net/r26fkm24j6bh/7JyVjxxdGpW2ZykrE9pmi0/4d729c414bc972760edcd92a4e5e74fd/infinitevoronoi.png
 repository: https://bitbucket.org/simonkarman/simsourcer/src/default/Assets/Libraries/InfiniteVoronoiConstructor/

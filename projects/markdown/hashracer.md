@@ -7,7 +7,7 @@ tags:
   - game
   - unity
   - pcg
-  - c#
+  - csharp
 image: https://images.ctfassets.net/r26fkm24j6bh/vy7qo3RcpUYCYmCU6u2e6/eede6a18792568c498dc39a2751dfea6/HashRacer.png
 download: https://downloads.ctfassets.net/r26fkm24j6bh/36x7H9XxFeMUgm2K8Giyu0/f52aeeee66be047ffb4a5532741adacf/HashRacer.zip
 ---

@@ -6,7 +6,7 @@ description: A step-wise Maze Generator that can generate unique mazes using a b
 tags:
   - pcg
   - unity
-  - c#
+  - csharp
 image: https://images.ctfassets.net/r26fkm24j6bh/IVNSXzVdamUUOYEkm6cSE/463eaa1838e601758a9cadcb9951754b/maze.png
 download: https://assets.ctfassets.net/r26fkm24j6bh/1mLORpowwMY4wqc2mQ8Mg2/ec6e2c609cb3f33b424a5e877b26e3d8/MazeGenerator.zip
 ---

@@ -5,7 +5,7 @@ contributors: Galactic Jellyfish
 description: Tummy Tumblers is my entry for the Global Game Jam 2017.
 tags:
   - game
-  - c#
+  - csharp
   - unity
   - globalgamejam
 image: https://images.ctfassets.net/r26fkm24j6bh/2lCHX456SwaletBvALshWE/f5b70fe8c02afec16a9fd628cb0d76b0/tummytumblers.png

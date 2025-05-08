@@ -5,7 +5,7 @@ contributors: Simon Karman
 description: A mesh generator that will generate a mesh along a curve. The generator will create a smoothed and parameterized mesh that will go through the points you provide.
 tags:
   - pcg
-  - c#
+  - csharp
   - unity
 image: https://images.ctfassets.net/r26fkm24j6bh/322aANGtvWu2WKKsw6yK4m/c0406c2f8239d70ad83d011d123e172b/smart_tangents.png
 download: https://assets.ctfassets.net/r26fkm24j6bh/4Sh7FOpZ0s8EEUIKYsGQoY/a1ca173eafbf505559fe08f7dca5e2ff/roadgenerator.zip

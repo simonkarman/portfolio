@@ -6,7 +6,7 @@ description: A Vulcano Island Generator I created for my bachelors course Proced
 tags:
   - pcg
   - unity
-  - c#
+  - csharp
   - hva
 image: https://images.ctfassets.net/r26fkm24j6bh/gvIgvzRLz2IiiQuoMWAKY/f0336602c728a248ec6fa6cd13c85871/VulcanoIsland.png
 download: https://downloads.ctfassets.net/r26fkm24j6bh/6CoSzyrBBuwSs4kiqqUwKq/a976aa5fcf55cfd636c5475abdd6625a/VulcanoIsland.zip

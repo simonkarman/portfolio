@@ -5,7 +5,7 @@ contributors: Sneaky Ninjas
 description: The game I created together with my team at the Global Game Jam 2016 in Amsterdam at the HvA location.
 tags:
   - game
-  - c#
+  - csharp
   - unity
   - globalgamejam
 image: https://images.ctfassets.net/r26fkm24j6bh/2KTntxbqF5OsjCWheWDmRc/259da459b9a64b076d52ebf53a4cb477/splashscreen.png

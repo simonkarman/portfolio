@@ -24,15 +24,13 @@ export class MarkdownProvider implements Provider {
         const content = fs.readFileSync(`${this.directory}/${file}`, 'utf-8');
         const data = matter(content).data;
         const slug = file.slice(0, file.length - 3);
-        return ProjectSchema.safeParse({ ...data, slug });
-      })
-      .filter(safeProject => {
+        const safeProject = ProjectSchema.safeParse({ ...data, slug });
         if (!safeProject.success) {
-          console.error(`Invalid project data: ${safeProject.error}`);
-          return false;
+          console.error(`Markdown Provider found invalid markdown file: ${file}. Reason: ${safeProject.error}`);
         }
-        return safeProject.success;
+        return safeProject;
       })
+      .filter(safeProject => safeProject.success)
       .map(safeProject => ({
         ...safeProject.data!,
         providerName: 'markdown',

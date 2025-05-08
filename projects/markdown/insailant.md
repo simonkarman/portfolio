@@ -6,7 +6,7 @@ description: Endless-runner Horror Survival Game created by Purple Panda at the 
 tags:
   - game
   - globalgamejam
-  - c#
+  - csharp
   - unity
 image: https://images.ctfassets.net/r26fkm24j6bh/5erzfipBXiaQwCg2IsK0e6/5d5fa049a1bcc1ec4bea8780fe0ceba4/insailant.png
 repository: https://globalgamejam.org/2014/games/insailant

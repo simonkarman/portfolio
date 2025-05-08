@@ -4,8 +4,8 @@ date: '2015-01-07'
 contributors: Simon Karman and Kevin Kessels
 description: Raytracer we created for the Advanced Graphics course during my master
 tags:
-  - c++
-  - anti-aliassing
+  - cplusplus
+  - anti-aliasing
 image: https://images.ctfassets.net/r26fkm24j6bh/1NfW43sd04gsoUqAwKs0AO/96cce14377b5824b15df0a1c9fdcf896/raytracer.png
 download: https://assets.ctfassets.net/r26fkm24j6bh/4qxspDcQGIE4ueC8IQSIG0/bdadfeb24822d895c27785455d36a4f4/raytracer.zip
 documentation: https://assets.ctfassets.net/r26fkm24j6bh/yetm9q9FAG8Mq2MyAUkeQ/29208a0ac94c5117230db559c0b0306f/raytracer.pdf

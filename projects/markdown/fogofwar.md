@@ -5,7 +5,7 @@ contributors: Simon Karman
 description: An Unity utility to show an Age of Empires II alike fog of war in your game.
 tags:
   - unity
-  - c#
+  - csharp
 image: https://images.ctfassets.net/r26fkm24j6bh/Gbt3Ga5zMq68KWciWwgam/6eb4116f9766064f3f7f58374f9900d3/unity_fogofwar.png
 download: https://assets.ctfassets.net/r26fkm24j6bh/1JwJgZB5x60ummwemkSEkc/321edc43325c2953e93fad95a09b0323/unity_fogofwar.zip
 ---

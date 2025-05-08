@@ -6,7 +6,7 @@ description: A hex-based town building game.
 tags:
   - game
   - android
-  - c#
+  - csharp
   - unity
 image: https://images.ctfassets.net/r26fkm24j6bh/C3LfPW2buLK4HfHJnN5hF/2755d5fc131a3394f7d4f39d3c43320b/exploramon.jpg
 download: https://downloads.ctfassets.net/r26fkm24j6bh/qALPZkzJT8ilo2MsPbqIq/125f2100e2b3210c8493afe5009eeac9/Exploramon_Android_Build.apk

@@ -5,7 +5,7 @@ contributors: Suus Looijen, Mangle Moose and Simon Karman
 description: The Magical Adventures of Luna a short fairytale that is told via an interactive book.
 tags:
   - game
-  - c#
+  - csharp
   - unity
 image: https://images.ctfassets.net/r26fkm24j6bh/2t15OlKCbwW1b5MV5PsBEc/7bdb966661148af060e11ea079b29de9/bookflip.png
 download: https://downloads.ctfassets.net/r26fkm24j6bh/6WBynAn7JOPii8C3zOZcMN/56ff2c59e8f5080ceb6432ea9effc5cf/bookflip_version_0.61.zip

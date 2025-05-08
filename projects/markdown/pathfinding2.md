@@ -5,7 +5,7 @@ contributors: Simon Karman and Jorn Theunissen
 description: A demo application for the path-finding algorithm A*
 tags:
   - a-star
-  - c#
+  - csharp
   - pathfinding
   - xna
   - hva

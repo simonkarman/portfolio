@@ -2,7 +2,7 @@ import { z } from 'zod';
 import { ProviderName } from './providers';
 
 export const ProjectSchema = z.object({
-  slug: z.string().regex(/^[a-zA-Z0-9-]+$/),
+  slug: z.string().regex(/^[a-zA-Z0-9-_]+$/),
   title: z.string(),
   date: z.string().date(),
   contributors: z.string(),

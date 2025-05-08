@@ -16,7 +16,7 @@ export const Card = (props: PropsWithChildren<CardProps>) => {
   const bg = props.overrideBackgroundClassName ? props.overrideBackgroundClassName : 'bg-gray-50';
   const tags = useMemo(() => {
     const _tags = props.tags ?? [];
-    return _tags.filter(tag => tag !== undefined);
+    return _tags.filter((tag, index) => tag !== undefined && _tags.indexOf(tag) === index);
   }, [props.tags]);
 
   return (
@@ -54,8 +54,8 @@ export const Card = (props: PropsWithChildren<CardProps>) => {
           </div>
           <div className="flex flex-wrap justify-end mx-6 mb-4">
             {tags.map((tag) => (
-              <span key={tag} className="inline-block rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2
-                   border border-dashed border-gray-200 text-darkblue-500 bg-gradient-to-br from-white via-gray-50 to-gray-100">
+              <span key={tag} className="inline-block rounded px-3 py-1 text-sm font-semibold mr-2 mb-2
+                   border border-gray-200 text-darkblue-500 bg-gray-50">
                 {tag}
               </span>
             ))}

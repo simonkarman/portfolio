@@ -4,7 +4,7 @@ date: '2013-03-22'
 contributors: Simon Karman
 description: A chatlog viewer for Xfire with easy access to all your contacts and your conversations.
 tags:
-  - c#
+  - csharp
   - windowsforms
 image: https://images.ctfassets.net/r26fkm24j6bh/4GBDmJ7ETm202asG4gQEuU/6d846f606e56c4a55f25678c77f88985/xfirechatlogviewer.png
 download: https://assets.ctfassets.net/r26fkm24j6bh/2fsLnw64e0aKMuOQ8yQyaa/6bdf1ccdca3b98baa75231c033d6f90b/xfire_chatlogviewer.zip

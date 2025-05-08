@@ -6,7 +6,7 @@ description: An endless cave generation algorithm I created in Unity. It only us
 tags:
   - pcg
   - unity
-  - c#
+  - csharp
 image: https://images.ctfassets.net/r26fkm24j6bh/1DHibXkiKUAqEogK4Eia62/ff224b84053c9ed9e8b128879db34e7f/segments.png
 download: https://downloads.ctfassets.net/r26fkm24j6bh/1dXkpv5ylKCeWOaSCU2mqs/6dd6aadc2981a8a21d50d87677ffab0b/EndlessRunner_CaveGeneration_SimonKarman.zip
 ---

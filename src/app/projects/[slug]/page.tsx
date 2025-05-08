@@ -23,8 +23,8 @@ export default async function Project(props: { params: Promise<{ slug: string }>
           {project.tags.map(tag => <Link
             key={tag}
             href={`/projects?q=tag:${tag}`}
-            className={`text-sm sm:text-base px-3 inline-block border border-gray-200 hover:border-gray-400 text-darkblue-500 rounded-3xl
-                     bg-gradient-to-br from-white via-gray-50 to-gray-100 hover:via-gray-50 hover:to-gray-300`}>
+            className={`text-sm md:text-base px-2 py-0.5 inline-block border border-darkblue-300 hover:border-darkblue-100 rounded
+                     bg-darkblue-600 hover:bg-darkblue-300 bg-opacity-40`}>
             {tag}
           </Link>)}
         </div>
@@ -36,7 +36,7 @@ export default async function Project(props: { params: Promise<{ slug: string }>
       <Image
         src={project.image} alt={project.description}
         fill={true} objectFit='cover'
-        className='z-[1] blur-sm opacity-50'
+        className='z-[1] blur-sm opacity-40'
       />
     </div>
     <div className='bg-white px-5 py-10'>

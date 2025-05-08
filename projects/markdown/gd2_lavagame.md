@@ -6,7 +6,7 @@ description: A 3D platformer game I created during my bachelor for the Game Desi
 tags:
   - unity
   - game
-  - c#
+  - csharp
   - hva
 image: https://images.ctfassets.net/r26fkm24j6bh/4Kx5vSnkrC8CeGusyooeoa/39e0407101c20b16b18e62ce195083dd/gd2_lavagame.png
 download: https://assets.ctfassets.net/r26fkm24j6bh/6AvsIyfjgcYiuYGaQoi0ca/726c37b7bb3c6f2275d0ed241c0e6889/gd2_lavagame.zip

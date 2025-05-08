@@ -4,7 +4,7 @@ date: '2012-03-19'
 contributors: Simon Karman and Jorn Theunissen
 description: Demo application showing Flocking behaviour
 tags:
-  - c#
+  - csharp
   - hva
 image: https://images.ctfassets.net/r26fkm24j6bh/7LWCktzA2IuyYQ4ySmGwwG/375176d90d5fef1ce0b1941aa3d317b9/ai_flocking.png
 download: https://assets.ctfassets.net/r26fkm24j6bh/w2p4pv2tygM0gqg8eCuWI/134af9542b62f6b87c2523fcce82d6ac/ai_flocking.zip

@@ -7,7 +7,7 @@ tags:
   - networking
   - game
   - unity
-  - c#
+  - csharp
 image: https://images.ctfassets.net/r26fkm24j6bh/zkP9m1C3GbImm6eTODZDU/19c06701a9b28b07396a4d0d25ed8429/join-ui.png
 repository: https://github.com/simonkarman/b11-party
 download: https://downloads.ctfassets.net/r26fkm24j6bh/kvwrkAoBUh0RF7EpvY4KQ/9a428d476c5e9a2e0a4356155d2cdf4e/b11-party-windows-1.1.0.zip

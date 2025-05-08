@@ -7,7 +7,7 @@ tags:
   - networking
   - unity
   - game
-  - c#
+  - csharp
 image: https://images.ctfassets.net/r26fkm24j6bh/20lt7yKvsO9se9ljVkWIyj/0be6691a73c84d8114b77ff923ba956d/bussen.png
 repository: https://github.com/simonkarman/b11-party/releases/tag/v1.1.0
 download: https://downloads.ctfassets.net/r26fkm24j6bh/kvwrkAoBUh0RF7EpvY4KQ/9a428d476c5e9a2e0a4356155d2cdf4e/b11-party-windows-1.1.0.zip
