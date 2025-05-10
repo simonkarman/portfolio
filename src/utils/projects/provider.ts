@@ -1,9 +1,9 @@
 'use server';
 
-import { Project } from './project';
+import { ProjectWithoutProviderName } from './project';
 import { ReactElement } from 'react';
 
 export interface Provider {
-  getProjects(): Promise<Project[]>;
-  render(project: Project): ReactElement;
+  getProjects(): Promise<ProjectWithoutProviderName[]>;
+  render(project: ProjectWithoutProviderName): ReactElement;
 }

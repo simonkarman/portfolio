@@ -53,8 +53,8 @@ export default async function Project(props: { params: Promise<{ slug: string }>
         </div>
         <Image
           src={project.image} alt={project.description}
-          fill={true} objectFit='cover'
-          className='z-[1] blur-sm opacity-40'
+          fill={true}
+          className='z-[1] blur-sm opacity-40 object-cover'
         />
       </div>
     </div>

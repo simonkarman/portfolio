@@ -1,6 +1,6 @@
 'use client';
 
-import { Project } from '@/utils/projects/project';
+import { ProjectWithProviderName } from '@/utils/projects/project';
 import { useSearchParams } from 'next/navigation';
 import { use, useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
@@ -10,13 +10,13 @@ import { Card } from '@/components/card';
 import { SearchBar } from '@/app/projects/search-bar';
 import { DateTime } from 'luxon';
 
-export function FilterableProjectsWithSearchFromParams(props: { projects: Promise<Project[]> }) {
+export function FilterableProjectsWithSearchFromParams(props: { projects: Promise<ProjectWithProviderName[]> }) {
   const searchParams = useSearchParams();
   const initialQuery = searchParams.get('q') || '';
   return <FilterableProjects projects={props.projects} initialQuery={initialQuery} />;
 }
 
-export function FilterableProjects(props: { initialQuery: string, projects: Promise<Project[]> }) {
+export function FilterableProjects(props: { initialQuery: string, projects: Promise<ProjectWithProviderName[]> }) {
   const [searchFilter, setSearchFilter] = useState(props.initialQuery);
   const [simpleView, setSimpleView] = useState(false);
   const [numberOfYearsShowing, setNumberOfYearsShowing] = useState(2);
@@ -38,7 +38,11 @@ export function FilterableProjects(props: { initialQuery: string, projects: Prom
     if (inView && !simpleView) {
       setNumberOfYearsShowing(prev => prev + 1);
     }
-  }, [inView, simpleView]);
+  }, [inView, simpleView, searchFilter]);
+
+  useEffect(() => {
+    setNumberOfYearsShowing(2);
+  }, [searchFilter]);
 
   const matches = (needle: string, prefix: string, haystack: string) => {
     needle = needle.toLowerCase();
@@ -72,7 +76,7 @@ export function FilterableProjects(props: { initialQuery: string, projects: Prom
       />
 
       {filteredProjectsPerYear
-        .slice(0, (!simpleView && searchFilter.length === 0) ? numberOfYearsShowing : filteredProjectsPerYear.length)
+        .slice(0, simpleView ? filteredProjectsPerYear.length : numberOfYearsShowing)
         .map(projectsOfYear => (
           <div key={projectsOfYear.year} className="w-full p-5">
             <h2 className="border-b font-bold text-2xl lg:text-xl my-3 px-2 pb-1 text-center">
@@ -121,14 +125,14 @@ export function FilterableProjects(props: { initialQuery: string, projects: Prom
           </div>
         ))}
 
-      {!simpleView && filteredProjectsPerYear.length > numberOfYearsShowing && (
+      {!simpleView && filteredProjectsPerYear.length >= numberOfYearsShowing && (
         <div ref={ref} className="w-full">
           <h2 className="border-b font-bold text-2xl lg:text-xl my-3 px-2 text-center">
             Loading...
           </h2>
           <div className="flex flex-wrap">
-            <Card image={{ src: '/loading.png', alt: 'Loading' }} title="Loading more projects..."/>
-            <Card image={{ src: '/loading.png', alt: 'Loading' }} title="Loading more projects..."/>
+            <Card image={{ src: '/card.jpg', alt: 'Loading' }} title="Loading more projects..."/>
+            <Card image={{ src: '/card.jpg', alt: 'Loading' }} title="Loading more projects..."/>
           </div>
         </div>
       )}

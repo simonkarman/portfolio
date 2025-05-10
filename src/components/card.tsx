@@ -27,9 +27,8 @@ export const Card = (props: PropsWithChildren<CardProps>) => {
             <Image
               src={image.src}
               alt={image.alt}
-              layout="fill"
-              objectFit="cover"
-              className="mb-4 opacity-75"
+              fill={true}
+              className="mb-4 opacity-75 object-cover"
             />
           </div>
           <div className="px-6 py-4">

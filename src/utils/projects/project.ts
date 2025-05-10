@@ -17,6 +17,7 @@ export const ProjectSchema = z.object({
   demo: z.string().optional(),
 });
 
-export type Project = {
+export type ProjectWithoutProviderName = z.infer<typeof ProjectSchema>;
+export type ProjectWithProviderName = {
   providerName: ProviderName,
-} & z.infer<typeof ProjectSchema>;
+} & ProjectWithoutProviderName;
