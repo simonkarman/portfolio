@@ -20,7 +20,7 @@ In this article we’re going to identify the important metric(s) that we can us
 # Identify important metrics
 To identify which metric(s) could be used when a cluster is overloaded, we did a load test. We started out load testing (in the graph at 14:10) to see which metrics would significantly change and noticed that the `aws.kafka.request_handler_avg_idle_percent` metric changed significantly as the load increased (shown in the graph below).
 
-![A graph displaying the `aws.kafka.request_handler_avg_idle_percent` metric by broker](//images.ctfassets.net/r26fkm24j6bh/6HbtnrM5TY1pQsxGVL6L8v/cda687b2f417e0ba73846e727b389887/request-handler-graph.png)
+![A graph displaying the `aws.kafka.request_handler_avg_idle_percent` metric by broker](https://images.ctfassets.net/r26fkm24j6bh/6HbtnrM5TY1pQsxGVL6L8v/cda687b2f417e0ba73846e727b389887/request-handler-graph.png)
 
 The Kafka topic we used for the load test only used a single partition, this means that a single broker would receive all the load and this made it simpler to make performance comparisons with other brokers. During the load test, we saw that the single broker became saturated during the load test using the `aws.kafka.request_handler_avg_idle_percent metric`, thus it was a decent indicator for an unhealthy Kafka broker and a generally slow Kafka cluster.
 
@@ -35,7 +35,7 @@ If a subset of brokers are struggling, it could indicate that a topic is not cor
 
 Since the Kafka topic we used for our load test had a single partition, it was overloading one broker. By upping the partitions to 2, we spread the load more evenly accross the different brokers. Not only did this reduce the pressure on the request handler of the broker (in the graph at 15:15), but, even the Kafka cluster throughput increased, as multiple brokers could now concurrently handle the work of this topic.
 
-![A graph displaying the `aws.kafka.messages_in_per_sec by broker_id` metric by broker](//images.ctfassets.net/r26fkm24j6bh/6JTkXF0cxoypxQgvIAwRIV/e2a7500fe7199c170a02c7df6c53c90f/messages-in-graph.png)
+![A graph displaying the `aws.kafka.messages_in_per_sec by broker_id` metric by broker](https://images.ctfassets.net/r26fkm24j6bh/6JTkXF0cxoypxQgvIAwRIV/e2a7500fe7199c170a02c7df6c53c90f/messages-in-graph.png)
 
 # Conclusion
 We have shown that the `aws.kafka.request_handler_avg_idle_percent` metric indicates whether a broker is struggling. Therefore, by creating monitors, we can track this metric from each broker and see whether its value drops below 0.2 (20%).

@@ -18,7 +18,7 @@ Terraevi is a simple framework of a text based adventure game. It is build by Si
 
 In the game you play as a travellar and make all decisions as you walk around through the old town you grew up in.
 
-![Terraevi Job](//images.ctfassets.net/r26fkm24j6bh/5E78nQ0hxNodBFnY3K0C5/7988fb9fe5124a1d789b589c283636a4/terraevi-job.png)
+![Terraevi Job](https://images.ctfassets.net/r26fkm24j6bh/5E78nQ0hxNodBFnY3K0C5/7988fb9fe5124a1d789b589c283636a4/terraevi-job.png)
 
 After every piece of information you'll have to make a choice. Will you stay go inside the inn? Will you talk to the barkeeper? Will you help the bar keeper clear out the rats in his basements? Or will you go and do something else entirely? In Terraevi it's all up to you.
 

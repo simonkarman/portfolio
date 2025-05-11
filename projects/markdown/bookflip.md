@@ -17,4 +17,4 @@ The Magical Adventures of Luna is a digital, interactive fairytailbook for table
 
 The project was created using the Unity 3D Engine. The technique used here to create the book is a separate camera for each page. These page-cameras render their view to a render texture, an overlay for the sides of the page is placed on top of this texture and this texture is then used on a separate mesh in the book that resembles the page. I used a different scene for the book and the world, these scenes are merged upon starting the game.
 
-![BookFlip Developer](//images.ctfassets.net/r26fkm24j6bh/6cpWMflu5EBOJgRtLJs10o/4ebdd589eda519c29ffb59f72d61dd2d/bookflip_open.png)
+![BookFlip Developer](https://images.ctfassets.net/r26fkm24j6bh/6cpWMflu5EBOJgRtLJs10o/4ebdd589eda519c29ffb59f72d61dd2d/bookflip_open.png)

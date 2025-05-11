@@ -21,7 +21,7 @@ Are you still spamming F5 on your machine while developing your website to see y
 ## The Architecture
 The diagram below describes the architecture. This structure can be setup in one evening. It contains four different components: your development machine, the code repository, a hosting platform (including the cicd pipeline), and a domain registration.
 
-![lisapruijn.nl setup](//images.ctfassets.net/r26fkm24j6bh/5iJHx0kAdAYzb8QcpIkfG9/89695b25e857e70ef06533ecd2fe280d/lisapruijn.nl-setup.png)
+![lisapruijn.nl setup](https://images.ctfassets.net/r26fkm24j6bh/5iJHx0kAdAYzb8QcpIkfG9/89695b25e857e70ef06533ecd2fe280d/lisapruijn.nl-setup.png)
 
 ## Your Development Machine
 Our goal is to show a webpage that is accassible through the internet from your mobile phone or computer. Let's start by creating this page. To do this we'll first need a tool to write our code in. There are many options here such as Intellij IDEA, Webstorm, Sublime Text, and many more. We have decided to use Visual Studio Code (VS Code).  Once you have installed VS Code you also need to install Git (for our source code management) and Node (for building our website).

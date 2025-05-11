@@ -16,7 +16,7 @@ At the Utrecht University I collaborated with the HKU (Hogeschool van de Kunsten
 
 Plan International asked us to come up with a way to turn the current classical way of teaching the unemployed youth in Tanzania to learn about entrepreneurship into a playful and fun learn experience.
 
-![Teamzania Team](//images.ctfassets.net/r26fkm24j6bh/3AltGQ4bs1LBXx9vhnkSyD/b979afd0592b673a4dd9fc61402ccc9b/teamzania2.jpg)
+![Teamzania Team](https://images.ctfassets.net/r26fkm24j6bh/3AltGQ4bs1LBXx9vhnkSyD/b979afd0592b673a4dd9fc61402ccc9b/teamzania2.jpg)
 
 We created a lot concepts based on themes we came up with, visited Tanzania, presented to Plan in Mwanza, went on a safari in the Serengeti Safari Park, had three meetings with VSLA groups in and around Mwanza, visited a business school, came up with a final concept, play-tested with a paper prototype, worked really hard on creating an android app, held a conference talk at Afrikaday 2015 in Amsterdam, had a feedback session with the Online Review Board of Plan in 5 different countries, play tested the android game via Skype with our target audience in Mwanza, presented our work at Plan Netherlands, showcased our game at the HKU Showcase, had a newspaper article written about us, and a lot more ...
 

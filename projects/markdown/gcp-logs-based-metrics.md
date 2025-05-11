@@ -89,7 +89,7 @@ resource "google_monitoring_alert_policy" "too_many_binxio_logs_alert_policy" {
 ## Receiving the notification
 Now if messages containing the word 'binxio' are outputted in your application logs, the metric value will be updated. If the value rises above the given threshold value an incident will be created in the Google Cloud Console and a notification will be sent to the notification channel.
 
-![How to get alerted on application logs in GCP?](//images.ctfassets.net/r26fkm24j6bh/7pt7CA7NoOB3izxROvfou5/5c58ef247d88bf6ae7efef82dbcfeb41/how-to-get-alerted-on-application-logs-in-gcp-notification-1.png)
+![How to get alerted on application logs in GCP?](https://images.ctfassets.net/r26fkm24j6bh/7pt7CA7NoOB3izxROvfou5/5c58ef247d88bf6ae7efef82dbcfeb41/how-to-get-alerted-on-application-logs-in-gcp-notification-1.png)
 
 ## Conclusion
 We have created a logs-based metric for a Cloud Run service, added Slack as the notification channel and then setup an alert to trigger when a certain threshold of errors is hit.

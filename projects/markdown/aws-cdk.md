@@ -64,7 +64,7 @@ All of the source code and configuration used for this example can be found on h
 Let’s first take a look at how to build the infrastructure behind the example project in the Serverless Framework. The Serverless Framework uses the serverless.yml file at its core. The serverless.yml file is actually very similar to a CloudFormation template. It has similar sections for resources, parameters, and more. However, it comes with some additional sections such as the functions and provider sections, which allow you to avoid a lot of boilerplate configuration that you would normally have to write when working with lambda functions directly in a CloudFormation template.
 
 The serverless.yml file for our calculator application looks like this (for the full version visit the git repository):
-![Serverless](//images.ctfassets.net/r26fkm24j6bh/3uVFJjvsy5gR4smtyPJeSm/80fd7fdd0efbd12543b0e5807df1c87d/serverless.png)
+![Serverless](https://images.ctfassets.net/r26fkm24j6bh/3uVFJjvsy5gR4smtyPJeSm/80fd7fdd0efbd12543b0e5807df1c87d/serverless.png)
 
 Let’s walk through the different sections. First up is the provider section. In the provider section we tell the Serverless Framework which cloud platform we use and to which region in that cloud platform we like to deploy. We can also use it to provide defaults that will be applied to all the functions we’ll define later. The iamRoleStatements is an array of statements that will be used to create the IAM role that the lambda functions will use. We ensure that we allow our function to update the entries in our database. Notice how we can easily reference it using !Ref followed by the name of the resource.
 
@@ -83,7 +83,7 @@ One of the limitations of the Serverless Framework is that when you want to crea
 Now it is time to build the same infrastructure using the AWS Cloud Development Kit (AWS CDK). Everything you build with AWS CDK is built out of individual building blocks called constructs. A construct can represent a single resource such as a DynamoDB table, or it can represent a higher level component consisting of multiple constructs. The key pattern behind this is composition, meaning that a construct can be composed from any number of lower-level constructs, and in turn, those could be composed from even lower-level constructs, which eventually are composed of AWS resources.
 
 The cdk file for our calculator application looks like this (for the full version visit the git repository):
-![AWS CDK](//images.ctfassets.net/r26fkm24j6bh/6LUP03UxPpzGdKotFgn9eS/4b83f61f105e64aa6e09da96144d187a/cdk.png)
+![AWS CDK](https://images.ctfassets.net/r26fkm24j6bh/6LUP03UxPpzGdKotFgn9eS/4b83f61f105e64aa6e09da96144d187a/cdk.png)
 
 Let’s walk through the code. In CDK each construct has a constructor that follows the same pattern. The first argument is the scope. This is the construct to which you want to add the construct you’re creating. For our three resources this is always the stack itself, and therefore we use ‘this’. The second argument is the id of the resource. And the third parameter allows us to provide the options and properties for the construct.
 

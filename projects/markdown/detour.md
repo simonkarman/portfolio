@@ -17,4 +17,4 @@ Simply, start cycling and whenever you reach an intersection: click somewhere on
 
 In the following image you can see the first ever detour in Utrecht, Netherlands by Simon Karman and Matt Watson.
 
-![Detour - Route](//images.ctfassets.net/r26fkm24j6bh/4a1VgTxDjMKOPVHNtnNg3f/a44711d675cee8839b07177fceffef93/route.png)
+![Detour - Route](https://images.ctfassets.net/r26fkm24j6bh/4a1VgTxDjMKOPVHNtnNg3f/a44711d675cee8839b07177fceffef93/route.png)

@@ -28,7 +28,7 @@ Tikkie for Businesses is the result of a team-building activity we did. The goal
 
 Note that this application merely exists to functions as an example application to shows off how easy it is to integrate Tikkie API v2 in your own project.
 
-![Tikkie for Businesses Login](//images.ctfassets.net/r26fkm24j6bh/4Cibh5O463mxuXvAyGrzxP/e90d34b0e1da9094cbda19e8f3f14971/LoginScreen.png)
+![Tikkie for Businesses Login](https://images.ctfassets.net/r26fkm24j6bh/4Cibh5O463mxuXvAyGrzxP/e90d34b0e1da9094cbda19e8f3f14971/LoginScreen.png)
 
 ## Resources
 The following resources can be interseting to read before continuing with this application.
@@ -40,7 +40,7 @@ The following resources can be interseting to read before continuing with this a
 ## Tikkie for Businesses
 Tikkie for Businesses is the name of this project. The aim of the project is to give a business an easy way for tracking its appointments and their payments. It provides a single dashboard that shows its business-to-consumer Tikkies and keeps track of which of these payment requests have been paid.
 
-![Tikkie for Businesses Dashboard](//images.ctfassets.net/r26fkm24j6bh/XUcDZAQB3E0MF9IkFyszC/118f116bcfd309ae76d00c0e161ca61e/DashboardScreen.png)
+![Tikkie for Businesses Dashboard](https://images.ctfassets.net/r26fkm24j6bh/XUcDZAQB3E0MF9IkFyszC/118f116bcfd309ae76d00c0e161ca61e/DashboardScreen.png)
 
 As a (sandbox) business you can use Tikkie for Businesses by entering the API-Key you got from the developer portal, and the App Token that you received from the [Sandbox environment of the Tikkie API](https://developer.abnamro.com/api-products/tikkie/reference-documentation#section/Sandbox-access)
 
@@ -58,7 +58,7 @@ The architecture of this application can be seen in the image below. The applica
 - **A client**: Vue front end using Vuex and TailwindCSS (https://vuejs.org/)
 - **The Tikkie API!**: We use Tikkie API v2 on the `Sandbox` environment (https://developer.abnamro.com/api-products/tikkie/reference-documentation)
 
-![Tikkie for Businesses Architecture](//images.ctfassets.net/r26fkm24j6bh/521h4kH3bkvciz6poEiyAc/aef175c301883501b8728e5a1a2b3c54/Architecture.png)
+![Tikkie for Businesses Architecture](https://images.ctfassets.net/r26fkm24j6bh/521h4kH3bkvciz6poEiyAc/aef175c301883501b8728e5a1a2b3c54/Architecture.png)
 
 ## Database (MongoDB)
 The database used by the back end is MongoDB. MongoDB is a document-based database. Please ensure you have MongoDB up and running before starting the backend.

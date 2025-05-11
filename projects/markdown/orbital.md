@@ -22,7 +22,7 @@ Team maeT:
 - Patrick Scheper
 - Kay Goossen
 
-![Orbital Progressed](//images.ctfassets.net/r26fkm24j6bh/6gpu29oREcF25aWuYxj6j4/15c4130b85a8d979cf359ceb8d9e15bf/orbital_progress.png)
+![Orbital Progressed](https://images.ctfassets.net/r26fkm24j6bh/6gpu29oREcF25aWuYxj6j4/15c4130b85a8d979cf359ceb8d9e15bf/orbital_progress.png)
 
 In Orbital, you command your forces against an invading alien armada in defence of your lovely little blue planet, "Urf". Generate income by building satellites in orbit of the planet so you can coordinate the defence of your planet. Your income is dictated by the amount of inhabitants your satellite covers, so sending a satellite in a higher orbit will net you more income. Watch out, though! These satellites are vulnerable and any alien ship can pick them off with ease, so the further away these satellites are from Urf, the more at risk they are of being blown up. Keep your satellites (and planet safe) by investing in defensive satellites that intercept incoming alien ships. Now, get ready! The aliens are at your doorstep!
 

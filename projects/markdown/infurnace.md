@@ -25,7 +25,7 @@ In the image the civilian initially walked from the right side of the image on t
 
 After running away from the fire for a small distance the civilian changed its state again. The civilian changed back to a wandering state, which is indicated by a blue color. The blue box shows the position at which the civilian changed to this wandering state and the blue sphere shows the cause of this change. We can conclude from the picture that the civilian saw another wandering civilian making it become calmer which activated the change of state back to the wander state.
 
-![Infurnace - Civilian State Visualization](//images.ctfassets.net/r26fkm24j6bh/4Lw4cwbmHzuEHq2Xmid9n5/a68b86dcaa5df72e5f9bad6ebaaeac67/CivilianStateVisualization.png)
+![Infurnace - Civilian State Visualization](https://images.ctfassets.net/r26fkm24j6bh/4Lw4cwbmHzuEHq2Xmid9n5/a68b86dcaa5df72e5f9bad6ebaaeac67/CivilianStateVisualization.png)
 
 # Download
 This zipfile is the project package for ProjectInfurnace. ProjectInfurnace is the Games and Agents project simulating a fire distaster in a city environment. This project was created by Simon Karman, Geert Lugtenberg, Kevin Kessels and Bas Geerts for the Games and Agents course on the Utrecht University. This package contains the following folders:

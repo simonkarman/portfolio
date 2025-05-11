@@ -15,6 +15,6 @@ Procedumon is a technical demo in Unity of a 3D environment that is procedurally
 
 You can move around with the WASD keys.
 
-![Procudemon Distance](//images.ctfassets.net/r26fkm24j6bh/4CWA1mHd7ySytxCaN6kySk/087524f48eeb3a8f1db39d38d713b374/procudemon_distance.png)
+![Procudemon Distance](https://images.ctfassets.net/r26fkm24j6bh/4CWA1mHd7ySytxCaN6kySk/087524f48eeb3a8f1db39d38d713b374/procudemon_distance.png)
 
 The above image shows the generated part of the world from a distance. If the player moves out of the red rectangle that is slightly visible in the center of the image, a new part of the world is generated. When that happens, parts that are too far from the player are deleted because they are no longer needed.

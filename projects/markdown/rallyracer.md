@@ -31,7 +31,7 @@ To come up with a great design for the track, I download about 20 images of trac
 
 After I had some track pieces, I had to provide a way for game designers to create a track. This also meant that the boundaries of the track should be automatically generated. To create a track the game designer simply places track pieces on an empty grass canvas, then the designer also adds a start/finish line and checkpoints to check the cars progress along the way. For aesthetics some props such as a tree, a water puddle or a house can be added aswell, these all have no effect to the gameplay however. When a track is loaded, the game will connect all the pieces. To create the boundaries I use the predefined boundaries of each track piece and connect these together. This resulted in a smooth boundary through-out the whole track.
 
-![Rally Racer Track Editor](//images.ctfassets.net/r26fkm24j6bh/6S4Xjn4BlErU3VMuHznN8E/0db7e51b46c96769fe2313802e01747a/trackeditor.png)
+![Rally Racer Track Editor](https://images.ctfassets.net/r26fkm24j6bh/6S4Xjn4BlErU3VMuHznN8E/0db7e51b46c96769fe2313802e01747a/trackeditor.png)
 
 
 # Implementing AI

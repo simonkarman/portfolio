@@ -26,4 +26,4 @@ There is also a theme switcher which allows switching between a default-theme an
 
 Please, take a look at the [interactive demo](https://karman.dev/elemental-arena-next/). 
 
-![Element Arena Next (default theme)](//images.ctfassets.net/r26fkm24j6bh/6JGB6Bp83ffQOIPIzAL7tB/d75066a5289b62a724141dee43fdad2a/elemental-arena-next.png)
+![Element Arena Next (default theme)](https://images.ctfassets.net/r26fkm24j6bh/6JGB6Bp83ffQOIPIzAL7tB/d75066a5289b62a724141dee43fdad2a/elemental-arena-next.png)

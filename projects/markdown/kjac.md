@@ -16,6 +16,6 @@ The website has a responsive design and will please the eye on all different dev
 
 Clients of Jac. Karman can login to their own account and download their files which are encrypted for maximum security.
 
-![kjac.nl login](//images.ctfassets.net/r26fkm24j6bh/5UZCUXgwIvm8Gi2aYNqb5p/f9614128578ba4a629884322be1c40ff/login.png)
+![kjac.nl login](https://images.ctfassets.net/r26fkm24j6bh/5UZCUXgwIvm8Gi2aYNqb5p/f9614128578ba4a629884322be1c40ff/login.png)
 
 The site is based on the [skeleton framework](http://getskeleton.com/). I made sure I didn't violate any of the standard design faults in websites such as cross-side scripting, guessable increasing file ids and a few others. The website contains a Google Maps interactive background, a contact form using the PhPMailer classes and jQuery based 'read more'-links that hide divs which contain too much information.

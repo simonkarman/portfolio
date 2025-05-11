@@ -20,7 +20,7 @@ Karman Home is a set of applications that functions as a home server, which mean
 
 The following image shows all the components that make up Karman Home.
 
-![Karman Home Architecture](//images.ctfassets.net/r26fkm24j6bh/zq2Ki6e2KzMSvI3FyxpvX/4c20061fa8dc00196a533bfb4db2dd23/architecture.png)
+![Karman Home Architecture](https://images.ctfassets.net/r26fkm24j6bh/zq2Ki6e2KzMSvI3FyxpvX/4c20061fa8dc00196a533bfb4db2dd23/architecture.png)
 
 The reverse proxy, build using nginx (http), Pushpin (websockets) and the scripts, can be found in the `ingress/` directory
 
@@ -62,7 +62,7 @@ docker-compose up --build --remove-orphans -d
 
 6. Go to `https://home.<your-domain-name>` using your favorite browser. You can find the identity and chat functionality from there, and when prompted you can log in as an admin with username `simon` and password `123` or log in as a user with username `lisa` and password `456`.
 
-![Kaman Home - Home](//images.ctfassets.net/r26fkm24j6bh/h6Bbhhqg9nO7J8QBhVokI/5651114c83a75a9a5dc189a0d07f0c72/home.png)
+![Kaman Home - Home](https://images.ctfassets.net/r26fkm24j6bh/h6Bbhhqg9nO7J8QBhVokI/5651114c83a75a9a5dc189a0d07f0c72/home.png)
 
 7. To stop the application, run `docker-compose down` and disable the port forwarding and remove the DNS records your created in step 2. You can find an automated script for this in `ingress/dns`.
 
@@ -71,11 +71,11 @@ The identity functionality providers users in Karman Home to login and logout. T
 
 > Note: If the `t` query parameter is added to the url (for example: `https://identity.<your-domain-name>?t=<another-url>`), then you'll be redirected to its value directly after login in.
 
-![Karman Home - Identity](//images.ctfassets.net/r26fkm24j6bh/7AwYCkZLpeyqVI4O79Bz2v/2aa6db6ce411a83a655a13057bba5398/identity.png)
+![Karman Home - Identity](https://images.ctfassets.net/r26fkm24j6bh/7AwYCkZLpeyqVI4O79Bz2v/2aa6db6ce411a83a655a13057bba5398/identity.png)
 
 # Chat
 The chat functionality provides users in Karman Home to send and receive chat messages in a single global chat room. The chat functionality is available by visiting `https://chat.<your-domain-name>`.
 
 > Note: Admins are able to delete messages, and new messages (or deletions) are received in realtime via a WebSocket connection.
 
-![Karman Home - Chat](//images.ctfassets.net/r26fkm24j6bh/HGp3YLWYMJQYjUoJP4cpD/135f6f11a3caac2e37a4ad913dc6ae38/chat.png)
+![Karman Home - Chat](https://images.ctfassets.net/r26fkm24j6bh/HGp3YLWYMJQYjUoJP4cpD/135f6f11a3caac2e37a4ad913dc6ae38/chat.png)

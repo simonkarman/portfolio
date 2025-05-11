@@ -12,6 +12,6 @@ image: https://images.ctfassets.net/r26fkm24j6bh/67ehh7YMrMS2ZCVZUHZQGL/47a0bcb1
 
 Tingly's Pyramid Solitaire is a card game that I worked on at Tinlgy Games. All the games at Tingly Games are created in about two weeks. The art of this game is created by Nicole Smit, the project was directed by Ard Bonewald, and I build the game in JavaScript.
 
-![Tingly Pyramid Solitaire Ingame](//images.ctfassets.net/r26fkm24j6bh/6f6fdIiDnu0jvsDcItoHaf/660203c5807acf93b7c6305d67d1391a/pyramidsolitaire_screenshot_landscape2.png)
+![Tingly Pyramid Solitaire Ingame](https://images.ctfassets.net/r26fkm24j6bh/6f6fdIiDnu0jvsDcItoHaf/660203c5807acf93b7c6305d67d1391a/pyramidsolitaire_screenshot_landscape2.png)
 
 Tingly Games was bought by Cool Games. The game is now playable on various gaming website across the internet. For example on [Pyramid Solitaire on newgames.com](https://www.newgames.com/en/tingly-pyramid-solitaire.html)

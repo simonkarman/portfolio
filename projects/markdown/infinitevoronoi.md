@@ -15,7 +15,7 @@ As a hobby project I worked on a technical demonstration of a seemingly infinite
 
 The resulting Voronoi subdivision could be used for world generation in games
 
-![Infinite Voronoi Biomes](//images.ctfassets.net/r26fkm24j6bh/1mhTiSei3MG0Lz8RvgZPbV/978701d5d4ee2334fbceaf093a00afff/infinitevoronoi_biomes.png)
+![Infinite Voronoi Biomes](https://images.ctfassets.net/r26fkm24j6bh/1mhTiSei3MG0Lz8RvgZPbV/978701d5d4ee2334fbceaf093a00afff/infinitevoronoi_biomes.png)
 
 The above image shows how multiple layers of the Voronoi diagram can be nested. In a game world this could be used to define nations, biomes, or landmasses.
 

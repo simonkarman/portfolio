@@ -20,7 +20,7 @@ Over the following weeks I dedicated all my free time into this project. Working
 
 After these weeks I sadly dropped interest. Since I still would like to share this UNFINISHED map with the world I felt like publishing it on my website. Before I did this I added a minimap, a custom loading screen and support for a all other default gamemode.
 
-![compass map mp watertower](//images.ctfassets.net/r26fkm24j6bh/4qT6G0iYDDEYF7B4ywgaI1/0dd475cbd3d55a4b194203053676f851/compass_map_mp_watertower.png)
+![compass map mp watertower](https://images.ctfassets.net/r26fkm24j6bh/4qT6G0iYDDEYF7B4ywgaI1/0dd475cbd3d55a4b194203053676f851/compass_map_mp_watertower.png)
 
 The map supports ALL the normal gamemodes: Free For All (/gametype dm), Team Deathmatch (/gametype war), Domination (/gametype dom), Sabotage (/gametype sab), Search and Destroy (/g_gametype sd) and Headquaters (/gametype koth).
 

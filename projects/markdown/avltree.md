@@ -21,7 +21,7 @@ My implementation of the AVLTree has the following public functions: `clear`, `m
 
 The AVLTree is generic, this means that it not only functions with numbers, but you can pass it any data-type. As long as your write appropriate comparison and equality functions.
 
-![AVL Tree with text](//images.ctfassets.net/r26fkm24j6bh/6Fni71IrQs3yXX4i1sljlB/968e2a9e264f92a13984807368f40d34/AVLTree1.png)
+![AVL Tree with text](https://images.ctfassets.net/r26fkm24j6bh/6Fni71IrQs3yXX4i1sljlB/968e2a9e264f92a13984807368f40d34/AVLTree1.png)
 
 The download contains the AVLTree.js, the AVLTree.min.js and a demo included in the Demo folder.
 

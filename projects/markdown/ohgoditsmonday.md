@@ -14,7 +14,7 @@ download: https://downloads.ctfassets.net/r26fkm24j6bh/5WgznPjJHYVu9uQYNSQvGb/11
 
 I participated in the Global Game Jam for the 5th time! Together with a random group of people I created an awesome game that won the audience award after 48 hours of hard work.
 
-![Oh God Its Monday Ingame](//images.ctfassets.net/r26fkm24j6bh/6aloKBvUnWVRjfj45QGF7O/bc835aaee818f952aad8f70bb38e81a0/ggj2016.jpg)
+![Oh God Its Monday Ingame](https://images.ctfassets.net/r26fkm24j6bh/6aloKBvUnWVRjfj45QGF7O/bc835aaee818f952aad8f70bb38e81a0/ggj2016.jpg)
 
 The exiting premise "Once a week; every week, it's Monday. Horrible, horrible Monday." describes the game 'O God It's Monday'. In this game you manage an office. It is 09:00 hour on Monday morning and you have to make sure that all employees of the office will have completed their daily routine at 17:00 hour. Doing this requires amazing planning skills and you must be able to take time to your advantage!
 
@@ -30,6 +30,6 @@ The team I worked with is called Sneaky Ninjas and consists of the following mem
 
 Check out the project on the official Global Game Jam website here: Oh God It's Monday.
 
-![Oh God It's Monday Team](//images.ctfassets.net/r26fkm24j6bh/7J80WdG0M2KJmmo6ERODod/5f5dfeb7a4e3a578853a13bc9cc5c322/team.jpg)
+![Oh God It's Monday Team](https://images.ctfassets.net/r26fkm24j6bh/7J80WdG0M2KJmmo6ERODod/5f5dfeb7a4e3a578853a13bc9cc5c322/team.jpg)
 
 Download the game below to play it yourself on either Android or Windows!

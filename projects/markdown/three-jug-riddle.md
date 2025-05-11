@@ -20,4 +20,4 @@ This problem dates to 1484 and was posed in the context of a milkman making a ho
 I tried to solve it visually using graph visualisation with graphviz.
 
 ## Solution
-![Three Jug Riddle - Answer](//images.ctfassets.net/r26fkm24j6bh/7ItI0iHMVBdUh2K1YNMida/54b38b5662a48983171b69b4b1040143/solution.png)
+![Three Jug Riddle - Answer](https://images.ctfassets.net/r26fkm24j6bh/7ItI0iHMVBdUh2K1YNMida/54b38b5662a48983171b69b4b1040143/solution.png)

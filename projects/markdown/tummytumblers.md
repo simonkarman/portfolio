@@ -18,7 +18,7 @@ __Note__: You need 2-4 XBOX controllers to play this game.
 
 Below you can see a development screenshot of the game. My main task was to create the deformable mountain. This deformable moutain is a code-generated mesh which can be deformed by code.
 
-![Tummy Tumblers Progress](//images.ctfassets.net/r26fkm24j6bh/6LQxC458LPbwXON2O9KgHl/a8062712865bc98f7fd23dae76e0a419/tummytumblers_progress.png)
+![Tummy Tumblers Progress](https://images.ctfassets.net/r26fkm24j6bh/6LQxC458LPbwXON2O9KgHl/a8062712865bc98f7fd23dae76e0a419/tummytumblers_progress.png)
 
 Created by Galactic Jelly Fish:
 - Bas Roding (Programming)

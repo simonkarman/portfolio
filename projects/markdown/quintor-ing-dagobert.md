@@ -20,7 +20,7 @@ To regularize these payments, multiple systems need to be coupled. Starting with
 
 We used an application that would use the daily generated files as input, validated them (for example counting wether the number of rows conformed to a certain baseline for that day and week), and then translated these rows to events and sends them to Kafka. This ensured that the Dagobert application would be able to retrieve all the information from the source systems as events.
 
-![Quintor ING Dagobert Duck](//images.ctfassets.net/r26fkm24j6bh/6Y29OUotwPR07nzxpcaE19/c3f274726910ea04b4d9ee92936a8f89/quintor-ing-dagobert-duck.jpg)
+![Quintor ING Dagobert Duck](https://images.ctfassets.net/r26fkm24j6bh/6Y29OUotwPR07nzxpcaE19/c3f274726910ea04b4d9ee92936a8f89/quintor-ing-dagobert-duck.jpg)
 
 Within the Dagobert application we made use of the [Axon Framework](https://axoniq.io/). Kafka events were delivered to Axon. Incoming events were stored and processed by __Aggregates and Sagas__. From these events a daily report would be generated. These daily reports could then be viewed by internal ING employees for verification, before they were paid out. 
 

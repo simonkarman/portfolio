@@ -17,4 +17,4 @@ Exploramon is an easy to play hex-based game. In this hex-based environment the 
 
 I mainly created this project to experiment with a very flexible UI that felt responsive and smooth.
 
-![Exploramon UI - Map Selection](//images.ctfassets.net/r26fkm24j6bh/5kMapPnFw8nPbN6YV7NTIz/e73af646bed18d174b7484bb8296b0f6/exploramon_map.jpg)
+![Exploramon UI - Map Selection](https://images.ctfassets.net/r26fkm24j6bh/5kMapPnFw8nPbN6YV7NTIz/e73af646bed18d174b7484bb8296b0f6/exploramon_map.jpg)

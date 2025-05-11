@@ -15,7 +15,7 @@ Up until today, my website was build using a custom framework I had build in php
 
 The general layout of the site was kept very similar. The header of each page is still showing my logo and name. As can be seen below the home page shows some information about me, where you can click to get to know more about me and it shows the 5 latest projects I worked on.
 
-![Home of simonkarman-nuxt](//images.ctfassets.net/r26fkm24j6bh/4THLEnsM3LzBepRWlWXEKV/87b3551822e6e289ea2fba40da232e6a/home.png)
+![Home of simonkarman-nuxt](https://images.ctfassets.net/r26fkm24j6bh/4THLEnsM3LzBepRWlWXEKV/87b3551822e6e289ea2fba40da232e6a/home.png)
 
 Also pages like the contact page as shown below have in general kept the same structure, but just with a more modern look.
 

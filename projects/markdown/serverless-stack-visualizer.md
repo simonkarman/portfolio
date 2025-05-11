@@ -21,7 +21,7 @@ So now we have one application that exists in multiple CloudFormation stacks in 
 
 To overcome these challenges I build an serverless-stack-visualizer which can visualize the current state of your serverless AWS resources (such as Lambda functions, DynamoDB tables, and S3 buckets) across different CloudFormation stacks and even across different AWS accounts.
 
-![Serverless Stack Visualizer Architecture](//images.ctfassets.net/r26fkm24j6bh/3KDafadG40WXxJurpCiOmJ/3d6bdb2dd8289cdd5faf11760e0db64d/serverless-stack-visualiser__1_.png)
+![Serverless Stack Visualizer Architecture](https://images.ctfassets.net/r26fkm24j6bh/3KDafadG40WXxJurpCiOmJ/3d6bdb2dd8289cdd5faf11760e0db64d/serverless-stack-visualiser__1_.png)
 
 ## Architecture
 The tool can be run locally on your computer. To run it you need to run both a server and a client.
