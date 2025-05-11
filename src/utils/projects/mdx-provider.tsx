@@ -8,14 +8,14 @@ import 'highlight.js/styles/github.min.css';
 import dynamic from 'next/dynamic';
 
 /**
- * MdxProvider looks through the 'projects/mdx' directory and finds:
+ * MdxProvider looks through the 'content/mdx' directory and finds:
  *  1) all .mdx files in the directory
  *  2) index.mdx files in subdirectories
  *
  * It uses the exported metadata const in that .mdx file to find the metadata about the project.
  */
 export class MdxProvider implements Provider {
-  private readonly directory = 'projects/mdx';
+  private readonly directory = 'content/mdx';
 
   async getProjects(): Promise<ProjectWithoutProviderName[]> {
     const projectMarkdownDirectoryPath = path.join(process.cwd(), this.directory);
@@ -31,7 +31,7 @@ export class MdxProvider implements Provider {
         const slug = file.isDirectory() ? file.name : file.name.slice(0, file.name.length - 4);
 
         // eslint-disable-next-line @typescript-eslint/no-var-requires
-        const metadata = require(`../../../projects/mdx/${contentPath}`).metadata;
+        const metadata = require(`../../../content/mdx/${contentPath}`).metadata;
 
         const safeProject = ProjectSchema.safeParse({ ...metadata, slug });
         if (!safeProject.success) {
@@ -49,7 +49,7 @@ export class MdxProvider implements Provider {
     const isDirectory = fs.existsSync(fullPath) && fs.lstatSync(fullPath).isDirectory();
 
     const contentPath = project.slug + (isDirectory ? '/index.mdx' : '.mdx');
-    const Content = dynamic(() => import((`../../../projects/mdx/${contentPath}`)));
+    const Content = dynamic(() => import((`../../../content/mdx/${contentPath}`)));
     return <div className='px-5 py-10 overflow-x-hidden'>
       <div
         className='mx-auto prose prose-lg

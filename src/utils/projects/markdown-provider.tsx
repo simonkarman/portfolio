@@ -14,14 +14,14 @@ import { ProjectSchema, ProjectWithoutProviderName } from './project';
 import 'highlight.js/styles/github.min.css';
 
 /**
- * MarkdownProvider looks through the 'projects/markdown' directory and finds:
+ * MarkdownProvider looks through the 'content/markdown' directory and finds:
  *  1) all .md files in the directory
  *  2) index.md files in subdirectories
  *
  * It uses the FrontMatter in that .md file to find the metadata about the project.
  */
 export class MarkdownProvider implements Provider {
-  private readonly directory = 'projects/markdown';
+  private readonly directory = 'content/markdown';
 
   async getProjects(): Promise<ProjectWithoutProviderName[]> {
     const projectMarkdownDirectoryPath = path.join(process.cwd(), this.directory);
