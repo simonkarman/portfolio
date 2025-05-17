@@ -12,34 +12,6 @@ import { Provider } from './provider';
 import { ProjectSchema, ProjectWithoutProviderName } from './project';
 
 import 'highlight.js/styles/github.min.css';
-import { transformImageSrc } from '@/utils/projects/public';
-
-const createMarkdownSymlinks = () => {
-  fs.mkdirSync('public/content/', { recursive: true });
-  const directories = fs.readdirSync('content/markdown', { withFileTypes: true }).filter(d => d.isDirectory());
-  for (const directory of directories) {
-    const contentDir = `content/markdown/${directory.name}/public`;
-    if (fs.existsSync(contentDir) && fs.lstatSync(contentDir).isDirectory()) {
-      const publicDir = `public/content/${directory.name}`;
-      console.info('Creating symlink for:', contentDir, publicDir);
-      try {
-        fs.symlinkSync(contentDir, publicDir);
-      } catch (err: unknown) {
-        if (typeof err === 'object' && err && 'code' in err && err.code === 'EEXIST') {
-          continue;
-        }
-        console.error(err);
-      }
-
-      // const stats = fs.lstatSync(publicDir);
-      // if (stats.isSymbolicLink()) {
-      //   console.info(stats);
-      //   continue;
-      // }
-      // console.warn(`Symlink for ${publicDir} cannot be made... A file or directory with that name already exists.`);
-    }
-  }
-};
 
 /**
  * MarkdownProvider looks through the 'content/markdown' directory and finds:
@@ -52,8 +24,6 @@ export class MarkdownProvider implements Provider {
   private readonly directory = 'content/markdown';
 
   async getProjects(): Promise<ProjectWithoutProviderName[]> {
-    createMarkdownSymlinks(); // TODO: can this be done only once at build time (and everytime in dev mode?)
-
     const projectMarkdownDirectoryPath = path.join(process.cwd(), this.directory);
     return fs.readdirSync(projectMarkdownDirectoryPath, { withFileTypes: true })
       .filter(file =>
@@ -72,9 +42,6 @@ export class MarkdownProvider implements Provider {
         const safeProject = ProjectSchema.safeParse({ ...data, slug });
         if (!safeProject.success) {
           console.error(`Markdown Provider found invalid markdown file: ${file.name}. Reason: ${safeProject.error}`);
-        } else {
-          safeProject.data.image = transformImageSrc(safeProject.data.slug, safeProject.data.image);
-          safeProject.data.download = transformImageSrc(safeProject.data.slug, safeProject.data.download);
         }
         return safeProject;
       })
@@ -97,9 +64,6 @@ export class MarkdownProvider implements Provider {
         rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeHighlight]}
         remarkPlugins={[remarkGfm]}
         components={{
-          img: ({ children, src, ...props }) => {
-            return <img src={transformImageSrc(project.slug, src)} {...props}>{children}</img>;
-          },
           pre: ({ children, ...props }) => {
             return <CodeBlockWithCopy {...props}>{children}</CodeBlockWithCopy>;
           },
