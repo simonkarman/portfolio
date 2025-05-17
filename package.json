@@ -9,7 +9,7 @@
     "start": "npm run download && next start",
     "lint": "next lint",
     "precommit": "npm run lint && npm run build",
-    "download": "(cd content/contentful-to-markdown && npm run start)"
+    "download": "(cd content/contentful-to-markdown && npm install && npm run start)"
   },
   "husky": {
     "hooks": {
