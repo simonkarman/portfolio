@@ -13,6 +13,10 @@ const nextConfig = {
       new URL('https://mdg.imgix.net/**'),
     ],
   },
+  webpack: (config) => {
+    config.resolve.symlinks = true;
+    return config;
+  },
 };
 
 const withMDX = createMDX({

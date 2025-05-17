@@ -37,3 +37,6 @@ next-env.d.ts
 
 # lab
 lab
+
+# public content
+/public/content/

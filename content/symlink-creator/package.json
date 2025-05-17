@@ -1,0 +1,17 @@
+{
+  "name": "contentful-to-markdown",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Simon Karman",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "contentful": "^11.5.20",
+    "js-yaml": "^4.1.0"
+  }
+}
