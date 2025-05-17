@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "rm -rf output/ && node index.js"
   },
   "keywords": [],
   "author": "Simon Karman",

@@ -1,8 +1,8 @@
 // Configuration
 export const config = {
   // Replace with your own credentials
-  accessToken: 'ACCESS_TOKEN',
-  space: 'SPACE_ID',
+  accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+  space: process.env.CONTENTFUL_SPACE_ID,
   environment: 'master', // Change if using a different environment
   outputDir: './output',
   contentTypes: [], // Leave empty to download all content types

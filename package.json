@@ -4,11 +4,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run download && next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npm run download && next start",
     "lint": "next lint",
-    "precommit": "npm run lint && npm run build"
+    "precommit": "npm run lint && npm run build",
+    "download": "(cd content/contentful-to-markdown && npm run start)"
   },
   "husky": {
     "hooks": {

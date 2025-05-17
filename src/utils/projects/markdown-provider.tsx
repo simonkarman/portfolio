@@ -21,7 +21,7 @@ import 'highlight.js/styles/github.min.css';
  * It uses the FrontMatter in that .md file to find the metadata about the project.
  */
 export class MarkdownProvider implements Provider {
-  private readonly directory = 'content/markdown';
+  private readonly directory = 'content/contentful-to-markdown/output/project';
 
   async getProjects(): Promise<ProjectWithoutProviderName[]> {
     const projectMarkdownDirectoryPath = path.join(process.cwd(), this.directory);
@@ -29,7 +29,7 @@ export class MarkdownProvider implements Provider {
       .filter(file =>
         // a md file such as example1.md (slug: example1)
         (file.isFile() && file.name.endsWith('.md'))
-        // a directory with a index.md file such as example2/index.md (slug: example2)
+        // a directory with an index.md file such as example2/index.md (slug: example2)
         || (file.isDirectory() && fs.existsSync(path.join(process.cwd(), this.directory, file.name, 'index.md'))),
       )
       .map(file => {
