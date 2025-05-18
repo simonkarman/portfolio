@@ -11,6 +11,7 @@ const nextConfig = {
     remotePatterns: [
       new URL('https://images.ctfassets.net/**'),
       new URL('https://mdg.imgix.net/**'),
+      { hostname: 'raw.githubusercontent.com' },
     ],
   },
   experimental: {
