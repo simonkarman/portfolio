@@ -4,6 +4,7 @@ import { ProjectWithProviderName } from './project';
 import { getProviders, ProviderName } from './providers';
 
 export async function getAllProjects(): Promise<ProjectWithProviderName[]> {
+  'use cache';
   const providers = await getProviders();
   const projectsByProvider = await Promise.all(Object.entries(providers)
     .map(async ([ providerName, provider ]) => ({

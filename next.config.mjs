@@ -13,6 +13,9 @@ const nextConfig = {
       new URL('https://mdg.imgix.net/**'),
     ],
   },
+  experimental: {
+    useCache: true,
+  },
 };
 
 const withMDX = createMDX({
