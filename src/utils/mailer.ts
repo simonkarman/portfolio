@@ -15,19 +15,28 @@ const isDev = process.env.NODE_ENV !== 'production';
 
 async function sendEmail(type: string, body: { [key: string]: string }): Promise<string> {
   if (isDev) {
-    if (type === 'contact' && body.name.toLowerCase().localeCompare('error') === 0) {
+    if (type === 'contact' && body.name?.toLowerCase()?.localeCompare('error') === 0) {
       throw new Error('fake error');
     }
-    return 'fake response';
+    return `fake response: ${JSON.stringify({ type, body })}`;
   }
   const result = await fetch(`${mailerBaseUrl}/${type}`, { method: 'POST', body: JSON.stringify(body) });
   return result.text();
 }
 
-export async function sendContactMail(inputValues: { [key: string]: string }): Promise<string> {
-  return sendEmail('contact', inputValues);
+export async function sendContactMail(body: { [key: string]: string }, /*{
+  name: string,
+  email: string,
+  subject: string,
+  content: string,
+}*/): Promise<string> {
+  return sendEmail('contact', body);
 }
 
-export async function sendDownloadMail(inputValues: { [key: string]: string }): Promise<string> {
-  return sendEmail('download', inputValues);
+export async function sendDownloadMail(body: {
+  project: string,
+  type: string,
+  url: string,
+}): Promise<string> {
+  return sendEmail('download', body);
 }

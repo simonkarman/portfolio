@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Card } from '@/components/card';
-import { getAllProjects } from '@/utils/projects/get-all-projects';
+import { getAllProjects } from '@/projects/get-all-projects';
 import { Explore } from '@/components/explore';
 
 export default async function Home() {

@@ -1,5 +1,5 @@
 import { Suspense } from 'react';
-import { getAllProjects } from '@/utils/projects/get-all-projects';
+import { getAllProjects } from '@/projects/get-all-projects';
 import { FilterableProjects, FilterableProjectsWithSearchFromParams } from '@/app/projects/filterable-projects';
 
 export default function ProjectsWrapper() {

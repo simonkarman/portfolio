@@ -1,4 +1,4 @@
-import { getAllTags } from '@/utils/projects/get-all-tags';
+import { getAllTags } from '@/projects/get-all-tags';
 import Link from 'next/link';
 
 const getTagClassesBy = (count: number): string => {

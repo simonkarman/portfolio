@@ -3,8 +3,8 @@
 import Custom404 from '@/app/not-found';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getProject } from '@/utils/projects/get-project';
-import { getProviders } from '@/utils/projects/providers';
+import { getProject } from '@/projects/get-project';
+import { getProviders } from '@/projects/providers';
 import { Metadata } from 'next';
 import { Buttons } from '@/app/projects/[slug]/buttons';
 
@@ -29,7 +29,7 @@ export default async function Project(props: { params: Promise<{ slug: string }>
     return <Custom404 />;
   }
 
-  const rendered = (await getProviders())[project.providerName].render(project);
+  const rendered = await (await getProviders())[project.providerName].render(project);
   return <div>
     <div className='bg-darkblue-400'>
       <div className='relative w-full'>
@@ -61,6 +61,7 @@ export default async function Project(props: { params: Promise<{ slug: string }>
     <div className='mx-auto max-w-[75ch]'>
       <div className='empty:hidden pt-8 px-5 flex flex-wrap justify-end gap-2'>
         <Buttons
+          slug={project.slug}
           title={project.title}
           forceShowShare={false}
           demo={project.demo}
@@ -71,7 +72,13 @@ export default async function Project(props: { params: Promise<{ slug: string }>
       </div>
     </div>
     <div className='px-5 py-10 overflow-x-hidden'>
-      {rendered}
+      <div
+        className='mx-auto prose prose-lg
+             prose-pre:p-2 prose-pre:border prose-pre:border-gray-100 prose-pre:bg-gray-50
+             prose-img:mx-auto prose-img:max-h-[60vh] prose-img:max-w-[90%] prose-img:rounded-lg prose-img:border'
+      >
+        {rendered}
+      </div>
       <div className='max-w-[75ch] mx-auto'>
         <div className="mt-8 pt-6 border-t border-gray-200">
           <div className="flex flex-col gap-4 items-center sm:flex-row sm:justify-between">
@@ -82,6 +89,7 @@ export default async function Project(props: { params: Promise<{ slug: string }>
             </div>
             <div className="shrink-0 flex flex-wrap gap-2">
               <Buttons
+                slug={project.slug}
                 title={project.title}
                 forceShowShare={true}
                 demo={project.demo}
@@ -96,6 +104,3 @@ export default async function Project(props: { params: Promise<{ slug: string }>
     </div>
   </div>;
 }
-
-// {/*TODO: add a banner or footer or both later that displays some common information about projects*/}
-// {/*<hr className='my-4' />*/}

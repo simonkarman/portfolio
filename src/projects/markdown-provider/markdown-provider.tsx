@@ -8,8 +8,8 @@ import CodeBlockWithCopy from '@/components/code-block-with-copy';
 import { ReactElement } from 'react';
 import matter from 'gray-matter';
 import path from 'node:path';
-import { Provider } from './provider';
-import { ProjectSchema, ProjectWithoutProviderName } from './project';
+import { Provider } from '../provider';
+import { ProjectSchema, ProjectWithoutProviderName } from '../project';
 
 import 'highlight.js/styles/github.min.css';
 
@@ -21,7 +21,7 @@ import 'highlight.js/styles/github.min.css';
  * It uses the FrontMatter in that .md file to find the metadata about the project.
  */
 export class MarkdownProvider implements Provider {
-  private readonly directory = 'content/contentful-to-markdown/output/project';
+  private readonly directory = 'content/markdown';
 
   async getProjects(): Promise<ProjectWithoutProviderName[]> {
     const projectMarkdownDirectoryPath = path.join(process.cwd(), this.directory);
@@ -49,28 +49,22 @@ export class MarkdownProvider implements Provider {
       .map(safeProject => safeProject.data!);
   }
 
-  render(project: ProjectWithoutProviderName): ReactElement {
+  async render(project: ProjectWithoutProviderName): Promise<ReactElement> {
     const projectPath = path.join(process.cwd(), `${this.directory}/${project.slug}`);
     const isDirectory = fs.existsSync(projectPath) && fs.lstatSync(projectPath).isDirectory();
     const projectMarkdownFilePath = isDirectory ? (projectPath + '/index.md') : (projectPath + '.md');
     const file = fs.readFileSync(projectMarkdownFilePath, 'utf-8');
     const { content } = matter(file);
-    return <div
-      className='mx-auto prose prose-lg
-                 prose-pre:p-2 prose-pre:border prose-pre:border-gray-100 prose-pre:bg-gray-50
-                 prose-img:mx-auto prose-img:max-h-[60vh] prose-img:max-w-[90%] prose-img:rounded-lg prose-img:border'
+    return <ReactMarkdown
+      rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeHighlight]}
+      remarkPlugins={[remarkGfm]}
+      components={{
+        pre: ({ children, ...props }) => {
+          return <CodeBlockWithCopy {...props}>{children}</CodeBlockWithCopy>;
+        },
+      }}
     >
-      <ReactMarkdown
-        rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeHighlight]}
-        remarkPlugins={[remarkGfm]}
-        components={{
-          pre: ({ children, ...props }) => {
-            return <CodeBlockWithCopy {...props}>{children}</CodeBlockWithCopy>;
-          },
-        }}
-      >
-        {content}
-      </ReactMarkdown>
-    </div>;
+      {content}
+    </ReactMarkdown>;
   }
 }

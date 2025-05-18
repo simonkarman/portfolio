@@ -1,6 +1,6 @@
 'use client';
 
-import { ProjectWithProviderName } from '@/utils/projects/project';
+import { ProjectWithProviderName } from '@/projects/project';
 import { useSearchParams } from 'next/navigation';
 import { use, useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';

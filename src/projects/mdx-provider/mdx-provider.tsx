@@ -1,11 +1,11 @@
 import * as fs from 'node:fs';
 import { ReactElement } from 'react';
 import path from 'node:path';
-import { Provider } from './provider';
-import { ProjectSchema, ProjectWithoutProviderName } from './project';
+import dynamic from 'next/dynamic';
+import { Provider } from '../provider';
+import { ProjectSchema, ProjectWithoutProviderName } from '../project';
 
 import 'highlight.js/styles/github.min.css';
-import dynamic from 'next/dynamic';
 
 /**
  * MdxProvider looks through the 'content/mdx' directory and finds:
@@ -43,21 +43,13 @@ export class MdxProvider implements Provider {
       .map(safeProject => safeProject.data!);
   }
 
-  render(project: ProjectWithoutProviderName): ReactElement {
+  async render(project: ProjectWithoutProviderName): Promise<ReactElement> {
     const repositoryPath = `${this.directory}/${project.slug}`;
     const fullPath = path.join(process.cwd(), repositoryPath);
     const isDirectory = fs.existsSync(fullPath) && fs.lstatSync(fullPath).isDirectory();
 
     const contentPath = project.slug + (isDirectory ? '/index.mdx' : '.mdx');
     const Content = dynamic(() => import((`../../../content/mdx/${contentPath}`)));
-    return <div className='px-5 py-10 overflow-x-hidden'>
-      <div
-        className='mx-auto prose prose-lg
-             prose-pre:p-2 prose-pre:border prose-pre:border-gray-100 prose-pre:bg-gray-50
-             prose-img:mx-auto prose-img:max-h-[60vh] prose-img:max-w-[90%] prose-img:rounded-lg prose-img:border'
-      >
-        <Content />
-      </div>
-    </div>;
+    return <Content />;
   }
 }

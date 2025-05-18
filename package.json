@@ -4,12 +4,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npm run download && next dev",
+    "dev": "next dev",
     "build": "next build",
-    "start": "npm run download && next start",
+    "start": "next start",
     "lint": "next lint",
-    "precommit": "npm run lint && npm run build",
-    "download": "(cd content/contentful-to-markdown && npm install && npm run start)"
+    "precommit": "npm run lint && npm run build"
   },
   "husky": {
     "hooks": {
@@ -26,6 +25,7 @@
     "@next/mdx": "^15.3.2",
     "@tailwindcss/typography": "^0.5.16",
     "@types/mdx": "^2.0.13",
+    "contentful": "^11.5.22",
     "gray-matter": "^4.0.3",
     "lodash": "^4.17.21",
     "luxon": "^3.6.1",

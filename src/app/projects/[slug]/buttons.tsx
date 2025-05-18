@@ -1,7 +1,11 @@
+'use client';
+
 /* eslint-disable max-len */
 import ShareButton from '@/app/projects/[slug]/footnote';
+import { sendDownloadMail } from '@/utils/mailer';
 
 export function Buttons(props: {
+  slug: string,
   title: string,
   forceShowShare: boolean,
   repository?: string,
@@ -10,10 +14,17 @@ export function Buttons(props: {
   demo?: string
 }) {
   const showShare = props.forceShowShare || props.repository || props.documentation || props.download || props.demo;
+  const clicked = (type: string, url: string) => {
+    const mail = { project: props.slug, type, url };
+    sendDownloadMail(mail)
+      .then((res) => console.log('Download email sent!', res))
+      .catch((e) => console.error('Error while sending download email', e));
+  };
   return <>
     {props.repository && (
       <a
         href={props.repository}
+        onClick={() => clicked('repository', props.repository!)}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors"
@@ -30,6 +41,7 @@ export function Buttons(props: {
     {props.documentation && (
       <a
         href={props.documentation}
+        onClick={() => clicked('documentation', props.documentation!)}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors"
@@ -45,6 +57,7 @@ export function Buttons(props: {
     {props.download && (
       <a
         href={props.download}
+        onClick={() => clicked('download', props.download!)}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors"
@@ -59,6 +72,7 @@ export function Buttons(props: {
     {props.demo && (
       <a
         href={props.demo}
+        onClick={() => clicked('demo', props.demo!)}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors"
@@ -70,6 +84,7 @@ export function Buttons(props: {
         Live Demo
       </a>
     )}
+
     {showShare && <ShareButton title={props.title}/>}
   </>;
 }
