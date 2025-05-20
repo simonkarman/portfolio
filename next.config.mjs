@@ -14,9 +14,6 @@ const nextConfig = {
       { hostname: 'raw.githubusercontent.com' },
     ],
   },
-  experimental: {
-    useCache: true,
-  },
 };
 
 const withMDX = createMDX({
