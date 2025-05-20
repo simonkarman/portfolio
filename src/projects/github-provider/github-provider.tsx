@@ -1,17 +1,10 @@
 /* eslint-disable no-process-env */
-import ReactMarkdown from 'react-markdown';
-import rehypeRaw from 'rehype-raw';
-import rehypeSanitize from 'rehype-sanitize';
-import rehypeHighlight from 'rehype-highlight';
-import remarkGfm from 'remark-gfm';
-import CodeBlockWithCopy from '@/components/code-block-with-copy';
 import { ReactElement } from 'react';
 import { Octokit } from '@octokit/rest';
+import { Markdown } from '@/projects/markdown';
 import { Provider } from '../provider';
 import { ProjectSchema, ProjectWithoutProviderName } from '../project';
 import { getRepositoryImageUrl } from './get-repository-image-url';
-
-import 'highlight.js/styles/github.min.css';
 
 /**
  * GithubProvider gets Git repository and presents them as projects and renders their simonkarman.md or README.md content as markdown.
@@ -72,16 +65,6 @@ export class GithubProvider implements Provider {
     // TODO: Replace any urls starting with / or ./ with the repository url
     // TODO: Ensure that images are also replaced
 
-    return <ReactMarkdown
-      rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeHighlight]}
-      remarkPlugins={[remarkGfm]}
-      components={{
-        pre: ({ children, ...props }) => {
-          return <CodeBlockWithCopy {...props}>{children}</CodeBlockWithCopy>;
-        },
-      }}
-    >
-      {content}
-    </ReactMarkdown>;
+    return <Markdown content={content} />;
   }
 }

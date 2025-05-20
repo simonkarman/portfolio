@@ -1,16 +1,9 @@
 /* eslint-disable no-process-env */
-import ReactMarkdown from 'react-markdown';
-import rehypeRaw from 'rehype-raw';
-import rehypeSanitize from 'rehype-sanitize';
-import rehypeHighlight from 'rehype-highlight';
-import remarkGfm from 'remark-gfm';
-import CodeBlockWithCopy from '@/components/code-block-with-copy';
 import { ReactElement } from 'react';
 import { ContentfulClientApi, createClient } from 'contentful';
+import { Markdown } from '@/projects/markdown';
 import { Provider } from '../provider';
 import { ProjectSchema, ProjectWithoutProviderName } from '../project';
-
-import 'highlight.js/styles/github.min.css';
 
 /**
  * ContentfulProvider gets the contentful project items and renders their content as markdown.
@@ -65,16 +58,6 @@ export class ContentfulProvider implements Provider {
       content_type: 'project',
       'fields.name': project.slug,
     });
-    return <ReactMarkdown
-      rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeHighlight]}
-      remarkPlugins={[remarkGfm]}
-      components={{
-        pre: ({ children, ...props }) => {
-          return <CodeBlockWithCopy {...props}>{children}</CodeBlockWithCopy>;
-        },
-      }}
-    >
-      {content.items[0].fields.content as string}
-    </ReactMarkdown>;
+    return <Markdown content={content.items[0].fields.content as string} />;
   }
 }
