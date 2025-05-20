@@ -1,0 +1,1734 @@
+[
+  {
+    "slug": "github-fish-generator",
+    "title": "fish-generator",
+    "date": "2025-05-16",
+    "contributors": "Simon Karman",
+    "description": "Generate game icons that match an existing art style.",
+    "tags": [
+      "github",
+      "javascript"
+    ],
+    "image": "https://raw.githubusercontent.com/simonkarman/fish-generator/main/examples.png",
+    "repository": "https://github.com/simonkarman/fish-generator",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-display-connect",
+    "title": "display-connect",
+    "date": "2025-04-27",
+    "contributors": "Simon Karman",
+    "description": "Enabling users to connect mobile devices as a controller to a larger display via QR code scanning.",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/display-connect",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-modder",
+    "title": "modder",
+    "date": "2024-12-10",
+    "contributors": "Simon Karman",
+    "description": "A moddable game about mud",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/modder",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-advent-of-code-2024",
+    "title": "advent-of-code-2024",
+    "date": "2024-12-01",
+    "contributors": "Simon Karman",
+    "description": "Advent of Code 2024 in Python",
+    "tags": [
+      "github",
+      "python"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/advent-of-code-2024",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-two-aces",
+    "title": "two-aces",
+    "date": "2024-08-06",
+    "contributors": "Simon Karman",
+    "description": "Two Aces is a digital 3d multiplayer 52 card board game build with Krmx and ThreeJS.",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "https://raw.githubusercontent.com/simonkarman/two-aces/main/two-aces.png",
+    "repository": "https://github.com/simonkarman/two-aces",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-krmx-starter",
+    "title": "krmx-starter",
+    "date": "2024-06-30",
+    "contributors": "Simon Karman",
+    "description": "A starter for Krmx React applications",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/krmx-starter",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-pastebin-client-go",
+    "title": "pastebin-client-go",
+    "date": "2024-06-14",
+    "contributors": "Simon Karman",
+    "description": "A Go client for creating and deleting user pastes on Pastebin.",
+    "tags": [
+      "github",
+      "go"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/pastebin-client-go",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-terraform-provider-pastebin",
+    "title": "terraform-provider-pastebin",
+    "date": "2024-06-14",
+    "contributors": "Simon Karman",
+    "description": "A Terraform Provider to create and delete pastes in pastebin",
+    "tags": [
+      "github",
+      "go"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/terraform-provider-pastebin",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-portfolio",
+    "title": "portfolio",
+    "date": "2024-06-13",
+    "contributors": "Simon Karman",
+    "description": "Portfolio website of Simon Karman",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/portfolio",
+    "providerName": "github"
+  },
+  {
+    "slug": "christmas-tree",
+    "title": "Christmas Tree",
+    "date": "2023-12-26",
+    "contributors": "Simon Karman and Lisa Pruijn",
+    "description": "A Christmas themed game build with Krmx.",
+    "tags": [
+      "krmx",
+      "game",
+      "typescript",
+      "react",
+      "websockets"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/6HyMzsG8xJqCasVDez9nxB/31b49bb3b9f9d2bfef853f16bba75c27/game-dark.png",
+    "repository": "https://github.com/simonkarman/christmas-tree",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-christmas-tree",
+    "title": "christmas-tree",
+    "date": "2023-12-25",
+    "contributors": "Simon Karman",
+    "description": "A Christmas themed game build with Krmx",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/christmas-tree",
+    "providerName": "github"
+  },
+  {
+    "slug": "advent-of-code-2023",
+    "title": "Advent of Code 2023",
+    "date": "2023-12-01",
+    "contributors": "Simon Karman",
+    "description": "Solutions to Advent of Code 2023 written in Rust.",
+    "tags": [
+      "advent-of-code",
+      "rust"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/3cUWiOcZXFaXmgqQPa9pOy/59a172cd3a2e5aaa125ce90e17077991/advent-of-code-2023.png",
+    "repository": "https://github.com/simonkarman/advent-of-code-2023",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-hosting",
+    "title": "hosting",
+    "date": "2023-11-25",
+    "contributors": "Simon Karman",
+    "description": "The hosting for static websites of Simon Karman, such as simonkarman.nl and karman.dev.",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/hosting",
+    "providerName": "github"
+  },
+  {
+    "slug": "krmx-best-practices",
+    "title": "Krmx Best Practices",
+    "date": "2023-11-23",
+    "contributors": "Simon Karman",
+    "description": "A Krmx server and client using with a system architecture.",
+    "tags": [
+      "krmx",
+      "typescript",
+      "websockets"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/2udVVZEdIza6jTBd2EPVkj/69b23cf17ee8e5fd24d0225e39648313/krmx-best-practices.png",
+    "repository": "https://github.com/simonkarman/krmx-best-practices/",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-krmx-best-practices",
+    "title": "krmx-best-practices",
+    "date": "2023-11-16",
+    "contributors": "Simon Karman",
+    "description": "Best practices of a system setup for Krmx",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "https://raw.githubusercontent.com/simonkarman/krmx-best-practices/main/krmx-best-practices.png",
+    "repository": "https://github.com/simonkarman/krmx-best-practices",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-advent-of-code-2023",
+    "title": "advent-of-code-2023",
+    "date": "2023-11-14",
+    "contributors": "Simon Karman",
+    "description": "Advent of Code 2023 in Rust",
+    "tags": [
+      "github",
+      "rust"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/advent-of-code-2023",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-voromulti",
+    "title": "voromulti",
+    "date": "2023-10-15",
+    "contributors": "Simon Karman",
+    "description": "A multiplayer Voronoi diagram",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "https://raw.githubusercontent.com/simonkarman/voromulti/main/voromulti.png",
+    "repository": "https://github.com/simonkarman/voromulti",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-b11",
+    "title": "b11",
+    "date": "2023-09-22",
+    "contributors": "Simon Karman",
+    "description": "Analyze and view B11 posts on 11:11",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "https://raw.githubusercontent.com/simonkarman/b11/main/visualization.png",
+    "repository": "https://github.com/simonkarman/b11",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-krmx-presentation",
+    "title": "krmx-presentation",
+    "date": "2023-08-13",
+    "contributors": "Simon Karman",
+    "description": "Slides including an example project for showcasing Krmx",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/krmx-presentation",
+    "providerName": "github"
+  },
+  {
+    "slug": "krmx",
+    "title": "Krmx",
+    "date": "2023-08-08",
+    "contributors": "Simon Karman",
+    "description": "A network protocol for realtime multi-user interactions.",
+    "tags": [
+      "krmx",
+      "typescript",
+      "websockets"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/7un7jZTuk0lU6z8XETyhZ8/d2bdb355e51faed5cb8295d7ff244f45/krmx-events.png",
+    "repository": "https://github.com/simonkarman/krmx",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-krmx",
+    "title": "krmx",
+    "date": "2023-08-07",
+    "contributors": "Simon Karman",
+    "description": "A network protocol for realtime multi-user interactions.",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "documentation": "https://simonkarman.github.io/krmx",
+    "repository": "https://github.com/simonkarman/krmx",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-detour",
+    "title": "detour",
+    "date": "2023-08-06",
+    "contributors": "Simon Karman",
+    "description": "Detour is an app that can be used to take detours when cycling.",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/detour",
+    "providerName": "github"
+  },
+  {
+    "slug": "detour",
+    "title": "Detour",
+    "date": "2023-08-05",
+    "contributors": "Simon Karman",
+    "description": "An app that can be used to take detours when cycling.",
+    "tags": [
+      "game",
+      "cycling"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/4pBDntm2H4XsPnv28BT1Y1/728473f81773e79c92a77197c9869d07/app.png",
+    "repository": "https://github.com/simonkarman/detour/",
+    "demo": "https://karman.dev/detour/",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "hexlines",
+    "title": "Hexlines",
+    "date": "2023-07-31",
+    "contributors": "Simon Karman and Jorn Theunissen",
+    "description": "A multiplayer board game implemented using Krmx.",
+    "tags": [
+      "krmx",
+      "typescript",
+      "websockets",
+      "game"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/4Qrc4HkZT3eozwg4vvEUdB/75f09c7a2ab868c70a0814e2e7866bd2/ancient-hexlines.jpeg",
+    "repository": "https://github.com/simonkarman/ancient/",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-gcp-cloud-build-demo",
+    "title": "gcp-cloud-build-demo",
+    "date": "2023-06-18",
+    "contributors": "Simon Karman",
+    "description": "Demo of using Cloud Build to build a Docker image for a NodeJS application",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/gcp-cloud-build-demo",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-hugo-docs",
+    "title": "hugo-docs",
+    "date": "2023-05-03",
+    "contributors": "Simon Karman",
+    "description": "GitHub Pages with Hugo to create a documentation hub",
+    "tags": [
+      "github",
+      "javascript"
+    ],
+    "image": "/card.jpg",
+    "documentation": "https://simonkarman.github.io/hugo-docs",
+    "repository": "https://github.com/simonkarman/hugo-docs",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-ancient",
+    "title": "ancient",
+    "date": "2023-04-01",
+    "contributors": "Simon Karman",
+    "description": "A collection of WebSocket-based multiplayer games build with Krmx",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/ancient",
+    "providerName": "github"
+  },
+  {
+    "slug": "aws-msk-under-load",
+    "title": "Measuring that an MSK cluster is under load",
+    "date": "2023-03-16",
+    "contributors": "Simon Karman and Matt Watson",
+    "description": "Amazon MSK is the AWS managed offering for Apache Kafka. To identify issues and to be able act quickly on those, the health of these clusters is important to monitor.",
+    "tags": [
+      "aws",
+      "msk",
+      "metrics",
+      "blog"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/5efFgWbpNFfOkE4LL9ooPH/4356ad1f429cc5aeae0124af927fc426/og-banner.png",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "gcp-logs-based-metrics",
+    "title": "Logs Based Metrics in GCP",
+    "date": "2023-01-11",
+    "contributors": "Simon Karman",
+    "description": "How to get notified via Slack when a Cloud Run service is outputting logs that contain the word ‘binxio’?",
+    "tags": [
+      "gcp",
+      "terraform",
+      "metrics",
+      "slack",
+      "blog"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/7pt7CA7NoOB3izxROvfou5/5c58ef247d88bf6ae7efef82dbcfeb41/how-to-get-alerted-on-application-logs-in-gcp-notification-1.png",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-advent-of-code-2022",
+    "title": "advent-of-code-2022",
+    "date": "2022-12-16",
+    "contributors": "Simon Karman",
+    "description": "Advent of Code 2022",
+    "tags": [
+      "github",
+      "go"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/advent-of-code-2022",
+    "providerName": "github"
+  },
+  {
+    "slug": "karman-home",
+    "title": "Karman Home",
+    "date": "2022-08-22",
+    "contributors": "Simon Karman",
+    "description": "An application set for a home server with identity and chat functionalities.",
+    "tags": [
+      "react",
+      "express",
+      "typescript",
+      "websockets",
+      "docker"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/h6Bbhhqg9nO7J8QBhVokI/5651114c83a75a9a5dc189a0d07f0c72/home.png",
+    "repository": "https://github.com/simonkarman/home",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-js-grip",
+    "title": "js-grip",
+    "date": "2022-08-21",
+    "contributors": "Simon Karman",
+    "description": "JavaScript GRIP library",
+    "tags": [
+      "github",
+      "language"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/js-grip",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-horsecart",
+    "title": "horsecart",
+    "date": "2022-07-21",
+    "contributors": "Simon Karman",
+    "description": "A puzzle game by Matt Watson and [Simon Karman](https://www.simonkarman.nl).",
+    "tags": [
+      "github",
+      "shaderlab"
+    ],
+    "image": "https://raw.githubusercontent.com/simonkarman/horsecart/main/horsecart.png",
+    "repository": "https://github.com/simonkarman/horsecart",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-cdk-pipelines-example-app",
+    "title": "cdk-pipelines-example-app",
+    "date": "2022-05-17",
+    "contributors": "Simon Karman",
+    "description": "Demo of using CDK pipelines for a newly initialised CDK app with TypeScript",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/cdk-pipelines-example-app",
+    "providerName": "github"
+  },
+  {
+    "slug": "trackmania-twnty",
+    "title": "Trackmania TWNTY",
+    "date": "2022-04-07",
+    "contributors": "Simon Karman",
+    "description": "A Trackmania map pack to celebrate my twenty ninth birthday.",
+    "tags": [
+      "trackmania",
+      "mapmaking"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/ibJGauUlX8jju1gKQdxhU/077493aa341990ada63c398aa9864e54/TWNTY.png",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/wNg0aleuYQZ8UR2YJ6wvE/d0e165a7a33fd33f2a7a699c797f2f6d/TWNTY.zip",
+    "repository": "https://trackmania.exchange/mapsearch2/index?mode=1&authorid=46114",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "elemental-arena-next",
+    "title": "Elemental Arena (next)",
+    "date": "2022-03-11",
+    "contributors": "Simon Karman",
+    "description": "A proof of concept on using React and SVG to create a board game in your browser.",
+    "tags": [
+      "game",
+      "react",
+      "next",
+      "svg"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/7fQvzHkj5regKfbcIbrkHX/04b90b06af67b625d7ecd177b9f5fd09/elemental-arena-next-dark.png",
+    "repository": "https://github.com/simonkarman/elemental-arena-next/",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-elemental-arena-next",
+    "title": "elemental-arena-next",
+    "date": "2022-03-08",
+    "contributors": "Simon Karman",
+    "description": "Frontend for Elemental Arena game written in the React framework Next using TypeScript",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/elemental-arena-next",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-cloud-provider-ip-ranges",
+    "title": "cloud-provider-ip-ranges",
+    "date": "2022-02-09",
+    "contributors": "Simon Karman",
+    "description": "Calculates statistics about the number of ipv4 addresses and the number of cidr ranges AWS has reserved",
+    "tags": [
+      "github",
+      "javascript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/cloud-provider-ip-ranges",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-home",
+    "title": "home",
+    "date": "2022-02-08",
+    "contributors": "Simon Karman",
+    "description": "A set of applications that functions as a home server, providing user identity and chat message functionality.",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "https://raw.githubusercontent.com/simonkarman/home/main/architecture.png",
+    "repository": "https://github.com/simonkarman/home",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-websocket-example",
+    "title": "websocket-example",
+    "date": "2022-01-30",
+    "contributors": "Simon Karman",
+    "description": "TypeScript implementation of a WebSocket server",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/websocket-example",
+    "providerName": "github"
+  },
+  {
+    "slug": "trackmania-2020-map-pack",
+    "title": "Trackmania KARMAN",
+    "date": "2022-01-02",
+    "contributors": "Simon Karman",
+    "description": "KARMAN is a map pack that contains 17 trackmania maps, that I created for the game Trackmania 2020",
+    "tags": [
+      "trackmania",
+      "mapmaking"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/5a3h73BSus4uzKZPSxMJsd/6fb01afdd255baca92ca6bd752b5e1ac/trackmania-2020.jpeg",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/4PYQSJR605xuge3Qj3XEeF/cb7d9a55c005164792f36fe4b5fb5da4/KARMAN.zip",
+    "repository": "https://trackmania.exchange/mapsearch2/index?mode=1&authorid=46114",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-advent-of-code-2021",
+    "title": "advent-of-code-2021",
+    "date": "2021-12-02",
+    "contributors": "Simon Karman",
+    "description": "Advent of Code 2021",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/advent-of-code-2021",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-paas-monitor",
+    "title": "paas-monitor",
+    "date": "2021-10-07",
+    "contributors": "Simon Karman",
+    "description": " An application to observe the behaviour of PaaS platforms.",
+    "tags": [
+      "github",
+      "language"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/paas-monitor",
+    "providerName": "github"
+  },
+  {
+    "slug": "nextjs-frontend-app-starter",
+    "title": "Next.js Frontend App Starter",
+    "date": "2021-09-24",
+    "contributors": "Simon Karman",
+    "description": "Starter for a modern frontend using Next.js with TypeScript, Contentful, and more.",
+    "tags": [
+      "nextjs",
+      "react",
+      "typescript",
+      "contentful"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/3et1rits0V5wSzIrNnZkk/590bf72b92c73d33170326eeff60f0f1/nextjs.png",
+    "repository": "https://github.com/simonkarman/nextjs-frontend-app-starter",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-nextjs-frontend-app-starter",
+    "title": "nextjs-frontend-app-starter",
+    "date": "2021-09-20",
+    "contributors": "Simon Karman",
+    "description": "This is a [Next.js](https://nextjs.org/) with TypeScript starter for a portfolio website such as the [simonkarman.nl](https://www.simonkarman.nl) website.",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/nextjs-frontend-app-starter",
+    "providerName": "github"
+  },
+  {
+    "slug": "three-jug-riddle",
+    "title": "The Three Jug Riddle",
+    "date": "2021-05-23",
+    "contributors": "Simon Karman",
+    "description": "A visual solution to the three jug riddle.",
+    "tags": [
+      "riddle",
+      "typescript",
+      "graphviz"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/bWi45Kuo2oFt73vSGfQun/a13914f411efe7592a8c99f80bac7829/problem.png",
+    "repository": "https://github.com/simonkarman/three-jug-riddle",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-three-jug-riddle",
+    "title": "three-jug-riddle",
+    "date": "2021-05-23",
+    "contributors": "Simon Karman",
+    "description": "You have a full 12 liter jug and empty 5 and 8 liter jugs. Can you measure exactly 6 liters?",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "https://raw.githubusercontent.com/simonkarman/three-jug-riddle/main/problem.png",
+    "repository": "https://github.com/simonkarman/three-jug-riddle",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-gno-dag",
+    "title": "gno-dag",
+    "date": "2021-05-21",
+    "contributors": "Simon Karman",
+    "description": "",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/gno-dag",
+    "providerName": "github"
+  },
+  {
+    "slug": "aws-cdk",
+    "title": "AWS CDK",
+    "date": "2021-03-21",
+    "contributors": "Simon Karman",
+    "description": "Using AWS CDK to manage your infrastructure in AWS",
+    "tags": [
+      "typescript",
+      "iac",
+      "aws"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/6LUP03UxPpzGdKotFgn9eS/4b83f61f105e64aa6e09da96144d187a/cdk.png",
+    "repository": "https://github.com/simonkarman/cdk-vs-serverless-framework",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-cdk-vs-sf",
+    "title": "cdk-vs-sf",
+    "date": "2021-03-15",
+    "contributors": "Simon Karman",
+    "description": "A comparison of the setup of a micro-service in AWS using the AWS Cloud Development Kit (AWS CDK) and the Serverless Framework as part of the 'Using AWS CDK to manage your infrastructure'-article by Simon Karman written for the Dutch Java Magazine.",
+    "tags": [
+      "github",
+      "typescript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/cdk-vs-sf",
+    "providerName": "github"
+  },
+  {
+    "slug": "b11-party-mar2021",
+    "title": "B11 Party v1.1.0",
+    "date": "2021-03-05",
+    "contributors": "Simon Karman",
+    "description": "The v1.1.0 release of b11-party 🚀, a multiplayer game based on Mario Party with minigames themed around the 11th board of Study Association Sticky.",
+    "tags": [
+      "networking",
+      "unity",
+      "game",
+      "csharp"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/20lt7yKvsO9se9ljVkWIyj/0be6691a73c84d8114b77ff923ba956d/bussen.png",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/kvwrkAoBUh0RF7EpvY4KQ/9a428d476c5e9a2e0a4356155d2cdf4e/b11-party-windows-1.1.0.zip",
+    "repository": "https://github.com/simonkarman/b11-party/releases/tag/v1.1.0",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "lisapruijn-nl",
+    "title": "lisapruijn.nl",
+    "date": "2021-02-25",
+    "contributors": "Simon Karman and Lisa Pruijn",
+    "description": "Example development setup of a portfolio or personal website.",
+    "tags": [
+      "react",
+      "typescript",
+      "netlify"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/2if1NmYTXic43eZ079MFMN/790da12e5601438cc26e6c41aaf02def/lisapruijn.nl.png",
+    "repository": "https://github.com/lisapruijn",
+    "demo": "https://www.lisapruijn.nl",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "b11-party",
+    "title": "B11 Party",
+    "date": "2020-11-01",
+    "contributors": "Simon Karman",
+    "description": "A multiplayer game based on Mario Party with minigames themed around the 11th board of study association Sticky",
+    "tags": [
+      "networking",
+      "game",
+      "unity",
+      "csharp"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/zkP9m1C3GbImm6eTODZDU/19c06701a9b28b07396a4d0d25ed8429/join-ui.png",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/kvwrkAoBUh0RF7EpvY4KQ/9a428d476c5e9a2e0a4356155d2cdf4e/b11-party-windows-1.1.0.zip",
+    "repository": "https://github.com/simonkarman/b11-party",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-b11-party",
+    "title": "b11-party",
+    "date": "2020-10-27",
+    "contributors": "Simon Karman",
+    "description": "A multiplayer game based on Mario Party with minigames themed around the 11th board of study association Sticky",
+    "tags": [
+      "github",
+      "csharp"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/b11-party",
+    "providerName": "github"
+  },
+  {
+    "slug": "karmannet",
+    "title": "KarmanNet",
+    "date": "2020-10-24",
+    "contributors": "Simon Karman",
+    "description": "A C# library that provides networking logic for multiplayer games.",
+    "tags": [
+      "networking",
+      "unity",
+      "csharp"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/WG2ExfucfnyicCRIMSdk3/81278b98d72ff0dae59be3cfd2e53804/multiplayer.jpg",
+    "repository": "https://github.com/simonkarman/karmannet",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "serverless-multistack-example",
+    "title": "Serverless Multistack Example",
+    "date": "2020-09-29",
+    "contributors": "Simon Karman and Benthe Hagemeijer",
+    "description": "An example project for splitting an AWS project, build using the Serverless Framework, into multiple CloudFormation stacks to avoid the 200 resources limit that AWS imposes on CloudFormation stacks.",
+    "tags": [
+      "aws",
+      "cloudformation",
+      "serverless"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/7lYVILwNc3hTsiNQax7l4R/5ea2ee39b433c2b31ad2e56740b00070/serverless.png",
+    "repository": "https://github.com/simonkarman/serverless-multistack-example",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-serverless-multistack-example",
+    "title": "serverless-multistack-example",
+    "date": "2020-09-29",
+    "contributors": "Simon Karman",
+    "description": "Example of a serverless-multistack",
+    "tags": [
+      "github",
+      "javascript"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/serverless-multistack-example",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-karmannet",
+    "title": "karmannet",
+    "date": "2020-09-26",
+    "contributors": "Simon Karman",
+    "description": "A C# library that provides networking logic for multiplayer games.",
+    "tags": [
+      "github",
+      "csharp"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/karmannet",
+    "providerName": "github"
+  },
+  {
+    "slug": "github-google-style-precommit-hook",
+    "title": "google-style-precommit-hook",
+    "date": "2020-07-08",
+    "contributors": "Simon Karman",
+    "description": "A pre-commit hook which will automatically format your code with google's codestyle guidelines!",
+    "tags": [
+      "github",
+      "shell"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/google-style-precommit-hook",
+    "providerName": "github"
+  },
+  {
+    "slug": "tikkie-for-businesses",
+    "title": "Tikkie for Businesses",
+    "date": "2020-05-20",
+    "contributors": "Simon Karman",
+    "description": "An application that uses version 2 of the Tikkie API to create payment requests for appointments of businesses.",
+    "tags": [
+      "tikkie",
+      "vue",
+      "express",
+      "tailwindcss",
+      "mongodb"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/1TvVo3VHFzB4eMBKAq7IPf/48f298db819ecebbcd40f79bb1c24acc/tikkie-api.png",
+    "repository": "https://github.com/simonkarman/tikkie-api-v2-implementation-day",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-tikkie-api-v2-implementation-day",
+    "title": "tikkie-api-v2-implementation-day",
+    "date": "2020-05-20",
+    "contributors": "Simon Karman",
+    "description": "",
+    "tags": [
+      "github",
+      "vue"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/tikkie-api-v2-implementation-day",
+    "providerName": "github"
+  },
+  {
+    "slug": "terraevi",
+    "title": "Terraevi",
+    "date": "2020-04-04",
+    "contributors": "Simon Karman and Jorn Theunissen",
+    "description": "A text based role playing game in the browser.",
+    "tags": [
+      "game",
+      "javascript",
+      "vue",
+      "tailwindcss"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/5RXknrv7noHeWEoWMkRdh8/87c59ede975ee75f28132cabc2c0d9c5/terraevi.png",
+    "repository": "https://karman.dev/terraevi/",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "simonkarman-nuxt",
+    "title": "Rebuild of simonkarman.nl",
+    "date": "2020-03-24",
+    "contributors": "Simon Karman",
+    "description": "A rebuild of my portfolio website using VueJS, Nuxt, TailwindCSS, and Contentful.",
+    "tags": [
+      "vue",
+      "nuxtjs",
+      "javascript",
+      "contentful"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/4THLEnsM3LzBepRWlWXEKV/87b3551822e6e289ea2fba40da232e6a/home.png",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "serverless-stack-visualizer",
+    "title": "Serverless Stack Visualizer",
+    "date": "2020-01-29",
+    "contributors": "Simon Karman",
+    "description": "A tool to visualize serverless resources in Cloud Formation stack across multiple AWS accounts",
+    "tags": [
+      "serverless",
+      "aws",
+      "cloudformation"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/3KDafadG40WXxJurpCiOmJ/3d6bdb2dd8289cdd5faf11760e0db64d/serverless-stack-visualiser__1_.png",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "generating-certificates",
+    "title": "Generating Self Signed Certificates",
+    "date": "2020-01-22",
+    "contributors": "Simon Karman",
+    "description": "A step by step explanation on how to generate your own self signed certificate for personal development purposes",
+    "tags": [
+      "certificates",
+      "https",
+      "javascript",
+      "security"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/5m4pz1VzO9RCY6RDSGxpoB/c26b1db1861261115d65ef48e7e62c3e/https.png",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-advent-of-code-2019",
+    "title": "advent-of-code-2019",
+    "date": "2019-12-02",
+    "contributors": "Simon Karman",
+    "description": "Advent of Code 2019",
+    "tags": [
+      "github",
+      "python"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/advent-of-code-2019",
+    "providerName": "github"
+  },
+  {
+    "slug": "quintor-ing-dagobert",
+    "title": "Dagobert",
+    "date": "2019-06-28",
+    "contributors": "Qontinuum",
+    "description": "Project at ING Bank to payout ING Service Points.",
+    "tags": [
+      "quintor",
+      "ing-bank",
+      "java",
+      "axon"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/4eJslOFLyQlOboWLaVUYjA/430f57f9766673875eb9c3d2e4cc36c6/quintor-ing-dagobert.jpg",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "scavenger-hunt",
+    "title": "Scavenger Hunt",
+    "date": "2019-05-11",
+    "contributors": "Simon Karman and Ruud van der Weide",
+    "description": "Scavenger Hunt web app build with Vue and Netlify",
+    "tags": [
+      "vue",
+      "netlify"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/2LZrTKU1yrIypU0qAYclgh/d29afa97c2ee10a055040d2e70f545b8/gno-dag-vue-netlify.png",
+    "repository": "https://bitbucket.org/simonkarman/scavenger-hunt",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "quintormasterclass",
+    "title": "Quintor Masterclass",
+    "date": "2018-09-17",
+    "contributors": "Simon Karman",
+    "description": "Kick-off of my professional software development career at Quintor.",
+    "tags": [
+      "quintor",
+      "java"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/5VgN3f2fpVtFbn8vKywyVu/6b313037e25742029ff7b1e453b0f590/quintormasterclass.jpg",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "infinitevoronoi",
+    "title": "Infinite Voronoi",
+    "date": "2018-07-20",
+    "contributors": "Simon Karman",
+    "description": "Technical demonstration of a seemingly infinite Voronoi diagram.",
+    "tags": [
+      "pcg",
+      "csharp",
+      "unity"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/7JyVjxxdGpW2ZykrE9pmi0/4d729c414bc972760edcd92a4e5e74fd/infinitevoronoi.png",
+    "repository": "https://bitbucket.org/simonkarman/simsourcer/src/default/Assets/Libraries/InfiniteVoronoiConstructor/",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "masterthesis",
+    "title": "Master Thesis",
+    "date": "2018-06-28",
+    "contributors": "Simon Karman",
+    "description": "Generating Sokoban Levels that are Interesting to Play using Simulation.",
+    "tags": [
+      "pcg",
+      "sokoban",
+      "cplusplus",
+      "csharp",
+      "utrecht-university"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/13OS0IqwHpGPU8OKWkunZP/814fe787a966076f098c78735c1304bc/sokoban_banner.png",
+    "documentation": "https://assets.ctfassets.net/r26fkm24j6bh/4cK9QOfIHKt3SBe2q3dXG0/3d6bf0dce069641deb4d88d2ce62e2df/masterthesis_simonkarman.pdf",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "orbital",
+    "title": "Orbital",
+    "date": "2018-01-28",
+    "contributors": "Team maeT",
+    "description": "My entry for the Global Game Jam 2018.",
+    "tags": [
+      "globalgamejam",
+      "csharp",
+      "unity"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/5FzoKZIIWn06XZi4YUd2ZM/6bfef1c6287447ccee7d5be4e59c112e/orbital.png",
+    "repository": "https://globalgamejam.org/2018/games/orbital",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "mp_watertower",
+    "title": "Watertower",
+    "date": "2017-08-22",
+    "contributors": "Simon Karman",
+    "description": "It started with a sketch one night, and with some motivation I managed to create a competitive Call of Duty 4 - Modern Warfare Map.",
+    "tags": [
+      "cod4",
+      "mapmaking"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/1KSMPxrlfvQjYPjIbin28M/18413e989fd6f7cfb406e58ce99435c4/loadscreen_mp_watertower.png",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/55ZQbAnDfJrdQnI6bW0RZZ/98f5e256a492b8bef6803b47044c76bc/mp_watertower_package.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "transactionanalyzer",
+    "title": "Transaction Analyzer",
+    "date": "2017-08-09",
+    "contributors": "Simon Karman",
+    "description": "A open-source lightweight html5 based analyzer for bank transaction to gain insight into your personal expenses and income.",
+    "tags": [
+      "javascript",
+      "d3"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/3zZzSW7FjayoUMuuYsSKkq/09134397dec53c728f5a15613fa03b75/transactionanalyzer.png",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/5WVsKuqbNSgOc4SUQaoiC0/cfd4806680c5256bb9969428d4d6b682/simonkarman-transactionanalyzer.zip",
+    "repository": "https://bitbucket.org/simonkarman/transactionanalyzer",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "exploramon",
+    "title": "Exploramon",
+    "date": "2017-03-06",
+    "contributors": "Simon Karman",
+    "description": "A hex-based town building game.",
+    "tags": [
+      "game",
+      "android",
+      "csharp",
+      "unity"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/C3LfPW2buLK4HfHJnN5hF/2755d5fc131a3394f7d4f39d3c43320b/exploramon.jpg",
+    "documentation": "https://assets.ctfassets.net/r26fkm24j6bh/oy6Pp7jBpXN2EHWkA1AXE/ddfd248e5d25625e97a0edce9d1dcdee/Exploramon.pdf",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/qALPZkzJT8ilo2MsPbqIq/125f2100e2b3210c8493afe5009eeac9/Exploramon_Android_Build.apk",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "tummytumblers",
+    "title": "Tummy Tumblers",
+    "date": "2017-01-22",
+    "contributors": "Galactic Jellyfish",
+    "description": "Tummy Tumblers is my entry for the Global Game Jam 2017.",
+    "tags": [
+      "game",
+      "csharp",
+      "unity",
+      "globalgamejam"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/2lCHX456SwaletBvALshWE/f5b70fe8c02afec16a9fd628cb0d76b0/tummytumblers.png",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/2W6lkqmWcqzgtonmKQCWoh/41b9833270a5c07fce15f20b17f24501/tummytumblers.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "procudemon",
+    "title": "Procudemon",
+    "date": "2016-09-01",
+    "contributors": "Simon Karman",
+    "description": "A procedurally generated 3D world that moves along with the position of the player.",
+    "tags": [
+      "pcg",
+      "csharp",
+      "unity"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/30bGvPSaEK9djdbIpc5w2W/8a9c98d71ec14abb8596e2108d06a954/procudemon.png",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/3PT8hBosxVBYKZBu664wWJ/6001282f6300ff657d380e9f6b4fb69e/Procedumon.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "bookflip",
+    "title": "The Magic Adventures of Luna",
+    "date": "2016-06-23",
+    "contributors": "Suus Looijen, Mangle Moose and Simon Karman",
+    "description": "The Magical Adventures of Luna a short fairytale that is told via an interactive book.",
+    "tags": [
+      "game",
+      "csharp",
+      "unity"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/2t15OlKCbwW1b5MV5PsBEc/7bdb966661148af060e11ea079b29de9/bookflip.png",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/6WBynAn7JOPii8C3zOZcMN/56ff2c59e8f5080ceb6432ea9effc5cf/bookflip_version_0.61.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "rallyracer",
+    "title": "Rally Racer",
+    "date": "2016-02-17",
+    "contributors": "Ard Bonewald, Gerrit Willemse and Simon Karman",
+    "description": "The HTML5 car racing game I created while working at Tingly Games. The game uses the physics engine Box2D which was used in JavaScript by the port from C++ using ASM.js.",
+    "tags": [
+      "game",
+      "javascript",
+      "asmjs",
+      "tingly"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/4BCLTXZNPFe5cYqXUNxyub/4511384a28a93e7e5771ac8a8ae65af2/rallyracer.png",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "ohgoditsmonday",
+    "title": "Oh God, It's Monday",
+    "date": "2016-01-31",
+    "contributors": "Sneaky Ninjas",
+    "description": "The game I created together with my team at the Global Game Jam 2016 in Amsterdam at the HvA location.",
+    "tags": [
+      "game",
+      "csharp",
+      "unity",
+      "globalgamejam"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/2KTntxbqF5OsjCWheWDmRc/259da459b9a64b076d52ebf53a4cb477/splashscreen.png",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/5WgznPjJHYVu9uQYNSQvGb/113fb22fb4442ae1ae5c528c5c665e4a/OhGodItsMonday_simonkarman.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "teamzania_enterpriseyourself",
+    "title": "Teamzania Enterprise Yourself",
+    "date": "2015-12-20",
+    "contributors": "Simon Karman, Jochem van der Lof, Suus Looijen, Thomas Groot Zwaaftink and Jasper Hutte",
+    "description": "The prototype game I created at the Utrecht University in collaboration with the HKU for Plan International for the unemployed youth in Tanzania.",
+    "tags": [
+      "game",
+      "tanzania",
+      "utrecht-university"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/21eUbi4q0rEPVyMGDgVKNQ/7ca0ea1c061453e5621c550b4b0ee91e/teamzania1.jpg",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/3x8mFB5dXWcDsLtssPV20n/2337c816757f7dff01dfe1b33387c8a5/teamzania_presskit.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "tinglysmagicsolitaire",
+    "title": "Tingly's Magic Solitaire",
+    "date": "2015-08-03",
+    "contributors": "Simon Karman, Steffi Kick, and Ard Bonewald",
+    "description": "Tingly's Magic Solitaire, a HTML5 card game that I worked on at Tingly Games.",
+    "tags": [
+      "game",
+      "javascript",
+      "tingly"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/3bnmssyO7fInQmIGO7pc9a/89eabf3e173e498b2b3cb10853359d8f/tingly_banner1.png",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "tinglypyramidsolitaire",
+    "title": "Tingly's Pyramid Solitaire",
+    "date": "2015-07-27",
+    "contributors": "Simon Karman, Nicole Smit, and Ard Bonewald",
+    "description": "Tingly Pyramid Solitaire, a HTML5 card game that I created at Tingly Games.",
+    "tags": [
+      "game",
+      "javascript",
+      "tingly"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/67ehh7YMrMS2ZCVZUHZQGL/47a0bcb1beb4a08e2b56e181568464ac/pyramidsolitaire_banner1.png",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "kjac",
+    "title": "kjac.nl",
+    "date": "2015-07-11",
+    "contributors": "Simon Karman",
+    "description": "The responsive website on kjac.nl that I created for the advisor and team coach Jac. Karman.",
+    "tags": [
+      "javasscript",
+      "php",
+      "security"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/pH3CAeQrhwttUvT4jQNKe/954d96ce4980c9f8784353c89581a250/kjac_banner.png",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "infurnace",
+    "title": "Infurnace",
+    "date": "2015-07-03",
+    "contributors": "Simon Karman, Geert Lugtenberg, Kevin Kessels and Bas Geerts",
+    "description": "Infurnace is an agent-based fire disaster simulator created for the Games and Agents course on the Utrecht University",
+    "tags": [
+      "csharp",
+      "simulator",
+      "unity",
+      "utrecht-university"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/3357TgaC6Cbv9Yo26WnLIk/15c254f2b685aa88076f908c098b1e7f/ProjectInfurnace.png",
+    "documentation": "https://assets.ctfassets.net/r26fkm24j6bh/70EAOfV5gnrBs0gDjpn4nk/7dc365f83de6c9fd4cc2e1f49415e788/Agent-Based_Fire_Disaster_Simulator_Report.pdf",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/qmr2QivPUuXSs285C25Wj/d27016be34004ff58d16d0fe5976986b/ProjectInfurnace.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "visibilitypolygon",
+    "title": "Visibility Polygon in Javascript",
+    "date": "2015-06-27",
+    "contributors": "Simon Karman",
+    "description": "A visibility polygon implementation in JavaScript that runs in Ο(n log n) time by using a sweep line algorithm.",
+    "tags": [
+      "javascript",
+      "jsimon",
+      "geometric-algorithms"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/1eULiJw6AXa5YukkbOdyTg/69e50dc5050ea65340300292db8811e3/VisibilityPolygon.png",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/2RaxIff9Ao9ppNO8y8Hz9X/1b436f8e799c820b563ef6320e91db07/VisibilityPolygon.zip",
+    "demo": "https://assets.ctfassets.net/r26fkm24j6bh/6hlrOzzmij0fN4FvVzjisX/7d1fc51c1d6607ea5b258dc33970cef6/visibilitypolygon.min.js",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "avltree",
+    "title": "AVL Tree in Javascript",
+    "date": "2015-06-16",
+    "contributors": "Simon Karman",
+    "description": "Implementation of an AVLTree (a self-balancing binary search tree) in JavaScript.",
+    "tags": [
+      "javascript",
+      "jsimon",
+      "utrecht-university"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/B5tuE5CbUo6lQ6CKKGJXf/7ec0012461acd8ae20c36d74a66540df/AVLTree.png",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/XCSUXGqrqWrH2Uhgobq4X/e24c3568a9ee9d93060538e1d1f8b9d6/AVLTree.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "similization",
+    "title": "Similization",
+    "date": "2015-04-02",
+    "contributors": "Simon Karman",
+    "description": "Similization is an endless city generator inspired by the artwork of Kenney",
+    "tags": [
+      "pcg",
+      "javascript",
+      "jsimon"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/35VXYy4gmAS2O6gMk2U6OC/3e5b83e22c35c907a440cbc9b11780d8/similization.png",
+    "repository": "http://www.similization.nl",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "raytracer",
+    "title": "Raytracer",
+    "date": "2015-01-07",
+    "contributors": "Simon Karman and Kevin Kessels",
+    "description": "Raytracer we created for the Advanced Graphics course during my master",
+    "tags": [
+      "cplusplus",
+      "anti-aliasing"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/1NfW43sd04gsoUqAwKs0AO/96cce14377b5824b15df0a1c9fdcf896/raytracer.png",
+    "documentation": "https://assets.ctfassets.net/r26fkm24j6bh/yetm9q9FAG8Mq2MyAUkeQ/29208a0ac94c5117230db559c0b0306f/raytracer.pdf",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/4qxspDcQGIE4ueC8IQSIG0/bdadfeb24822d895c27785455d36a4f4/raytracer.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "skbranding",
+    "title": "SK Branding",
+    "date": "2014-12-09",
+    "contributors": "Simon Karman",
+    "description": "Branding assets to more clearly and easily identify myself",
+    "tags": [
+      "photoshop",
+      "logo",
+      "sonyvegas"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/nOD1VROj1mMkgOOySma24/93e8960cca20af056f59686c0a3e4a64/sklogo.png",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/5Ubcyyoe8oeKKkUU6Cm6uu/32222e5f46dbd7381d0d725391958d6c/skbranding.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "1337log",
+    "title": "1337 log",
+    "date": "2014-11-21",
+    "contributors": "Simon Karman",
+    "description": "A website on which users can log that they noticed it was 13:37.",
+    "tags": [
+      "javascript",
+      "php",
+      "mysql"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/2jyKPs9RvCEOAA8cwacMQM/ed5294e45f95cc48bc2181f987cf1088/1337log.png",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "minesweeper",
+    "title": "HTML5 Minesweeper",
+    "date": "2014-10-06",
+    "contributors": "Simon Karman",
+    "description": "A HTML5 version of minesweeper",
+    "tags": [
+      "game",
+      "html5",
+      "javascript"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/5cVszxPOgEmkgu00QaKw6e/7b9f792364b35a605d472728eaca388e/minesweeper.png",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "radic",
+    "title": "Radic",
+    "date": "2014-08-27",
+    "contributors": "Simon Karman",
+    "description": "Radic is a ball-racing game based on randomly generated tracks",
+    "tags": [
+      "pcg",
+      "game",
+      "unity",
+      "csharp"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/4ISlSHyjR6k0cag8OqkQ2I/a59c00a43d860372ae20158aaf7b241d/radic.png",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/3mBpYJq93GkIk26oqE6Mcu/59cb85a7d73ea2773ebecd52f60b2a20/radic.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "tingly_solitaire",
+    "title": "Tingly Solitaire",
+    "date": "2014-06-17",
+    "contributors": "Simon Karman",
+    "description": "HTML5 solitaire game I made during my internship at Tingly Games",
+    "tags": [
+      "game",
+      "tingly",
+      "html5",
+      "javascript"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/58nmyGCW5aQOaI8oqy6KGW/37755e8e6f300fab5acb7b8cdde2761b/html5_game_tinglysolitaire.png",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "github-1337",
+    "title": "1337",
+    "date": "2014-06-11",
+    "contributors": "Simon Karman",
+    "description": "A competition page for the 1337 time",
+    "tags": [
+      "github",
+      "php"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/1337",
+    "providerName": "github"
+  },
+  {
+    "slug": "html5_wordart",
+    "title": "HTML5 Word Art",
+    "date": "2014-05-16",
+    "contributors": "Simon Karman",
+    "description": "HTML5 Word Art library I wrote during my internship at Tingly Games",
+    "tags": [
+      "html5",
+      "javascript",
+      "tingly"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/5pxTij37YkIu8A6eUym4Ks/4af93a7770a2c8917ce2b248763920c4/html5_wordart.png",
+    "documentation": "https://assets.ctfassets.net/r26fkm24j6bh/447YqYlyEwqKCauIOwkYu0/5a4b750826b24c2a250e056627adcee9/html5_wordart.pdf",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/64T0zGBa7YCiGeU0cQ6wum/4047cc66d292b5a7723f8caeb07df6fc/HTML5_WordArt.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "mazegenerator",
+    "title": "Maze Generator",
+    "date": "2014-02-02",
+    "contributors": "Simon Karman",
+    "description": "A step-wise Maze Generator that can generate unique mazes using a breadth-first or greedy algorithm.",
+    "tags": [
+      "pcg",
+      "unity",
+      "csharp"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/IVNSXzVdamUUOYEkm6cSE/463eaa1838e601758a9cadcb9951754b/maze.png",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/1mLORpowwMY4wqc2mQ8Mg2/ec6e2c609cb3f33b424a5e877b26e3d8/MazeGenerator.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "insailant",
+    "title": "Insailant",
+    "date": "2014-01-26",
+    "contributors": "Purple Panda",
+    "description": "Endless-runner Horror Survival Game created by Purple Panda at the Global Game Jam 2014 in Amsterdam",
+    "tags": [
+      "game",
+      "globalgamejam",
+      "csharp",
+      "unity"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/5erzfipBXiaQwCg2IsK0e6/5d5fa049a1bcc1ec4bea8780fe0ceba4/insailant.png",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/2eGUm3V5icaG6yq0QwKIqw/43ae0e07015853d68f23d73b65cf37a3/Insailant_04.zip",
+    "repository": "https://globalgamejam.org/2014/games/insailant",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "vulcanoisland",
+    "title": "Vulcano Island Generator",
+    "date": "2014-01-13",
+    "contributors": "Simon Karman, Jorn Theunissen and Matti Groot",
+    "description": "A Vulcano Island Generator I created for my bachelors course Procedural Content Generation",
+    "tags": [
+      "pcg",
+      "unity",
+      "csharp",
+      "hva"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/gvIgvzRLz2IiiQuoMWAKY/f0336602c728a248ec6fa6cd13c85871/VulcanoIsland.png",
+    "documentation": "https://assets.ctfassets.net/r26fkm24j6bh/5rV7AujrNYkWyAMwea2ayk/923fda1548049637e82e98f547c68503/VulcanoIslandGeneration.pdf",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/6CoSzyrBBuwSs4kiqqUwKq/a976aa5fcf55cfd636c5475abdd6625a/VulcanoIsland.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "roadgenerator",
+    "title": "Road Generator",
+    "date": "2014-01-06",
+    "contributors": "Simon Karman",
+    "description": "A mesh generator that will generate a mesh along a curve. The generator will create a smoothed and parameterized mesh that will go through the points you provide.",
+    "tags": [
+      "pcg",
+      "csharp",
+      "unity"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/322aANGtvWu2WKKsw6yK4m/c0406c2f8239d70ad83d011d123e172b/smart_tangents.png",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/4Sh7FOpZ0s8EEUIKYsGQoY/a1ca173eafbf505559fe08f7dca5e2ff/roadgenerator.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "hashracer",
+    "title": "Hashracer",
+    "date": "2013-12-04",
+    "contributors": "Simon Karman",
+    "description": "A race game made in one day that uses the hash of user-input as seed for the random generated tracks. Players can compete against each other by sharing the seed.",
+    "tags": [
+      "game",
+      "unity",
+      "pcg",
+      "csharp"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/vy7qo3RcpUYCYmCU6u2e6/eede6a18792568c498dc39a2751dfea6/HashRacer.png",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/36x7H9XxFeMUgm2K8Giyu0/f52aeeee66be047ffb4a5532741adacf/HashRacer.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "fogofwar",
+    "title": "Fog of War",
+    "date": "2013-09-23",
+    "contributors": "Simon Karman",
+    "description": "An Unity utility to show an Age of Empires II alike fog of war in your game.",
+    "tags": [
+      "unity",
+      "csharp"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/Gbt3Ga5zMq68KWciWwgam/6eb4116f9766064f3f7f58374f9900d3/unity_fogofwar.png",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/1JwJgZB5x60ummwemkSEkc/321edc43325c2953e93fad95a09b0323/unity_fogofwar.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "endlesscave",
+    "title": "Endless Cave Generation",
+    "date": "2013-07-01",
+    "contributors": "Simon Karman",
+    "description": "An endless cave generation algorithm I created in Unity. It only uses 3 different segments to generate unique and random caves.",
+    "tags": [
+      "pcg",
+      "unity",
+      "csharp"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/1DHibXkiKUAqEogK4Eia62/ff224b84053c9ed9e8b128879db34e7f/segments.png",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/1dXkpv5ylKCeWOaSCU2mqs/6dd6aadc2981a8a21d50d87677ffab0b/EndlessRunner_CaveGeneration_SimonKarman.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "xfire_chatlogviewer",
+    "title": "Xfire Chatlog Viewer",
+    "date": "2013-03-22",
+    "contributors": "Simon Karman",
+    "description": "A chatlog viewer for Xfire with easy access to all your contacts and your conversations.",
+    "tags": [
+      "csharp",
+      "windowsforms"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/4GBDmJ7ETm202asG4gQEuU/6d846f606e56c4a55f25678c77f88985/xfirechatlogviewer.png",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/2fsLnw64e0aKMuOQ8yQyaa/6bdf1ccdca3b98baa75231c033d6f90b/xfire_chatlogviewer.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "numbertotext",
+    "title": "Number to Dutch Text",
+    "date": "2012-10-06",
+    "contributors": "Simon Karman",
+    "description": "A simple C# program that can turn any number into it's (dutch) text based equivalent.",
+    "tags": [
+      "csharp"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/258y8yVXD6W8MIAUSyqqmk/5bd202f1796fecbf415bb2de388e8aa2/texttonumber.png",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/3352BSW5hSQMgG2U8oywAg/2574ecb14d46fb4e663c3197eabe3a3a/texttonumber.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "gm_workshop",
+    "title": "GameMaker Workshops for Kids",
+    "date": "2012-08-13",
+    "contributors": "Simon Karman, Benjamin van Arkel and Koen Vrij",
+    "description": "GameMaker Workshop we hosted in Amsterdam for kids between 5-8 to learn the basics about Game Development",
+    "tags": [
+      "gamemaker",
+      "oba",
+      "hva"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/6fvRdtezHUCggs8a8cyykk/9137fb53293c32cf11a3323397167c17/gm_workshops.png",
+    "documentation": "https://assets.ctfassets.net/r26fkm24j6bh/5k3so1LyiQi2oWSMQOmccC/72202bd3c24383401b6defe48747bfe2/gm_workshops_handout.pdf",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/1S4l8ee4QoukgCYc6I6YO2/1325e934b046430e637be514622f6a08/gm_workshops.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "mp_prisonbreak",
+    "title": "CodJumper Map: Prisonbreak",
+    "date": "2012-06-14",
+    "contributors": "Simon Karman",
+    "description": "The CoDJumper map Prisonbreak I made for the Call of Duty 4 - Jumping Community.",
+    "tags": [
+      "cod4",
+      "mapmaking"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/3C1W0iGS08quugs0syI4kO/3921a269c37bede5be5b29177cb0c923/mp_prisonbreak.jpg",
+    "download": "https://downloads.ctfassets.net/r26fkm24j6bh/A8LGl25DX2QKU8qU4M8cy/0d5ab15a68c97fc57132ed1eabbb0fe6/mp_prisonbreak.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "fexis_gaming_art",
+    "title": "Fexis Gaming Logo",
+    "date": "2012-05-04",
+    "contributors": "Simon Karman",
+    "description": "Artwork I made for Fexis Gaming.",
+    "tags": [
+      "art",
+      "photoshop"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/23C0mUyNB692QurVV41KO5/ebfd4e6a81620e2ca4549720284160ee/fexis_logo.png",
+    "download": "https://images.ctfassets.net/r26fkm24j6bh/23C0mUyNB692QurVV41KO5/ebfd4e6a81620e2ca4549720284160ee/fexis_logo.png",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "flocking",
+    "title": "Flocking",
+    "date": "2012-03-19",
+    "contributors": "Simon Karman and Jorn Theunissen",
+    "description": "Demo application showing Flocking behaviour",
+    "tags": [
+      "csharp",
+      "hva"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/7LWCktzA2IuyYQ4ySmGwwG/375176d90d5fef1ce0b1941aa3d317b9/ai_flocking.png",
+    "documentation": "https://assets.ctfassets.net/r26fkm24j6bh/42YXtb2AYMgceCQKGOycs6/95f4b1fc2f87a9daa828417c3af02fb1/ai_flocking.pdf",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/w2p4pv2tygM0gqg8eCuWI/134af9542b62f6b87c2523fcce82d6ac/ai_flocking.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "pathfinding2",
+    "title": "Path-Finding A*",
+    "date": "2012-03-05",
+    "contributors": "Simon Karman and Jorn Theunissen",
+    "description": "A demo application for the path-finding algorithm A*",
+    "tags": [
+      "a-star",
+      "csharp",
+      "pathfinding",
+      "xna",
+      "hva"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/5QvfRV8MFOsgaG0iMICUEE/9a6b897a68ef7f564a87e3825479011b/pathfinding2.png",
+    "documentation": "https://assets.ctfassets.net/r26fkm24j6bh/7pZrpSIiJiQSiYIAkQI08s/981f2a4ae4f034a8074afe5aa0d5c6c8/pathfinding2.pdf",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/6EjJAxKX0kYUUoU2q20s8m/1a4ac44bba2bd40e3c7f10dbce18284d/pathfinding2.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "pathfinding1",
+    "title": "Path-Finding Dijkstra",
+    "date": "2012-01-09",
+    "contributors": "Simon Karman and Jorn Theunissen",
+    "description": "A demo application for the path-finding algorithm by Dijkstra",
+    "tags": [
+      "pathfinding",
+      "dijkstra",
+      "actionscript",
+      "flash",
+      "hva"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/i0aRYdIiCkW6kaaEWUY0i/c6ca02709558c60d8e4896b2cb0f971a/pathfinding1.png",
+    "documentation": "https://assets.ctfassets.net/r26fkm24j6bh/58WYrgxnpmMSIAuUEcaWsG/c4aa8399a23e2bc6d37906a09a57d198/pathfinding1.pdf",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/1LJatymAIwiw2QEeSQCMCC/85f71513bbd21e87256ddeef4faea932/pathfinding1.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "gd2_lavagame",
+    "title": "Game Design 2: Lavagame",
+    "date": "2011-10-10",
+    "contributors": "Simon Karman",
+    "description": "A 3D platformer game I created during my bachelor for the Game Design 2 course.",
+    "tags": [
+      "unity",
+      "game",
+      "csharp",
+      "hva"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/4Kx5vSnkrC8CeGusyooeoa/39e0407101c20b16b18e62ce195083dd/gd2_lavagame.png",
+    "documentation": "https://assets.ctfassets.net/r26fkm24j6bh/11K5z3kyxI2wKqCOG0AesU/a8ca653a9b0c799902614c506ca3a0fa/gd2_lavagame.pdf",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/6AvsIyfjgcYiuYGaQoi0ca/726c37b7bb3c6f2275d0ed241c0e6889/gd2_lavagame.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "gd1_pushgame",
+    "title": "Game Design 1: Pushgame",
+    "date": "2011-03-01",
+    "contributors": "Simon Karman",
+    "description": "A game about pushing blocks I created during my Bachelors Course: Game Design 1.",
+    "tags": [
+      "game",
+      "flash",
+      "actionscript",
+      "sokoban"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/4ItIpmSfBu6K6weayokscQ/32b60bf2a3272f900802498be211b6d6/gd1_pushgame.png",
+    "download": "https://assets.ctfassets.net/r26fkm24j6bh/2HYPJ9FW5ya6CcyWiOwIcA/a99d5d7ce8c1a5f473f65cc9c9a553a8/gd1_pushgame.zip",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "three_mdx",
+    "title": "An MDX a day keeps the doctor away",
+    "date": "2005-05-11",
+    "contributors": "Simon Karman",
+    "description": "Three times three is nine",
+    "tags": [
+      "mdx"
+    ],
+    "image": "/card.jpg",
+    "repository": "https://github.com/simonkarman/krmx",
+    "providerName": "mdx"
+  },
+  {
+    "slug": "mdx2",
+    "title": "What is better than one MDX?",
+    "date": "2005-05-10",
+    "contributors": "Simon Karman",
+    "description": "This is example 2 page using MDX.",
+    "tags": [
+      "mdx"
+    ],
+    "image": "/card.jpg",
+    "demo": "https://example.com",
+    "providerName": "mdx"
+  },
+  {
+    "slug": "mdx-1",
+    "title": "MDX: My First Example",
+    "date": "2005-05-09",
+    "contributors": "Simon Karman",
+    "description": "A beautiful subtitle!",
+    "tags": [
+      "mdx"
+    ],
+    "image": "/card.jpg",
+    "demo": "https://example.com",
+    "providerName": "mdx"
+  },
+  {
+    "slug": "markdown1",
+    "title": "Markdown",
+    "date": "2004-11-21",
+    "contributors": "Simon Karman",
+    "description": "An example of a markdown file!",
+    "tags": [
+      "markdown"
+    ],
+    "image": "/card.jpg",
+    "demo": "https://example.com",
+    "providerName": "markdown"
+  }
+]

@@ -1,11 +1,13 @@
 'use server';
 
+import { cache } from './cache';
 import { ProjectWithProviderName } from './project';
 import { getProviders, ProviderName } from './providers';
 
-export async function getAllProjects(): Promise<ProjectWithProviderName[]> {
-  'use cache';
-
+export const getAllProjects = cache({
+  fileName: '.cache/projects.json',
+  staleTime: 60 * 1000, // 1 minute in milliseconds,
+}, async (): Promise<ProjectWithProviderName[]> => {
   const providers = await getProviders();
   const projectsByProvider = await Promise.all(Object.entries(providers)
     .map(async ([ providerName, provider ]) => ({
@@ -33,4 +35,4 @@ export async function getAllProjects(): Promise<ProjectWithProviderName[]> {
   }
 
   return projectsWithProviderName;
-}
+});
