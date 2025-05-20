@@ -59,7 +59,7 @@ export default async function Project(props: { params: Promise<{ slug: string }>
       </div>
     </div>
     <div className='mx-auto max-w-[75ch]'>
-      <div className='empty:hidden pt-8 px-5 flex flex-wrap justify-end gap-2'>
+      <div className='empty:hidden pt-8 px-5 flex flex-wrap justify-center md:justify-end gap-2'>
         <Buttons
           slug={project.slug}
           title={project.title}

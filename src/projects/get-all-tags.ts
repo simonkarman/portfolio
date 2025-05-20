@@ -1,14 +1,7 @@
 'use server';
 
 import { getAllProjects } from './get-all-projects';
-
-function shuffle<T>(array: T[]): T[] {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
+import { shuffle } from '@/utils/shuffle';
 
 export async function getAllTags(): Promise<[string, number][]> {
   const projects = await getAllProjects();

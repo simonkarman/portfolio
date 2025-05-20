@@ -3,9 +3,12 @@ import Image from 'next/image';
 import { Card } from '@/components/card';
 import { getAllProjects } from '@/projects/get-all-projects';
 import { Explore } from '@/components/explore';
+import { getAllTags } from '@/projects/get-all-tags';
 
 export default async function Home() {
   const projects = await getAllProjects();
+  const tags = await getAllTags();
+
   return (<>
     <div className="container mx-auto p-5 mt-4 space-y-4">
       <div className='flex flex-col sm:flex-row items-start gap-2'>
@@ -21,7 +24,7 @@ export default async function Home() {
             My name is <b>Simon Karman</b>. I am a Cloud Consultant at Xebia and a hobbyist Game Developer.
             I love to architect and develop systems such as cloud infrastructures, (board) games, and web applications.
           </p>
-          <p className='hidden xl:block text-justify'>
+          <p className='hidden lg:block text-justify'>
             I believe that doing this effectively requires a modern way of working, in which development culture is the key.
             A big part of a great development culture is sharing knowledge.
             On this website you can find a portfolio of projects that I worked on, more information about me, and get in contact with me.
@@ -33,17 +36,14 @@ export default async function Home() {
           </Link>
         </div>
       </div>
-      <div className='space-y-5 py-4'>
-        <h2 className="pb-1 border-b font-bold text-3xl text-center">
-          Explore
-        </h2>
-        <Explore />
+      <div className='py-10'>
+        <Explore tags={tags} />
       </div>
       <h1 className="pt-4 pb-1 border-b font-bold text-3xl text-center">
         Latest Projects
       </h1>
       <div className="flex flex-wrap justify-between gap-4 lg:gap-0">
-        {projects.slice(0, 3).map(project => {
+        {projects.slice(0, 5).map(project => {
           return (
             <Card
               key={project.slug}

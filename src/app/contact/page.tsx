@@ -118,8 +118,8 @@ export default function About() {
         <h1 className="flex-grow font-bold text-3xl border-b mb-4">
           Contact Form
         </h1>
-        <div className="rounded-xl bg-gray-300 text-gray-800 font-bold p-2 text-center text-xs border-b">
-          Build with <Image alt="lambda" width={24} height={24} className="inline" src="/contact-icons/lambda.png"/> by me.
+        <div className="rounded-xl bg-gray-100 text-gray-800 font-bold py-2 px-4 text-center text-xs border-b">
+          Build with <Image alt="AWS Lambda" title="AWS Lambda" width={24} height={24} className="inline" src="/contact-icons/lambda.png"/> by me.
         </div>
       </div>
       {!emailHasBeenSend && <form>
