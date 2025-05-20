@@ -1,131 +1,5 @@
 [
   {
-    "slug": "github-fish-generator",
-    "title": "fish-generator",
-    "date": "2025-05-16",
-    "contributors": "Simon Karman",
-    "description": "Generate game icons that match an existing art style.",
-    "tags": [
-      "github",
-      "javascript"
-    ],
-    "image": "https://raw.githubusercontent.com/simonkarman/fish-generator/main/examples.png",
-    "repository": "https://github.com/simonkarman/fish-generator",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-display-connect",
-    "title": "display-connect",
-    "date": "2025-04-27",
-    "contributors": "Simon Karman",
-    "description": "Enabling users to connect mobile devices as a controller to a larger display via QR code scanning.",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/display-connect",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-modder",
-    "title": "modder",
-    "date": "2024-12-10",
-    "contributors": "Simon Karman",
-    "description": "A moddable game about mud",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/modder",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-advent-of-code-2024",
-    "title": "advent-of-code-2024",
-    "date": "2024-12-01",
-    "contributors": "Simon Karman",
-    "description": "Advent of Code 2024 in Python",
-    "tags": [
-      "github",
-      "python"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/advent-of-code-2024",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-two-aces",
-    "title": "two-aces",
-    "date": "2024-08-06",
-    "contributors": "Simon Karman",
-    "description": "Two Aces is a digital 3d multiplayer 52 card board game build with Krmx and ThreeJS.",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "https://raw.githubusercontent.com/simonkarman/two-aces/main/two-aces.png",
-    "repository": "https://github.com/simonkarman/two-aces",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-krmx-starter",
-    "title": "krmx-starter",
-    "date": "2024-06-30",
-    "contributors": "Simon Karman",
-    "description": "A starter for Krmx React applications",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/krmx-starter",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-pastebin-client-go",
-    "title": "pastebin-client-go",
-    "date": "2024-06-14",
-    "contributors": "Simon Karman",
-    "description": "A Go client for creating and deleting user pastes on Pastebin.",
-    "tags": [
-      "github",
-      "go"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/pastebin-client-go",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-terraform-provider-pastebin",
-    "title": "terraform-provider-pastebin",
-    "date": "2024-06-14",
-    "contributors": "Simon Karman",
-    "description": "A Terraform Provider to create and delete pastes in pastebin",
-    "tags": [
-      "github",
-      "go"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/terraform-provider-pastebin",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-portfolio",
-    "title": "portfolio",
-    "date": "2024-06-13",
-    "contributors": "Simon Karman",
-    "description": "Portfolio website of Simon Karman",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/portfolio",
-    "providerName": "github"
-  },
-  {
     "slug": "christmas-tree",
     "title": "Christmas Tree",
     "date": "2023-12-26",
@@ -143,20 +17,6 @@
     "providerName": "contentful"
   },
   {
-    "slug": "github-christmas-tree",
-    "title": "christmas-tree",
-    "date": "2023-12-25",
-    "contributors": "Simon Karman",
-    "description": "A Christmas themed game build with Krmx",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/christmas-tree",
-    "providerName": "github"
-  },
-  {
     "slug": "advent-of-code-2023",
     "title": "Advent of Code 2023",
     "date": "2023-12-01",
@@ -169,20 +29,6 @@
     "image": "https://images.ctfassets.net/r26fkm24j6bh/3cUWiOcZXFaXmgqQPa9pOy/59a172cd3a2e5aaa125ce90e17077991/advent-of-code-2023.png",
     "repository": "https://github.com/simonkarman/advent-of-code-2023",
     "providerName": "contentful"
-  },
-  {
-    "slug": "github-hosting",
-    "title": "hosting",
-    "date": "2023-11-25",
-    "contributors": "Simon Karman",
-    "description": "The hosting for static websites of Simon Karman, such as simonkarman.nl and karman.dev.",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/hosting",
-    "providerName": "github"
   },
   {
     "slug": "krmx-best-practices",
@@ -200,76 +46,6 @@
     "providerName": "contentful"
   },
   {
-    "slug": "github-krmx-best-practices",
-    "title": "krmx-best-practices",
-    "date": "2023-11-16",
-    "contributors": "Simon Karman",
-    "description": "Best practices of a system setup for Krmx",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "https://raw.githubusercontent.com/simonkarman/krmx-best-practices/main/krmx-best-practices.png",
-    "repository": "https://github.com/simonkarman/krmx-best-practices",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-advent-of-code-2023",
-    "title": "advent-of-code-2023",
-    "date": "2023-11-14",
-    "contributors": "Simon Karman",
-    "description": "Advent of Code 2023 in Rust",
-    "tags": [
-      "github",
-      "rust"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/advent-of-code-2023",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-voromulti",
-    "title": "voromulti",
-    "date": "2023-10-15",
-    "contributors": "Simon Karman",
-    "description": "A multiplayer Voronoi diagram",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "https://raw.githubusercontent.com/simonkarman/voromulti/main/voromulti.png",
-    "repository": "https://github.com/simonkarman/voromulti",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-b11",
-    "title": "b11",
-    "date": "2023-09-22",
-    "contributors": "Simon Karman",
-    "description": "Analyze and view B11 posts on 11:11",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "https://raw.githubusercontent.com/simonkarman/b11/main/visualization.png",
-    "repository": "https://github.com/simonkarman/b11",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-krmx-presentation",
-    "title": "krmx-presentation",
-    "date": "2023-08-13",
-    "contributors": "Simon Karman",
-    "description": "Slides including an example project for showcasing Krmx",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/krmx-presentation",
-    "providerName": "github"
-  },
-  {
     "slug": "krmx",
     "title": "Krmx",
     "date": "2023-08-08",
@@ -283,35 +59,6 @@
     "image": "https://images.ctfassets.net/r26fkm24j6bh/7un7jZTuk0lU6z8XETyhZ8/d2bdb355e51faed5cb8295d7ff244f45/krmx-events.png",
     "repository": "https://github.com/simonkarman/krmx",
     "providerName": "contentful"
-  },
-  {
-    "slug": "github-krmx",
-    "title": "krmx",
-    "date": "2023-08-07",
-    "contributors": "Simon Karman",
-    "description": "A network protocol for realtime multi-user interactions.",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "documentation": "https://simonkarman.github.io/krmx",
-    "repository": "https://github.com/simonkarman/krmx",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-detour",
-    "title": "detour",
-    "date": "2023-08-06",
-    "contributors": "Simon Karman",
-    "description": "Detour is an app that can be used to take detours when cycling.",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/detour",
-    "providerName": "github"
   },
   {
     "slug": "detour",
@@ -345,49 +92,6 @@
     "providerName": "contentful"
   },
   {
-    "slug": "github-gcp-cloud-build-demo",
-    "title": "gcp-cloud-build-demo",
-    "date": "2023-06-18",
-    "contributors": "Simon Karman",
-    "description": "Demo of using Cloud Build to build a Docker image for a NodeJS application",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/gcp-cloud-build-demo",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-hugo-docs",
-    "title": "hugo-docs",
-    "date": "2023-05-03",
-    "contributors": "Simon Karman",
-    "description": "GitHub Pages with Hugo to create a documentation hub",
-    "tags": [
-      "github",
-      "javascript"
-    ],
-    "image": "/card.jpg",
-    "documentation": "https://simonkarman.github.io/hugo-docs",
-    "repository": "https://github.com/simonkarman/hugo-docs",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-ancient",
-    "title": "ancient",
-    "date": "2023-04-01",
-    "contributors": "Simon Karman",
-    "description": "A collection of WebSocket-based multiplayer games build with Krmx",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/ancient",
-    "providerName": "github"
-  },
-  {
     "slug": "aws-msk-under-load",
     "title": "Measuring that an MSK cluster is under load",
     "date": "2023-03-16",
@@ -419,20 +123,6 @@
     "providerName": "contentful"
   },
   {
-    "slug": "github-advent-of-code-2022",
-    "title": "advent-of-code-2022",
-    "date": "2022-12-16",
-    "contributors": "Simon Karman",
-    "description": "Advent of Code 2022",
-    "tags": [
-      "github",
-      "go"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/advent-of-code-2022",
-    "providerName": "github"
-  },
-  {
     "slug": "karman-home",
     "title": "Karman Home",
     "date": "2022-08-22",
@@ -448,48 +138,6 @@
     "image": "https://images.ctfassets.net/r26fkm24j6bh/h6Bbhhqg9nO7J8QBhVokI/5651114c83a75a9a5dc189a0d07f0c72/home.png",
     "repository": "https://github.com/simonkarman/home",
     "providerName": "contentful"
-  },
-  {
-    "slug": "github-js-grip",
-    "title": "js-grip",
-    "date": "2022-08-21",
-    "contributors": "Simon Karman",
-    "description": "JavaScript GRIP library",
-    "tags": [
-      "github",
-      "language"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/js-grip",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-horsecart",
-    "title": "horsecart",
-    "date": "2022-07-21",
-    "contributors": "Simon Karman",
-    "description": "A puzzle game by Matt Watson and [Simon Karman](https://www.simonkarman.nl).",
-    "tags": [
-      "github",
-      "shaderlab"
-    ],
-    "image": "https://raw.githubusercontent.com/simonkarman/horsecart/main/horsecart.png",
-    "repository": "https://github.com/simonkarman/horsecart",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-cdk-pipelines-example-app",
-    "title": "cdk-pipelines-example-app",
-    "date": "2022-05-17",
-    "contributors": "Simon Karman",
-    "description": "Demo of using CDK pipelines for a newly initialised CDK app with TypeScript",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/cdk-pipelines-example-app",
-    "providerName": "github"
   },
   {
     "slug": "trackmania-twnty",
@@ -523,62 +171,6 @@
     "providerName": "contentful"
   },
   {
-    "slug": "github-elemental-arena-next",
-    "title": "elemental-arena-next",
-    "date": "2022-03-08",
-    "contributors": "Simon Karman",
-    "description": "Frontend for Elemental Arena game written in the React framework Next using TypeScript",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/elemental-arena-next",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-cloud-provider-ip-ranges",
-    "title": "cloud-provider-ip-ranges",
-    "date": "2022-02-09",
-    "contributors": "Simon Karman",
-    "description": "Calculates statistics about the number of ipv4 addresses and the number of cidr ranges AWS has reserved",
-    "tags": [
-      "github",
-      "javascript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/cloud-provider-ip-ranges",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-home",
-    "title": "home",
-    "date": "2022-02-08",
-    "contributors": "Simon Karman",
-    "description": "A set of applications that functions as a home server, providing user identity and chat message functionality.",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "https://raw.githubusercontent.com/simonkarman/home/main/architecture.png",
-    "repository": "https://github.com/simonkarman/home",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-websocket-example",
-    "title": "websocket-example",
-    "date": "2022-01-30",
-    "contributors": "Simon Karman",
-    "description": "TypeScript implementation of a WebSocket server",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/websocket-example",
-    "providerName": "github"
-  },
-  {
     "slug": "trackmania-2020-map-pack",
     "title": "Trackmania KARMAN",
     "date": "2022-01-02",
@@ -592,34 +184,6 @@
     "download": "https://downloads.ctfassets.net/r26fkm24j6bh/4PYQSJR605xuge3Qj3XEeF/cb7d9a55c005164792f36fe4b5fb5da4/KARMAN.zip",
     "repository": "https://trackmania.exchange/mapsearch2/index?mode=1&authorid=46114",
     "providerName": "contentful"
-  },
-  {
-    "slug": "github-advent-of-code-2021",
-    "title": "advent-of-code-2021",
-    "date": "2021-12-02",
-    "contributors": "Simon Karman",
-    "description": "Advent of Code 2021",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/advent-of-code-2021",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-paas-monitor",
-    "title": "paas-monitor",
-    "date": "2021-10-07",
-    "contributors": "Simon Karman",
-    "description": " An application to observe the behaviour of PaaS platforms.",
-    "tags": [
-      "github",
-      "language"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/paas-monitor",
-    "providerName": "github"
   },
   {
     "slug": "nextjs-frontend-app-starter",
@@ -638,20 +202,6 @@
     "providerName": "contentful"
   },
   {
-    "slug": "github-nextjs-frontend-app-starter",
-    "title": "nextjs-frontend-app-starter",
-    "date": "2021-09-20",
-    "contributors": "Simon Karman",
-    "description": "This is a [Next.js](https://nextjs.org/) with TypeScript starter for a portfolio website such as the [simonkarman.nl](https://www.simonkarman.nl) website.",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/nextjs-frontend-app-starter",
-    "providerName": "github"
-  },
-  {
     "slug": "three-jug-riddle",
     "title": "The Three Jug Riddle",
     "date": "2021-05-23",
@@ -667,34 +217,6 @@
     "providerName": "contentful"
   },
   {
-    "slug": "github-three-jug-riddle",
-    "title": "three-jug-riddle",
-    "date": "2021-05-23",
-    "contributors": "Simon Karman",
-    "description": "You have a full 12 liter jug and empty 5 and 8 liter jugs. Can you measure exactly 6 liters?",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "https://raw.githubusercontent.com/simonkarman/three-jug-riddle/main/problem.png",
-    "repository": "https://github.com/simonkarman/three-jug-riddle",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-gno-dag",
-    "title": "gno-dag",
-    "date": "2021-05-21",
-    "contributors": "Simon Karman",
-    "description": "",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/gno-dag",
-    "providerName": "github"
-  },
-  {
     "slug": "aws-cdk",
     "title": "AWS CDK",
     "date": "2021-03-21",
@@ -708,20 +230,6 @@
     "image": "https://images.ctfassets.net/r26fkm24j6bh/6LUP03UxPpzGdKotFgn9eS/4b83f61f105e64aa6e09da96144d187a/cdk.png",
     "repository": "https://github.com/simonkarman/cdk-vs-serverless-framework",
     "providerName": "contentful"
-  },
-  {
-    "slug": "github-cdk-vs-sf",
-    "title": "cdk-vs-sf",
-    "date": "2021-03-15",
-    "contributors": "Simon Karman",
-    "description": "A comparison of the setup of a micro-service in AWS using the AWS Cloud Development Kit (AWS CDK) and the Serverless Framework as part of the 'Using AWS CDK to manage your infrastructure'-article by Simon Karman written for the Dutch Java Magazine.",
-    "tags": [
-      "github",
-      "typescript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/cdk-vs-sf",
-    "providerName": "github"
   },
   {
     "slug": "b11-party-mar2021",
@@ -774,20 +282,6 @@
     "providerName": "contentful"
   },
   {
-    "slug": "github-b11-party",
-    "title": "b11-party",
-    "date": "2020-10-27",
-    "contributors": "Simon Karman",
-    "description": "A multiplayer game based on Mario Party with minigames themed around the 11th board of study association Sticky",
-    "tags": [
-      "github",
-      "csharp"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/b11-party",
-    "providerName": "github"
-  },
-  {
     "slug": "karmannet",
     "title": "KarmanNet",
     "date": "2020-10-24",
@@ -818,48 +312,6 @@
     "providerName": "contentful"
   },
   {
-    "slug": "github-serverless-multistack-example",
-    "title": "serverless-multistack-example",
-    "date": "2020-09-29",
-    "contributors": "Simon Karman",
-    "description": "Example of a serverless-multistack",
-    "tags": [
-      "github",
-      "javascript"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/serverless-multistack-example",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-karmannet",
-    "title": "karmannet",
-    "date": "2020-09-26",
-    "contributors": "Simon Karman",
-    "description": "A C# library that provides networking logic for multiplayer games.",
-    "tags": [
-      "github",
-      "csharp"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/karmannet",
-    "providerName": "github"
-  },
-  {
-    "slug": "github-google-style-precommit-hook",
-    "title": "google-style-precommit-hook",
-    "date": "2020-07-08",
-    "contributors": "Simon Karman",
-    "description": "A pre-commit hook which will automatically format your code with google's codestyle guidelines!",
-    "tags": [
-      "github",
-      "shell"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/google-style-precommit-hook",
-    "providerName": "github"
-  },
-  {
     "slug": "tikkie-for-businesses",
     "title": "Tikkie for Businesses",
     "date": "2020-05-20",
@@ -875,20 +327,6 @@
     "image": "https://images.ctfassets.net/r26fkm24j6bh/1TvVo3VHFzB4eMBKAq7IPf/48f298db819ecebbcd40f79bb1c24acc/tikkie-api.png",
     "repository": "https://github.com/simonkarman/tikkie-api-v2-implementation-day",
     "providerName": "contentful"
-  },
-  {
-    "slug": "github-tikkie-api-v2-implementation-day",
-    "title": "tikkie-api-v2-implementation-day",
-    "date": "2020-05-20",
-    "contributors": "Simon Karman",
-    "description": "",
-    "tags": [
-      "github",
-      "vue"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/tikkie-api-v2-implementation-day",
-    "providerName": "github"
   },
   {
     "slug": "terraevi",
@@ -949,20 +387,6 @@
     ],
     "image": "https://images.ctfassets.net/r26fkm24j6bh/5m4pz1VzO9RCY6RDSGxpoB/c26b1db1861261115d65ef48e7e62c3e/https.png",
     "providerName": "contentful"
-  },
-  {
-    "slug": "github-advent-of-code-2019",
-    "title": "advent-of-code-2019",
-    "date": "2019-12-02",
-    "contributors": "Simon Karman",
-    "description": "Advent of Code 2019",
-    "tags": [
-      "github",
-      "python"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/advent-of-code-2019",
-    "providerName": "github"
   },
   {
     "slug": "quintor-ing-dagobert",
@@ -1386,20 +810,6 @@
     "providerName": "contentful"
   },
   {
-    "slug": "github-1337",
-    "title": "1337",
-    "date": "2014-06-11",
-    "contributors": "Simon Karman",
-    "description": "A competition page for the 1337 time",
-    "tags": [
-      "github",
-      "php"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/1337",
-    "providerName": "github"
-  },
-  {
     "slug": "html5_wordart",
     "title": "HTML5 Word Art",
     "date": "2014-05-16",
@@ -1678,57 +1088,5 @@
     "image": "https://images.ctfassets.net/r26fkm24j6bh/4ItIpmSfBu6K6weayokscQ/32b60bf2a3272f900802498be211b6d6/gd1_pushgame.png",
     "download": "https://assets.ctfassets.net/r26fkm24j6bh/2HYPJ9FW5ya6CcyWiOwIcA/a99d5d7ce8c1a5f473f65cc9c9a553a8/gd1_pushgame.zip",
     "providerName": "contentful"
-  },
-  {
-    "slug": "three_mdx",
-    "title": "An MDX a day keeps the doctor away",
-    "date": "2005-05-11",
-    "contributors": "Simon Karman",
-    "description": "Three times three is nine",
-    "tags": [
-      "mdx"
-    ],
-    "image": "/card.jpg",
-    "repository": "https://github.com/simonkarman/krmx",
-    "providerName": "mdx"
-  },
-  {
-    "slug": "mdx2",
-    "title": "What is better than one MDX?",
-    "date": "2005-05-10",
-    "contributors": "Simon Karman",
-    "description": "This is example 2 page using MDX.",
-    "tags": [
-      "mdx"
-    ],
-    "image": "/card.jpg",
-    "demo": "https://example.com",
-    "providerName": "mdx"
-  },
-  {
-    "slug": "mdx-1",
-    "title": "MDX: My First Example",
-    "date": "2005-05-09",
-    "contributors": "Simon Karman",
-    "description": "A beautiful subtitle!",
-    "tags": [
-      "mdx"
-    ],
-    "image": "/card.jpg",
-    "demo": "https://example.com",
-    "providerName": "mdx"
-  },
-  {
-    "slug": "markdown1",
-    "title": "Markdown",
-    "date": "2004-11-21",
-    "contributors": "Simon Karman",
-    "description": "An example of a markdown file!",
-    "tags": [
-      "markdown"
-    ],
-    "image": "/card.jpg",
-    "demo": "https://example.com",
-    "providerName": "markdown"
   }
 ]
