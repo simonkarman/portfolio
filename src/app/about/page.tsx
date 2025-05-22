@@ -80,9 +80,9 @@ export default function About() {
               should feel confident to release.
             </p>
             <p>
-              It is important to constantly challenge yourself, reflect and to strive for doing better. Do achieve this I believe it is important to
-              share our knowledge and experience. For this reason I love open source, and also love to share my own experiences and stories. I can
-              give presentations about development best practices or host sessions about technical topics.
+              It is important to constantly challenge yourself, reflect and to strive for doing better. For this reason I love communities where I
+              can share my own experiences and stories and listen to others. As both are crucial to achieve craftsmanship. I can give presentations
+              about development best practices and host sessions about technical topics.
             </p>
             <h1 className="font-bold text-3xl border-b pt-4">
               A bit of history

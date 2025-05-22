@@ -79,9 +79,12 @@ export function FilterableProjects(props: { initialQuery: string, projects: Prom
         .slice(0, simpleView ? filteredProjectsPerYear.length : numberOfYearsShowing)
         .map(projectsOfYear => (
           <div key={projectsOfYear.year} className="w-full p-5">
-            <h2 className="font-bold text-xl lg:text-2xl my-3 px-2 pb-1 text-center">
+            <h2 className="font-bold text-xl lg:text-2xl mt-3 px-2 text-center">
               {projectsOfYear.year}
             </h2>
+            <p className='text-gray-400 text-center tracking-tight mb-3 pb-1 border-b'>
+              {projectsOfYear.projects.length} {projectsOfYear.projects.length > 1 ? 'projects' : 'project'}
+            </p>
 
             {simpleView ? (
               <ul className="px-2">
@@ -104,7 +107,7 @@ export function FilterableProjects(props: { initialQuery: string, projects: Prom
                 ))}
               </ul>
             ) : (
-              <div className="flex flex-wrap gap-8 md:gap-0">
+              <div className={'flex flex-wrap 2xl:justify-center max-w-[1800px] mx-auto gap-8 md:gap-0'}>
                 {projectsOfYear.projects.map(project => (
                   <Card
                     key={project.slug}

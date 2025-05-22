@@ -11,7 +11,7 @@ export default async function Home() {
 
   return (<>
     <div className="container mx-auto p-5 mt-4 space-y-8">
-      <div className='flex flex-col sm:flex-row items-start gap-2'>
+      <div className='flex flex-col sm:flex-row items-center gap-2'>
         <Image
           src="/simonkarman.png"
           alt="Simon Karman"

@@ -81,7 +81,7 @@ export const Navigation = () => {
           <Link className={(isRouteOf('home') ? 'bg-darkblue-800 ' : '') + 'py-5 px-6 hover:bg-darkblue-800'} href="/">
             Home
           </Link>
-          <Link className={(isRouteOf('projects') ? 'bg-darkblue-800 ' : '') + 'py-5 px-6 hover:bg-darkblue-800'} href="/projects">
+          <Link className={(isRouteOf('portfolio') ? 'bg-darkblue-800 ' : '') + 'py-5 px-6 hover:bg-darkblue-800'} href="/projects">
             Portfolio
           </Link>
           <Link className={(isRouteOf('about') ? 'bg-darkblue-800 ' : '') + 'py-5 px-6 hover:bg-darkblue-800'} href="/about">

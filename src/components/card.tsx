@@ -21,7 +21,7 @@ export const Card = (props: PropsWithChildren<CardProps>) => {
   }, [props.tags]);
 
   return (
-    <div className={`w-full ${props.fullscreen ? 'md:w-1/2 md:p-2 xl:w-1/3 2xl:w-1/4' : 'lg:w-1/2 lg:p-2'} p-0`}>
+    <div className={`w-full lg:w-1/2 lg:p-2 ${props.fullscreen ? '2xl:w-1/3' : ''} p-0`}>
       <Link href={link?.to ?? '#'}>
         <div className={`h-full overflow-hidden border hover:border-darkblue-400 rounded-lg ${bg}`}>
           <div className="relative w-full h-20 sm:h-32 bg-darkblue-400">
