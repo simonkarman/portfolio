@@ -4,9 +4,7 @@ import { FilterableProjects, FilterableProjectsWithSearchFromParams } from '@/ap
 
 export default function ProjectsWrapper() {
   const projects = getAllProjects();
-  return <div className="container mx-auto">
-    <Suspense fallback={<FilterableProjects initialQuery={''} projects={Promise.resolve([])} />}>
-      <FilterableProjectsWithSearchFromParams projects={projects}/>
-    </Suspense>
-  </div>;
+  return <Suspense fallback={<FilterableProjects initialQuery={''} projects={Promise.resolve([])} />}>
+    <FilterableProjectsWithSearchFromParams projects={projects}/>
+  </Suspense>;
 }

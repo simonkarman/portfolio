@@ -10,7 +10,7 @@ export default async function Home() {
   const tags = await getAllTags();
 
   return (<>
-    <div className="container mx-auto p-5 mt-4 space-y-4">
+    <div className="container mx-auto p-5 mt-4 space-y-8">
       <div className='flex flex-col sm:flex-row items-start gap-2'>
         <Image
           src="/simonkarman.png"
@@ -21,13 +21,11 @@ export default async function Home() {
         />
         <div className="flex flex-col items-center sm:items-start px-2 overflow-hidden rounded-lg space-y-5">
           <p className='text-justify'>
-            My name is <b>Simon Karman</b>. I am a Cloud Consultant at Xebia and a hobbyist Game Developer.
-            I love to architect and develop systems such as cloud infrastructures, (board) games, and web applications.
-          </p>
-          <p className='hidden lg:block text-justify'>
-            I believe that doing this effectively requires a modern way of working, in which development culture is the key.
-            A big part of a great development culture is sharing knowledge.
-            On this website you can find a portfolio of projects that I worked on, more information about me, and get in contact with me.
+            Hi! My name is <b>Simon Karman</b>. I work as a Cloud Consultant at Xebia and I&#39;m a hobbyist Game Developer.
+            I love architecting and developing cloud infrastructures, (board) games, and web applications.
+            <span className='hidden lg:inline text-justify'>
+              {' '}On this website you can find a portfolio of projects that I worked on, more information about me, and get in contact with me.
+            </span>
           </p>
           <Link
             href={'/projects'}
@@ -36,14 +34,11 @@ export default async function Home() {
           </Link>
         </div>
       </div>
-      <div className='py-10'>
+      <div className='py-10 hidden lg:block'>
         <Explore tags={tags} />
       </div>
-      <h1 className="pt-4 pb-1 border-b font-bold text-3xl text-center">
-        Latest Projects
-      </h1>
-      <div className="flex flex-wrap justify-between gap-4 lg:gap-0">
-        {projects.slice(0, 5).map(project => {
+      <div className="flex flex-wrap justify-between gap-8 lg:gap-0">
+        {projects.slice(0, 3).map(project => {
           return (
             <Card
               key={project.slug}
@@ -51,7 +46,7 @@ export default async function Home() {
               date={project.date}
               image={{ src: project.image, alt: 'Project Image' }}
               link={{ to: `/projects/${project.slug}` }}
-              tags={[project.slug, ...project.tags].slice(0, 4)}
+              tags={project.tags}
             >
               <p>{project.description}</p>
             </Card>

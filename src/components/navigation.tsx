@@ -15,6 +15,9 @@ const transformRoute = (route: string) => {
   if (route.startsWith('about') || route.startsWith('contact')) {
     route += ' me';
   }
+  if (route.startsWith('projects')) {
+    route = route.replace('projects', 'portfolio');
+  }
   return route;
 };
 
@@ -28,7 +31,7 @@ export const Navigation = () => {
   useEffect(() => {
     closeMenu();
   }, [pathName]);
-  return <nav className="sticky top-0 text-white uppercase z-10">
+  return <nav className="sticky top-0 text-white uppercase z-20">
     <div className="block md:hidden">
       <div onClick={toggleMenu} className="bg-darkblue-400">
         <ul className="container mx-auto flex justify-between items-center py-5 px-6">

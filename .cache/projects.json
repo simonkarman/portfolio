@@ -93,7 +93,7 @@
   },
   {
     "slug": "aws-msk-under-load",
-    "title": "Measuring that an MSK cluster is under load",
+    "title": "AWS MSK Under Load",
     "date": "2023-03-16",
     "contributors": "Simon Karman and Matt Watson",
     "description": "Amazon MSK is the AWS managed offering for Apache Kafka. To identify issues and to be able act quickly on those, the health of these clusters is important to monitor.",
@@ -108,7 +108,7 @@
   },
   {
     "slug": "gcp-logs-based-metrics",
-    "title": "Logs Based Metrics in GCP",
+    "title": "Logs Based Metrics",
     "date": "2023-01-11",
     "contributors": "Simon Karman",
     "description": "How to get notified via Slack when a Cloud Run service is outputting logs that contain the word ‘binxio’?",
@@ -156,7 +156,7 @@
   },
   {
     "slug": "elemental-arena-next",
-    "title": "Elemental Arena (next)",
+    "title": "Elemental Arena",
     "date": "2022-03-11",
     "contributors": "Simon Karman",
     "description": "A proof of concept on using React and SVG to create a board game in your browser.",
@@ -187,7 +187,7 @@
   },
   {
     "slug": "nextjs-frontend-app-starter",
-    "title": "Next.js Frontend App Starter",
+    "title": "Next.js App Starter",
     "date": "2021-09-24",
     "contributors": "Simon Karman",
     "description": "Starter for a modern frontend using Next.js with TypeScript, Contentful, and more.",
@@ -298,7 +298,7 @@
   },
   {
     "slug": "serverless-multistack-example",
-    "title": "Serverless Multistack Example",
+    "title": "Multistack Serverless",
     "date": "2020-09-29",
     "contributors": "Simon Karman and Benthe Hagemeijer",
     "description": "An example project for splitting an AWS project, build using the Serverless Framework, into multiple CloudFormation stacks to avoid the 200 resources limit that AWS imposes on CloudFormation stacks.",
@@ -375,7 +375,7 @@
   },
   {
     "slug": "generating-certificates",
-    "title": "Generating Self Signed Certificates",
+    "title": "Self Signed Certificates",
     "date": "2020-01-22",
     "contributors": "Simon Karman",
     "description": "A step by step explanation on how to generate your own self signed certificate for personal development purposes",
@@ -556,10 +556,10 @@
   },
   {
     "slug": "bookflip",
-    "title": "The Magic Adventures of Luna",
+    "title": "Luna",
     "date": "2016-06-23",
     "contributors": "Suus Looijen, Mangle Moose and Simon Karman",
-    "description": "The Magical Adventures of Luna a short fairytale that is told via an interactive book.",
+    "description": "The Magical Adventures of Luna is a short fairytale that is told via an interactive book.",
     "tags": [
       "game",
       "csharp",
@@ -602,12 +602,13 @@
   },
   {
     "slug": "teamzania_enterpriseyourself",
-    "title": "Teamzania Enterprise Yourself",
+    "title": "Enterprise Yourself",
     "date": "2015-12-20",
     "contributors": "Simon Karman, Jochem van der Lof, Suus Looijen, Thomas Groot Zwaaftink and Jasper Hutte",
     "description": "The prototype game I created at the Utrecht University in collaboration with the HKU for Plan International for the unemployed youth in Tanzania.",
     "tags": [
       "game",
+      "teamzania",
       "tanzania",
       "utrecht-university"
     ],
