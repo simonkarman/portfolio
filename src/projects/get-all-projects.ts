@@ -3,9 +3,10 @@
 import { cache } from './cache';
 import { ProjectWithProviderName } from './project';
 import { getProviders, ProviderName } from './providers';
+import path from 'node:path';
 
 export const getAllProjects = cache({
-  fileName: '.cache/projects.json',
+  fileName: path.join(process.cwd(), '.cache/projects.json'),
   staleTime: 60 * 1000, // 1 minute in milliseconds,
 }, async (): Promise<ProjectWithProviderName[]> => {
   const providers = await getProviders();
