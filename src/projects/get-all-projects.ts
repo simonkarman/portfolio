@@ -1,13 +1,14 @@
 'use server';
 
-import { cache } from './cache';
+import { staleWhileRevalidate } from './stale-while-revalidate';
 import { ProjectWithProviderName } from './project';
 import { getProviders, ProviderName } from './providers';
 import path from 'node:path';
 
-export const getAllProjects = cache({
+export const getAllProjects = staleWhileRevalidate({
   fileName: path.join(process.cwd(), '.cache/projects.json'),
-  staleTime: 60 * 1000, // 1 minute in milliseconds,
+  // eslint-disable-next-line no-process-env
+  staleTime: (process.env.NODE_ENV === 'production' ? 5 /* min */ : 0.1 /* min */) * (60 * 1000 /* 1 minute in milliseconds */),
 }, async (): Promise<ProjectWithProviderName[]> => {
   const providers = await getProviders();
   const projectsByProvider = await Promise.all(Object.entries(providers)

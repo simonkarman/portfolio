@@ -54,7 +54,7 @@ export default function CodeBlockWithCopy({ children }: PropsWithChildren<{ clas
       </pre>
       <button
         onClick={handleCopy}
-        className="absolute top-2 right-2 bg-gray-700 hover:bg-gray-600 text-white rounded p-1 text-xs opacity-0
+        className="absolute top-4 right-4 bg-gray-700 hover:bg-gray-600 text-white rounded p-1 text-xs opacity-0
           group-hover:opacity-100 transition-opacity"
         aria-label="Copy code"
       >

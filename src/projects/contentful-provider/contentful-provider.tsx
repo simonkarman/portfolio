@@ -58,6 +58,9 @@ export class ContentfulProvider implements Provider {
       content_type: 'project',
       'fields.name': project.slug,
     });
-    return <Markdown content={content.items[0].fields.content as string} />;
+    return <Markdown
+      content={content.items[0].fields.content as string}
+      urlTransformer={(_, url) => url.startsWith('//') ? `https:${url}` : url}
+    />;
   }
 }

@@ -28,7 +28,7 @@ type CacheConfiguration = {
  *
  * @returns A function that returns a promise resolving to the cached or fresh data.
  */
-export const cache = <T>(
+export const staleWhileRevalidate = <T>(
   config: CacheConfiguration,
   expensiveMethod: () => Promise<T>,
 ) => {

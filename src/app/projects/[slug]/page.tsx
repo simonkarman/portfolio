@@ -29,7 +29,8 @@ export default async function Project(props: { params: Promise<{ slug: string }>
     return <Custom404 />;
   }
 
-  const rendered = await (await getProviders())[project.providerName].render(project);
+  const providers = await getProviders();
+  const render = await providers[project.providerName].render(project);
   return <div>
     <div className='bg-darkblue-400'>
       <div className='relative w-full'>
@@ -72,13 +73,7 @@ export default async function Project(props: { params: Promise<{ slug: string }>
       </div>
     </div>
     <div className='px-5 py-10 overflow-x-hidden'>
-      <div
-        className='mx-auto prose prose-lg
-             prose-pre:p-2 prose-pre:border prose-pre:border-gray-100 prose-pre:bg-gray-50
-             prose-img:mx-auto prose-img:max-h-[60vh] prose-img:max-w-[90%] prose-img:rounded-lg prose-img:border'
-      >
-        {rendered}
-      </div>
+      {render}
       <div className='max-w-[75ch] mx-auto'>
         <div className="mt-8 pt-6 border-t border-gray-200">
           <div className="flex flex-col gap-4 items-center sm:flex-row sm:justify-between">
