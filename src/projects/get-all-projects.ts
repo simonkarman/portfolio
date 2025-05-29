@@ -5,10 +5,12 @@ import { ProjectWithProviderName } from './project';
 import { getProviders, ProviderName } from './providers';
 import path from 'node:path';
 
+// eslint-disable-next-line no-process-env
+const staleTimeMinutes = process.env.NODE_ENV === 'production' ? 5 : 0.1;
+
 export const getAllProjects = staleWhileRevalidate({
   fileName: path.join(process.cwd(), '.cache/projects.json'),
-  // eslint-disable-next-line no-process-env
-  staleTime: (process.env.NODE_ENV === 'production' ? 5 /* min */ : 0.1 /* min */) * (60 * 1000 /* 1 minute in milliseconds */),
+  staleTimeMs: staleTimeMinutes * (60 * 1000 /* 1 minute in milliseconds */),
 }, async (): Promise<ProjectWithProviderName[]> => {
   const providers = await getProviders();
   const projectsByProvider = await Promise.all(Object.entries(providers)

@@ -17,7 +17,7 @@ type CacheConfiguration = {
    *
    * Example: 60 * 1000 (1 minute)
    */
-  staleTime: number,
+  staleTimeMs: number,
 };
 
 /**
@@ -32,6 +32,8 @@ export const staleWhileRevalidate = <T>(
   config: CacheConfiguration,
   expensiveMethod: () => Promise<T>,
 ) => {
+  let isRefreshing = false;
+
   // Return a function that will be called to get the cached data
   return (async (): Promise<T> => {
     // Check if cache file exists
@@ -42,17 +44,22 @@ export const staleWhileRevalidate = <T>(
       // Check file age
       const stats = await fs.stat(config.fileName);
       const fileAgeMs = Date.now() - stats.mtimeMs;
-      const isStale = fileAgeMs > config.staleTime;
+      const isStale = fileAgeMs > config.staleTimeMs;
 
       // Only refresh in background if file is stale
-      if (isStale) {
+      if (isStale && !isRefreshing) {
+        isRefreshing = true;
+
         // Run in background without awaiting
         Promise.resolve().then(async () => {
           try {
+            console.info('Refreshing stale cache:', config.fileName);
             const freshData = await expensiveMethod();
             await fs.writeFile(config.fileName, JSON.stringify(freshData, null, 2));
           } catch (error) {
             console.error(`Cache refresh failure for ${config.fileName}:`, error);
+          } finally {
+            isRefreshing = false;
           }
         });
       }
