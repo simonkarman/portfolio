@@ -42,9 +42,11 @@ export default function CodeBlockWithCopy({ children }: PropsWithChildren<{ clas
 
   const handleCopy = () => {
     const code = (preRef.current as unknown as { textContent: string }).textContent;
-    navigator.clipboard.writeText(code);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(code);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
   };
 
   return (
