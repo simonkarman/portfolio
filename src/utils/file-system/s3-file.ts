@@ -12,6 +12,8 @@ export class S3File implements File {
   ) {
     // Use provided client or create a new one with default configuration
     this.s3Client = s3Client || new S3Client({
+      // eslint-disable-next-line no-process-env
+      region: process.env.SIMONKARMAN_AWS_REGION,
       credentials: {
         // eslint-disable-next-line no-process-env
         accessKeyId: process.env.SIMONKARMAN_AWS_ACCESS_KEY_ID!,
