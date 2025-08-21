@@ -24,7 +24,7 @@ export class S3File implements File {
   }
 
   explain(): string {
-    return `S3 file system at s3://${this.bucket}/${this.key}`;
+    return `S3 file at s3://${this.bucket}/${this.key}`;
   }
 
   async exists(): Promise<boolean> {

@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import { getAllProjects } from '@/projects/get-all-projects';
 import { FilterableProjects, FilterableProjectsWithSearchFromParams } from '@/app/projects/filterable-projects';
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 240;
 
 export default function ProjectsWrapper() {
   const projects = getAllProjects();

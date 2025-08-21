@@ -1,23 +1,23 @@
 'use server';
 
-import path from 'node:path';
 import { ProjectWithProviderName } from './project';
 import { getProviders, ProviderName } from './providers';
 import { CacheConfiguration, staleWhileRevalidate } from '@/utils/stale-while-revalidate';
-import { S3File } from '@/utils/file-system/s3-file';
+import { InMemoryFile } from '@/utils/file-system/in-memory-file';
 import { LocalFile } from '@/utils/file-system/local-file';
+import path from 'node:path';
 
 // eslint-disable-next-line no-process-env
 const isProduction = process.env.NODE_ENV === 'production';
 
 // Configure the cache settings
-const oneMinute = 60 * 1000;
+const localFile = new LocalFile(path.join(process.cwd(), '.cache/projects.json'));
+const inMemoryFile = new InMemoryFile(localFile.readSync());
+
+const oneSecond = 1000;
 const cacheConfiguration: CacheConfiguration = {
-  staleTimeMs: (isProduction ? 5 : 0.1) * oneMinute,
-  // eslint-disable-next-line no-process-env
-  file: process.env.SIMONKARMAN_AWS_ACCESS_KEY_ID
-    ? new S3File('simonkarman.nl', 'projects.json')
-    : new LocalFile(path.join(process.cwd(), '.cache/projects.json')),
+  staleTimeMs: (isProduction ? 300 : 10) * oneSecond,
+  file: isProduction ? inMemoryFile : localFile,
 };
 
 // Define the function to get all projects with caching

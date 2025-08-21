@@ -1,5 +1,5 @@
 import { File } from '@/utils/file-system/file';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import fs from 'fs/promises';
 
 export class LocalFile implements File {
@@ -9,7 +9,7 @@ export class LocalFile implements File {
   }
 
   explain(): string {
-    return `local file system at ${this.fileName}`;
+    return `local file at ${this.fileName}`;
   }
 
   async exists(): Promise<boolean> {
@@ -18,6 +18,10 @@ export class LocalFile implements File {
 
   read(): Promise<string> {
     return fs.readFile(this.fileName, 'utf-8');
+  }
+
+  readSync(): string {
+    return readFileSync(this.fileName, 'utf-8');
   }
 
   async write(data: string): Promise<void> {

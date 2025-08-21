@@ -5,7 +5,7 @@ import { getAllProjects } from '@/projects/get-all-projects';
 import { Explore } from '@/components/explore';
 import { getAllTags } from '@/projects/get-all-tags';
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 240;
 
 export default async function Home() {
   const projects = await getAllProjects();
