@@ -1,16 +1,15 @@
-import { existsSync } from 'node:fs';
-import fs from 'fs/promises';
+import { File } from '@/utils/file-system/file';
 
 /**
  * CacheConfiguration defines the configuration for the cache.
  */
-type CacheConfiguration = {
+export type CacheConfiguration = {
   /**
-   * fileName is the name of the cache file.
+   * file is the wrapper around a file and its system operations.
    *
-   * Example: '.cache/projects.json'
+   * Example: new LocalFile('.cache/projects.json') or new S3File('my-bucket', 'projects.json')
    */
-  fileName: string,
+  file: File,
 
   /**
    * staleTime is the time in milliseconds after which the cache is considered stale.
@@ -33,17 +32,17 @@ export const staleWhileRevalidate = <T>(
   expensiveMethod: () => Promise<T>,
 ) => {
   let isRefreshing = false;
+  const file = config.file;
 
   // Return a function that will be called to get the cached data
   return (async (): Promise<T> => {
     // Check if cache file exists
-    const cacheExists = existsSync(config.fileName);
+    const cacheExists = await file.exists();
 
     // Start background refresh regardless of cache status
     if (cacheExists) {
       // Check file age
-      const stats = await fs.stat(config.fileName);
-      const fileAgeMs = Date.now() - stats.mtimeMs;
+      const fileAgeMs = await file.ageMs();
       const isStale = fileAgeMs > config.staleTimeMs;
 
       // Only refresh in background if file is stale
@@ -53,11 +52,11 @@ export const staleWhileRevalidate = <T>(
         // Run in background without awaiting
         Promise.resolve().then(async () => {
           try {
-            console.info('Refreshing stale cache:', config.fileName);
+            console.info('Refreshing stale cache:', file.explain());
             const freshData = await expensiveMethod();
-            await fs.writeFile(config.fileName, JSON.stringify(freshData, null, 2));
+            await file.write(JSON.stringify(freshData, null, 2));
           } catch (error) {
-            console.error(`Cache refresh failure for ${config.fileName}:`, error);
+            console.error(`Cache refresh failure for ${file.explain()}:`, error);
           } finally {
             isRefreshing = false;
           }
@@ -65,13 +64,13 @@ export const staleWhileRevalidate = <T>(
       }
 
       // Return cached data immediately
-      const cachedContent = await fs.readFile(config.fileName, 'utf-8');
+      const cachedContent = await file.read();
       return JSON.parse(cachedContent);
     }
 
     // No cache exists, fetch and wait for fresh data
     const result = await expensiveMethod();
-    await fs.writeFile(config.fileName, JSON.stringify(result, null, 2));
+    await file.write(JSON.stringify(result, null, 2));
     return result;
   });
 };

@@ -46,6 +46,22 @@
     "providerName": "contentful"
   },
   {
+    "slug": "voromulti",
+    "title": "Voromulti",
+    "date": "2023-11-09",
+    "contributors": "Simon Karman",
+    "description": "An interactive experience where each site of a Voronoi diagram is controlled by one of the connected users.\n\n",
+    "tags": [
+      "krmx",
+      "aws",
+      "typescript",
+      "cdk"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/4pjCa6P0b4OYDhA86RJEgu/78a1df8493dc92ec2002048dcd933fe1/voromulti.png",
+    "repository": "https://github.com/simonkarman/voromulti",
+    "providerName": "contentful"
+  },
+  {
     "slug": "krmx",
     "title": "Krmx",
     "date": "2023-08-08",
