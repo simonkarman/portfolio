@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { motion } from 'framer-motion';
@@ -13,6 +13,7 @@ type SearchProps = {
 }
 
 export const SearchBar = (props: SearchProps) => {
+  const inputRef = useRef<HTMLInputElement>(null);
   const [showSearchBar, setShowSearchBar] = useState(props.searchFilter !== '');
   const { simpleView, setSimpleView, searchFilter, setSearchFilter } = props;
 
@@ -23,11 +24,30 @@ export const SearchBar = (props: SearchProps) => {
     }
   };
 
+  useEffect(() => {
+    // If CMD + F or CTRL + F is pressed, show the search bar
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if ((event.metaKey || event.ctrlKey) && event.key === 'f') {
+        event.preventDefault();
+        setShowSearchBar(true);
+        if (inputRef.current) {
+          inputRef.current.focus();
+        }
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
+
   return <div className="w-full p-5 space-y-2 sticky top-[4.5rem] md:top-16 z-10 bg-white text-darkblue-400 border-b">
     <div className="container mx-auto flex justify-center md:justify-end items-baseline gap-1">
       {showSearchBar
         ? <>
           <motion.input
+            ref={inputRef}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
