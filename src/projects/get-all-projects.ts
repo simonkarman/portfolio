@@ -1,3 +1,4 @@
+/* eslint-disable no-process-env */
 'use server';
 
 import { ProjectWithProviderName } from './project';
@@ -6,18 +7,20 @@ import { CacheConfiguration, staleWhileRevalidate } from '@/utils/stale-while-re
 import { InMemoryFile } from '@/utils/file-system/in-memory-file';
 import { LocalFile } from '@/utils/file-system/local-file';
 import path from 'node:path';
+import { S3File } from '@/utils/file-system/s3-file';
 
-// eslint-disable-next-line no-process-env
 const isProduction = process.env.NODE_ENV === 'production';
 
 // Configure the cache settings
 const localFile = new LocalFile(path.join(process.cwd(), '.cache/projects.json'));
-const inMemoryFile = new InMemoryFile(localFile.readSync());
+const externalFile = process.env.SIMONKARMAN_AWS_ACCESS_KEY_ID
+  ? new S3File('simonkarman.nl', 'projects.json')
+  : new InMemoryFile(localFile.readSync());
 
 const oneSecond = 1000;
 const cacheConfiguration: CacheConfiguration = {
   staleTimeMs: (isProduction ? 300 : 10) * oneSecond,
-  file: isProduction ? inMemoryFile : localFile,
+  file: isProduction ? externalFile : localFile,
 };
 
 // Define the function to get all projects with caching

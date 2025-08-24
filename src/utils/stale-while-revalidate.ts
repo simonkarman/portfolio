@@ -44,7 +44,6 @@ export const staleWhileRevalidate = <T>(
       // Check file age
       const fileAgeMs = await file.ageMs();
       const isStale = fileAgeMs > config.staleTimeMs;
-      console.info(`Cache age for ${file.explain()}: ${fileAgeMs}ms, stale threshold: ${config.staleTimeMs}ms`);
 
       // Only refresh in background if file is stale
       if (isStale && !isRefreshing) {

@@ -1,5 +1,39 @@
 [
   {
+    "slug": "javascript-modules",
+    "title": "JavaScript Modules",
+    "date": "2025-08-22",
+    "contributors": "Simon Karman",
+    "description": "Why Vitest Saved My Sanity (And When Not to Dig Deeper)",
+    "tags": [
+      "typescript",
+      "javascript",
+      "modules",
+      "commonjs"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/6xWCc5mRNabQMttEOONXUw/def8b1d278d17d9c3cf12107552fab8d/banner.png",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "nodejs-backend-starter",
+    "title": "Node.js Backend Starter",
+    "date": "2025-08-21",
+    "contributors": "Simon Karman",
+    "description": "TypeScript starter for a NodeJS backend",
+    "tags": [
+      "nodejs",
+      "typescript",
+      "starter",
+      "docker",
+      "express",
+      "vitest",
+      "husky"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/5N36ly6ojdAgoBSPjMQhGA/dba45e64cfecfea237997d271b1d9509/img.png",
+    "repository": "https://github.com/simonkarman/nodejs-backend-starter",
+    "providerName": "contentful"
+  },
+  {
     "slug": "christmas-tree",
     "title": "Christmas Tree",
     "date": "2023-12-26",
