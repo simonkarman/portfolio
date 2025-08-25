@@ -34,6 +34,40 @@
     "providerName": "contentful"
   },
   {
+    "slug": "krmx-starter",
+    "title": "Krmx Starter",
+    "date": "2024-09-26",
+    "contributors": "Simon Karman",
+    "description": "A starter project for an application using Krmx and React.",
+    "tags": [
+      "krmx",
+      "react",
+      "typescript",
+      "tailwindcss",
+      "motion",
+      "starter"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/5Rmxfs6M8CeGQrVIp5B1FW/d27be375f901ce1734d25d33d9d3760d/main.png",
+    "repository": "https://github.com/simonkarman/krmx-starter",
+    "providerName": "contentful"
+  },
+  {
+    "slug": "tiny-towns",
+    "title": "Tiny Towns",
+    "date": "2024-02-20",
+    "contributors": "Simon Karman",
+    "description": "A remake of the Tiny Towns board game with Krmx.",
+    "tags": [
+      "krmx",
+      "react",
+      "typescript",
+      "game"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/7tdScUGoXpRVU7PFqhJVRX/72228d5083a7e9e23e356db2071c0e77/img.png",
+    "repository": "https://github.com/simonkarman/tiny-towns",
+    "providerName": "contentful"
+  },
+  {
     "slug": "christmas-tree",
     "title": "Christmas Tree",
     "date": "2023-12-26",

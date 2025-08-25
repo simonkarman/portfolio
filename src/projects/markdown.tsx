@@ -31,7 +31,13 @@ export const Markdown = (rootProps: {
           }
           const imageUrl = rootProps.urlTransformer ? rootProps.urlTransformer('image', src) : src;
           const altText = alt ?? imageUrl.split('/').pop()?.split('?')[0] ?? 'Image';
-          return <Image width={650} height={650} className='object-contain bg-gray-100' src={imageUrl} alt={altText} />;
+          return <Image
+            width={650}
+            height={650}
+            className='w-auto h-auto object-contain bg-gray-100'
+            src={imageUrl}
+            alt={altText}
+          />;
         },
         a: ({ href, children, ...props }) => {
           if (typeof href !== 'string') {
