@@ -34,6 +34,21 @@
     "providerName": "contentful"
   },
   {
+    "slug": "display-connect",
+    "title": "Display Connect",
+    "date": "2025-04-27",
+    "contributors": "Simon Karman",
+    "description": "Enabling users to connect mobile devices as a controller to a larger display via QR code scanning",
+    "tags": [
+      "krmx",
+      "websockets"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/7xrCpYKLROGJAWCxZGV5OI/00c3675dadc1d7e2140dea85a213db04/display-connect.jpeg",
+    "repository": "https://github.com/simonkarman/display-connect",
+    "demo": "https://display-connect.vercel.app/",
+    "providerName": "contentful"
+  },
+  {
     "slug": "krmx-starter",
     "title": "Krmx Starter",
     "date": "2024-09-26",
