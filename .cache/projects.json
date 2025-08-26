@@ -46,7 +46,7 @@
       "display-connect",
       "krmx-state"
     ],
-    "image": "https://images.ctfassets.net/r26fkm24j6bh/7xrCpYKLROGJAWCxZGV5OI/00c3675dadc1d7e2140dea85a213db04/display-connect.jpeg",
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/7eupTAaiH0sECqbJEb0Vgn/0890044a7bc54bb1fa4dc4c937592679/talk-2.jpeg",
     "providerName": "contentful"
   },
   {
@@ -59,7 +59,7 @@
       "krmx",
       "websockets"
     ],
-    "image": "https://images.ctfassets.net/r26fkm24j6bh/7xrCpYKLROGJAWCxZGV5OI/00c3675dadc1d7e2140dea85a213db04/display-connect.jpeg",
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/7xrCpYKLROGJAWCxZGV5OI/0dffdc6e9a0f0e2b052a5a023ef3e7a9/img.png",
     "repository": "https://github.com/simonkarman/display-connect",
     "demo": "https://display-connect.vercel.app/",
     "providerName": "contentful"
