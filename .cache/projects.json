@@ -34,6 +34,22 @@
     "providerName": "contentful"
   },
   {
+    "slug": "advancedjs-meetup-eindhoven",
+    "title": "Talk: Real-Time Multi-User State Management with Krmx",
+    "date": "2025-05-13",
+    "contributors": "Simon Karman",
+    "description": "As speaker at the AdvancedJS meetup in Eindhoven, I talked about Krmx and Display Connect",
+    "tags": [
+      "speaker",
+      "talk",
+      "krmx",
+      "display-connect",
+      "krmx-state"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/7xrCpYKLROGJAWCxZGV5OI/00c3675dadc1d7e2140dea85a213db04/display-connect.jpeg",
+    "providerName": "contentful"
+  },
+  {
     "slug": "display-connect",
     "title": "Display Connect",
     "date": "2025-04-27",
