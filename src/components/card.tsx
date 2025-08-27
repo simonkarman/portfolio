@@ -23,8 +23,8 @@ export const Card = (props: PropsWithChildren<CardProps>) => {
   return (
     <div className={`w-full lg:w-1/2 lg:p-2 ${props.fullscreen ? '2xl:w-1/3' : ''} p-0`}>
       <Link href={link?.to ?? '#'}>
-        <div className={`h-full overflow-hidden border hover:border-darkblue-400 rounded-lg ${bg}`}>
-          <div className="relative w-full h-20 sm:h-32 bg-darkblue-400">
+        <div className={`h-full overflow-hidden border border-gray-400 hover:border-darkblue-600 rounded-lg ${bg}`}>
+          <div className="relative w-full h-40 md:h-56 bg-darkblue-400">
             <Image
               src={image.src}
               alt={image.alt}

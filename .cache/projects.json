@@ -34,6 +34,23 @@
     "providerName": "contentful"
   },
   {
+    "slug": "fish-generator",
+    "title": "Fish Generator",
+    "date": "2025-05-16",
+    "contributors": "Simon Karman, Jacco Kulman and Timothy van der Werf",
+    "description": "Generate game icons that match an existing art style",
+    "tags": [
+      "ai",
+      "art",
+      "typescript",
+      "gcp",
+      "vertex"
+    ],
+    "image": "https://images.ctfassets.net/r26fkm24j6bh/4ZTDFX9RdQp6rJgrm0WGIQ/9904204a394909dfeaded279e1c0e200/fish-generator.png",
+    "repository": "https://github.com/simonkarman/fish-generator",
+    "providerName": "contentful"
+  },
+  {
     "slug": "advancedjs-meetup-eindhoven",
     "title": "Talk: Real-Time Multi-User State Management with Krmx",
     "date": "2025-05-13",
@@ -310,7 +327,8 @@
       "nextjs",
       "react",
       "typescript",
-      "contentful"
+      "contentful",
+      "starter"
     ],
     "image": "https://images.ctfassets.net/r26fkm24j6bh/3et1rits0V5wSzIrNnZkk/590bf72b92c73d33170326eeff60f0f1/nextjs.png",
     "repository": "https://github.com/simonkarman/nextjs-frontend-app-starter",

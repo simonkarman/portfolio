@@ -78,7 +78,7 @@ export function FilterableProjects(props: { initialQuery: string, projects: Prom
       {filteredProjectsPerYear
         .slice(0, simpleView ? filteredProjectsPerYear.length : numberOfYearsShowing)
         .map(projectsOfYear => (
-          <div key={projectsOfYear.year} className="w-full p-5">
+          <div key={projectsOfYear.year} className="container mx-auto p-5">
             <h2 className="font-bold text-xl lg:text-2xl mt-3 px-2 text-center">
               {projectsOfYear.year}
             </h2>
@@ -87,27 +87,45 @@ export function FilterableProjects(props: { initialQuery: string, projects: Prom
             </p>
 
             {simpleView ? (
-              <ul className="px-2">
+              <ul className="px-20">
                 {projectsOfYear.projects.map(project => (
                   <li key={project.slug} className="my-6 text-center">
-                    <Link
-                      href={`/projects/${project.slug}`}
-                      className="text-red-600 underline hover:text-red-800 mr-2"
-                    >
-                      <span>{project.title}</span>
-                    </Link>
-                    <br/>
-                    <span>{project.description}</span>
-                    <br/>
-                    <span className="text-gray-400 pr-2 text-sm border-r">{project.date}</span>
-                    {project.tags && project.tags.map(tag => (
-                      <span key={tag} className="mx-1.5 text-sm text-gray-500">#{tag}</span>
-                    ))}
+                    <p>
+                      <Link
+                        href={`/projects/${project.slug}`}
+                        className="text-red-600 underline hover:text-red-800 mr-2"
+                      >
+                        {project.title}
+                      </Link>
+                    </p>
+                    <p>
+                      {project.description}
+                    </p>
+                    <p>
+                      <span className="text-gray-400 pr-2 text-sm">{project.date} - {project.contributors}</span>
+                    </p>
+                    <p className="flex flex-wrap justify-center">
+                      {project.tags && project.tags.map(tag => (
+                        <span
+                          key={tag}
+                          className="mx-1.5 text-sm text-gray-400 italic tracking-wide cursor-pointer"
+                          onClick={() => {
+                            if (searchFilter === `tag:${tag}`) {
+                              setSearchFilter('');
+                            } else {
+                              setSearchFilter(`tag:${tag}`);
+                            }
+                          }}
+                        >
+                          #{tag}
+                        </span>
+                      ))}
+                    </p>
                   </li>
                 ))}
               </ul>
             ) : (
-              <div className={'flex flex-wrap 2xl:justify-center max-w-[1800px] mx-auto gap-8 md:gap-0'}>
+              <div className={'flex flex-wrap gap-8 md:gap-0'}>
                 {projectsOfYear.projects.map(project => (
                   <Card
                     key={project.slug}
@@ -119,7 +137,6 @@ export function FilterableProjects(props: { initialQuery: string, projects: Prom
                     }}
                     link={{ to: `/projects/${project.slug}` }}
                     tags={project.tags}
-                    fullscreen={true}
                   >
                     <p>{project.description}</p>
                   </Card>
@@ -130,7 +147,7 @@ export function FilterableProjects(props: { initialQuery: string, projects: Prom
         ))}
 
       {!simpleView && filteredProjectsPerYear.length >= numberOfYearsShowing && (
-        <div ref={ref} className="w-full">
+        <div ref={ref} className="container mx-auto p-5">
           <h2 className="border-b font-bold text-2xl lg:text-xl my-3 px-2 text-center">
             Loading...
           </h2>

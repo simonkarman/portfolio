@@ -24,6 +24,13 @@ export const SearchBar = (props: SearchProps) => {
     }
   };
 
+  // If search filter changes from outside, show the search bar
+  useEffect(() => {
+    if (searchFilter !== '') {
+      setShowSearchBar(true);
+    }
+  }, [searchFilter, setShowSearchBar]);
+
   useEffect(() => {
     // If CMD + F or CTRL + F is pressed, show the search bar
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -34,13 +41,21 @@ export const SearchBar = (props: SearchProps) => {
           inputRef.current.focus();
         }
       }
+
+      if (event.key === 'Escape') {
+        setSearchFilter('');
+        setShowSearchBar(false);
+        if (inputRef.current) {
+          inputRef.current.blur();
+        }
+      }
     };
     window.addEventListener('keydown', handleKeyDown);
 
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, []);
+  }, [setSearchFilter, setShowSearchBar]);
 
   return <div className="w-full p-5 space-y-2 sticky top-[4.5rem] md:top-16 z-10 bg-white text-darkblue-400 border-b">
     <div className="container mx-auto flex justify-center md:justify-end items-baseline gap-1">

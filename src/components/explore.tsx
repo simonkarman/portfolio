@@ -12,7 +12,7 @@ const getTagClassesBy = (count: number): string => {
   } else if (count >= 2) {
     return 'text-sm px-3';
   } else {
-    return 'hidden lg:block text-xs px-3';
+    return 'hidden text-xs px-3';
   }
 };
 
